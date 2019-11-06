@@ -1,0 +1,56 @@
+hull.xc by HAWG
+
+needs update when new tanks arrive
+
+-> hawg´s discord
+
+oder: https://koreanrandom.com/forum/topic/47599-hullxc-hull-armor-informer/   
+
+----------------------------
+
+Add this text to config file.
+
+@xvm.xc
+
+"hull": ${"hull.xc":"hull"},
+
+ 
+
+battleLabels.xc
+
+${ "battleLabelsTemplates.xc":"def.hull"},
+${ "battleLabelsTemplates.xc":"def.hullText"},
+
+ 
+
+battleLabelsTemplates.xc
+
+
+    },
+     "hull": {
+      "enabled": true,
+      "layer": "top",
+      "x": 787,
+      "y": 9,
+      "width": 400,
+      "height": 100,
+      "alpha": 100,
+      "screenHAlign": "center",
+      "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
+      "textFormat": {"font": "Arial", "size": 16, "color": "0xFFD800" },
+      "format": "{{.hull.{{vehiclename}}}}"
+     },
+    "hullText": {
+      "enabled":true,
+      "layer": "top",
+      "x": 746,
+      "y": 9,
+      "width": 400,
+      "height": 100,
+      "alpha": 100,
+      "screenHAlign": "center",
+      "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
+      "textFormat": { "font": "Arial","size": 16, "color": "0xFFD800" },
+      "format": "<font size='16'color='#FFD800'>Hull :</font>"
+
+     },

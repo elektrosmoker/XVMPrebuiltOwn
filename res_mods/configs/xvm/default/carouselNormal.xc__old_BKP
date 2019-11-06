@@ -1,0 +1,258 @@
+{
+  "def": {
+    "textFieldShadow": {
+      "enabled": true,
+      "color": "0x000000",
+      "alpha": 80,
+      "blur": 2,
+      "strength": 2,
+      "distance": 0,
+      "angle": 0
+    }
+  },
+  "normal": {
+    "width": 160,
+    "height": 100,
+    "gap": 10,
+    "fields": {
+      "flag": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "scale": 1
+      },
+      "tankIcon": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "scale": 1
+      },
+      "tankType": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "scale": 1
+      },
+      "level": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "scale": 1
+      },
+      "xp": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "scale": 1
+      },
+      "tankName": {
+        "enabled": false,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "scale": 1,
+        "textFormat": {},
+        "shadow": {}
+      },
+      "rentInfo": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "scale": 1,
+        "textFormat": {},
+        "shadow": {}
+      },
+      "info": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "scale": 0.7,
+        "textFormat": {},
+        "shadow": {}
+      },
+      "infoImg": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 12,
+        "alpha": 100,
+        "scale": 0.8
+      },
+      "infoBuy": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "scale": 1,
+        "textFormat": {},
+        "shadow": {}
+      },
+      "clanLock": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100
+      },
+      "price": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100
+      },
+      "actionPrice": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100
+      },
+      "favorite": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100
+      },
+      "stats": {
+        "enabled": true,
+        "dx": 0,
+        "dy": 0,
+        "alpha": 100,
+        "textFormat": {},
+        "shadow": {}
+      }
+    },
+    "extraFields": [
+      // special THANKS to MarsOne
+      {
+        "id": "MarsOne_tankNames",
+        "x": 159,
+        "y": 79,
+        "align": "right",
+        "format": "<font face='$FieldFont' size='15' color='{{v.vehId=52241?#00ff00|{{v.level=4?{{v.type={{l10n:HT}}?#00ff00|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level<4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<1?#00ff00|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'>{{v.fullname}}</font>", 
+        "shadow": ${ "def.textFieldShadow" },
+        "color": "{{v.vehId=52241?#00ff00|{{v.level=4?{{v.type={{l10n:HT}}?#00ff00|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level<4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<1?#00ff00|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}",
+        "alpha": "{{v.premium?85|35}}",
+        "blur": "{{v.premium?9|8}}"
+      },
+      
+      
+      
+      
+      {
+        "enabled": true,
+        "x": 67,
+        "y": 0,
+        "format": "<b><font face='$FieldFont' size='13' color='#C8C8B5'>{{v.battletiermin|--}} - {{v.battletiermax|--}}</font></b>",
+        "shadow": {
+          "color": "0x000000",
+          "alpha": 80,
+          "blur": 2,
+          "strength": 3,
+          "distance": 0,
+          "angle": 0
+        }
+      },
+      {
+        "enabled": true,
+        "x": 122,
+        "y": 65,
+        "format": "<font face='$FieldFont' size='12' color='{{v.c_damageRating}}'><b>{{v.damageRating%4.2f~%|- - - - %}}</b></font>",
+        "shadow": {
+          "color": "0x000000",
+          "alpha": 80,
+          "blur": 2,
+          "strength": 3,
+          "distance": 0,
+          "angle": 0
+        }
+      },
+      {
+        "enabled": true,
+        "x": 122,
+        "y": 53,
+        "format": "<font face='$FieldFont'  size='12' color='#CCCCCC'>Mark </font><font face='$FieldFont' size='12' color='#C8C8B5'><b>{{v.marksOnGun|-}}</b></font>"
+      },
+      {
+        "enabled": true,
+        "x": 129,
+        "y": 11,
+        "format": "<img src='img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png' width='23' height='23'>"
+      },
+      {
+        "enabled": true,
+        "x": 5,
+        "y": 13,
+        "format": "<font face='$FieldFont'  size='12' color='#CCCCCC'>W R </font><font face='$FieldFont' size='12' color='{{v.c_winrate}}'><b>{{v.winrate%2d~%|--}}</b></font>",
+        "shadow": {
+          "color": "0x000000",
+          "alpha": 80,
+          "blur": 2,
+          "strength": 3,
+          "distance": 0,
+          "angle": 0
+        }
+      },
+      {
+        "enabled": true,
+        "x": 5,
+        "y": 25,
+        "format": "<font face='$FieldFont' size='12' color='#CCCCCC'>BAT </font><font face='$FieldFont' size='12' color='{{v.c_battles}}'><b>{{v.battles|--}}</b></font>",
+        "shadow": {
+          "color": "0x000000",
+          "alpha": 80,
+          "blur": 2,
+          "strength": 3,
+          "distance": 0,
+          "angle": 0
+        }
+      },
+      {
+        "enabled": true,
+        "x": 67,
+        "y": 13,
+        "format": "<font face='$FieldFont' size='12' color='#CCCCCC'>XTE </font><font face='$FieldFont' size='12' color='{{v.c_xtdb}}'><b>{{v.xtdb|--}}</b></font>",
+        "shadow": {
+          "color": "0x000000",
+          "alpha": 80,
+          "blur": 2,
+          "strength": 3,
+          "distance": 0,
+          "angle": 0
+        }
+      },
+      {
+        "enabled": true,
+        "x": 2,
+        "y": 53,
+        "format": "<font face='$FieldFont' size='12' color='#CCCCCC'>DMG <font face='$FieldFont' size='12' color='{{v.c_wn8effd}}'><b>{{v.tdb%-4d|--}}</b></font>A</font>",
+        "shadow": {
+          "color": "0x000000",
+          "alpha": 80,
+          "blur": 2,
+          "strength": 3,
+          "distance": 0,
+          "angle": 0
+        }
+      },
+      {
+        "enabled": true,
+        "x": 2,
+        "y": 65,
+        "format": "<font face='$FieldFont' size='12' color='#CCCCCC'>DMG <font face='$FieldFont' size='12' color='#60FF00'><b>{{v.wn8expd%-4d|--}}</b></font>B</font>",
+        "shadow": {
+          "color": "0x000000",
+          "alpha": 80,
+          "blur": 2,
+          "strength": 3,
+          "distance": 0,
+          "angle": 0
+        }
+      }
+    ]
+  }
+}
