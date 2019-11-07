@@ -14,7 +14,6 @@
       "x": 70,
       "y": 70,
       // true - allow scrolling of the contents of the log.
-      // true - разрешить прокрутку содержимого лога.
       "scrollLog": true,
       // Group hits by players name.
       "groupHitsByPlayer": false,

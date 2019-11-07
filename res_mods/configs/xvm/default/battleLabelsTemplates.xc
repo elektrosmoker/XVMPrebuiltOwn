@@ -37,7 +37,6 @@
 //hitlog
     "hitLogHeader": {
       "enabled": true,
-      //OLD//"updateEvent": "ON_DAMAGE_CAUSED, ON_PANEL_MODE_CHANGED",
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY), ON_PANEL_MODE_CHANGED",
       //"x": "{{pp.mode=0?{{battletype-key=epic_battle?240|20}}|{{py:sum({{pp.widthLeft}},55)}}}}",
       //"y": "{{pp.mode=0?{{battletype-key=epic_battle?55|90}}|90}}",
@@ -51,7 +50,6 @@
     "hitLogBody": {
       "enabled": true,
       "hotKeyCode": 56, "onHold": "true", "visibleOnHotKey": false,
-      //OLD//"updateEvent": "ON_DAMAGE_CAUSED, ON_PANEL_MODE_CHANGED",
       "updateEvent": "PY(ON_HIT_LOG), ON_PANEL_MODE_CHANGED",
       "x": "{{pp.mode=5?{{battletype-key=epic_battle?240|5}}|{{py:sum({{pp.widthLeft}},{{py:xvm.hitLog.log.x}})}}}}",
       "y": "{{pp.mode=5?{{battletype-key=epic_battle?80|90}}|{{py:xvm.hitLog.log.y}}}}",

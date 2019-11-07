@@ -12,8 +12,6 @@
   
   // The path to the folder with custom localization files.
   // The path is set relative to the user config folder
-  // Путь к папке с пользовательскими файлами локализации.
-  // Путь задается относительно папки пользовательского конфига
   "userLanguageFolder": "lang",
   
   // Game Region
@@ -156,8 +154,9 @@
   //years.xc from HAWG
   "years": ${"years.xc":"years"},
 
+  //wn8chatcolor
+  "chat": ${"chat.xc":"chat"},
+  
   // Various settings for advanced users
-   //wn8chatcolor
-"chat": ${"chat.xc":"chat"},
   "tweaks": ${"tweaks.xc":"tweaks"}
 }

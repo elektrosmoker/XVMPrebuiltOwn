@@ -32,9 +32,9 @@
     "showRankedBattleResults": true,
     // Equipment panel - show/hide the number of equipment and directives.
     "equipmentPanel": {
-      //true - show the remaining quantity of equipment in depot.
+      //true - show the remaining quantity of equipment in depot
       "showNumberEquipment": true,
-      //true - show the remaining quantity of directives in depot.
+      //true - show the remaining quantity of directives in depot
       "showNumberDirectives": true
     },
     "enableCrewAutoReturn": true,
