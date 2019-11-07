@@ -30,12 +30,12 @@
       "offsetY": 0
     },
     "showRankedBattleResults": true,
-    // Equipment panel - show/hide the number of equipment and directives.
+    // Consumables panel - show/hide the number of Consumables and directives.
     "equipmentPanel": {
-      //true - show the remaining quantity of equipment in depot
-      "showNumberEquipment": true,
+      //true - show the remaining quantity of Consumables in depot
+      "showConsumablesCount": true,
       //true - show the remaining quantity of directives in depot
-      "showNumberDirectives": true
+      "showDirectivesCount": true
     },
     "enableCrewAutoReturn": true,
     "crewReturnByDefault": true,
