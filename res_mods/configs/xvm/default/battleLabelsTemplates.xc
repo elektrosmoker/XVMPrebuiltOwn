@@ -2,6 +2,8 @@
   "def": { 
   
 //battleEfficiency - WN8 + EFF
+
+
   "battleEfficiency": {
     "enabled": true,
     "updateEvent": "PY(ON_BATTLE_EFFICIENCY)",
@@ -21,7 +23,9 @@
     
           
   
-    //damage indicator 
+//damage indicator 
+
+
   "damageIndicator": {
       "enabled": true,
       "updateEvent": "PY(ON_DAMAGE_INDICATOR)",
@@ -34,7 +38,12 @@
       "format": "<img src='xvm://res/{{py:xvm.damageIndicator_aim|CentrDI﻿}}.png'>"
     },
   
+  
+  
+  
 //hitlog
+
+
     "hitLogHeader": {
       "enabled": true,
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY), ON_PANEL_MODE_CHANGED",
@@ -66,6 +75,8 @@
     }
     },
   
+  
+  
    "prebattleTimer": {
       "enabled": true,
       "updateEvent": ", PY(ON_BATTLE_TIMER), PY(ON_BEGIN_BATTLE)",
@@ -81,7 +92,10 @@
     },
   
   
+  
+  
 //shows speed 
+
         "speed": {
       "enabled": true,
       "layer": "top",
@@ -95,7 +109,9 @@
       "format": "{{.speed.{{vehiclename}}}}"
      },
 
+
 //hull.xc
+
      "hull": {
       "enabled": true,
       "layer": "top",
@@ -125,7 +141,9 @@
      },
 
      
+     
 //high caliber, new style
+
     "high_caliber": {
       "enabled": true,
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY)",
@@ -158,7 +176,9 @@
       "format": "{{battletype-key=regular?<b>{{py:high_caliber({{py:xvm.totalDamage}})}}</b>}}"
     },
     
-//avg dmg new style     
+    
+//avg dmg new style    
+ 
     "avg_damage": {
       "enabled": false,
       "updateEvent": "ON_DAMAGE_CAUSED",
@@ -192,8 +212,10 @@
     },
     
 
+
     
-//ex-winchance now teamrating (new style)    
+//ex-winchance now teamrating (new style)   
+ 
     "teamRating": {
       "enabled": true,
       "updateEvent": "PY(ON_UPDATE_TEAM_RATING)",
@@ -218,7 +240,9 @@
     },
     
     
+    
 //marsone eff
+
     "EfficiencyReportBackground": {
       "enabled": true,
       "hotKeyCode": 56,
@@ -267,13 +291,7 @@
       "width": 200,
       "height": 100,
       "valign": "center",
-      "shadow": {
-        "distance": 1,
-        "angle": 90,
-        "alpha": 80,
-        "blur": 5,
-        "strength": 2
-      },
+      "shadow": {"distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 2},
       "textFormat": {
         "color": "0xFFFFFF"
       },
@@ -281,7 +299,14 @@
     },
     
     
+    
+    
+    //
+    //
+    //
 //old ones
+
+
 
     "totalHP": {
       "enabled": false,
@@ -290,18 +315,8 @@
       "y": 30,
       "screenHAlign": "center",
       "align": "center",
-      "shadow": {
-        "distance": 1,
-        "angle": 90,
-        "alpha": 80,
-        "blur": 5,
-        "strength": 1.5
-      },
-      "textFormat": {
-        "font": "mono",
-        "size": 18,
-        "align": "center"
-      },
+      "shadow": {"distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5},
+      "textFormat": {"font": "mono", "size": 18, "align": "center"},
       "format": "{{py:xvm.total_hp.text}}"
     },
     "avgDamage": {
@@ -311,42 +326,30 @@
       "y": 30,
       "screenHAlign": "center",
       "align": "right",
-      "shadow": {
-        "distance": 1,
-        "angle": 90,
-        "alpha": 80,
-        "blur": 5,
-        "strength": 1.5
-      },
-      "textFormat": {
-        "size": 15,
-        "align": "center"
-      },
+      "shadow": {"distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5},
+      "textFormat": {"size": 15, "align": "center"},
       "format": "{{py:xvm.total_hp.avgDamage('{{l10n:avgDamage}}: ',{{py:xvm.totalDamage}})}}"
     },
     
+    
+    
     //grosskaliber old
+    
     "mainGun": {
       "enabled": false,
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY)",
       "x": 170,
       "y": 30,
       "screenHAlign": "center",
-      "shadow": {
-        "distance": 1,
-        "angle": 90,
-        "alpha": 80,
-        "blur": 5,
-        "strength": 1.5
-      },
-      "textFormat": {
-        "size": 15,
-        "align": "center"
-      },
+      "shadow": {"distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5},
+      "textFormat": {"size": 15, "align": "center"},
       "format": "{{py:xvm.total_hp.mainGun('{{l10n:mainGun}}: ',{{py:xvm.totalDamage}})}}"
     },
     
-    //damage log default
+    
+    
+//damage log default
+    
     "damageLog": {
       "enabled": true,
       "updateEvent": "PY(ON_HIT)",
@@ -419,6 +422,10 @@
         "mouseMove": "lastHit_mouseMove"
       }
     },
+    
+    
+    
+    
     "fire": {
       "enabled": false,
       "updateEvent": "PY(ON_FIRE)",
@@ -430,20 +437,15 @@
       "layer": "bottom",
       "screenHAlign": "center",
       "screenVAlign": "center",
-      "shadow": {
-        "distance": 1,
-        "angle": 90,
-        "alpha": 80,
-        "blur": 5,
-        "strength": 3
-      },
-      "textFormat": {
-        "align": "center",
-        "color": "0xF4EFE8",
-        "size": 16
-      },
+      "shadow": {"distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 3},
+      "textFormat": {"align": "center", "color": "0xF4EFE8", "size": 16},
       "format": "FIRE"
     },
+    
+    
+    
+    
+    
     "totalEfficiency": {
       "enabled": false,
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY)",
@@ -461,69 +463,73 @@
     },
 
 
+
+
     
 //repair timer
-    "repairTimeItem": {
-      "width": 47,
-      "height": 40,
-      "screenHAlign": "left",
-      "screenVAlign": "bottom",
-      "shadow": {
-        "distance": 1,
-        "angle": 90,
-        "alpha": 90,
-        "blur": 5,
-        "strength": 4
-      },
-      "textFormat": {
-        "color": "0xF4EFE8",
-        "size": 17,
-        "align": "center",
-        "valign": "center"
-      }
+
+    "repairTimeItem": {      
+    "width": 47,      
+    "height": 40,      
+    "screenHAlign": "left",      
+    "screenVAlign": "bottom",
+      "shadow": {"distance": 1, "angle": 90, "alpha": 90, "blur": 5, "strength": 4},
+      "textFormat": {"color": "0xF4EFE8", "size": 17, "align": "center", "valign": "center"}
     },
-    "repairTimeEngine": {
-         "$ref": { "path":"def.repairTimeItem" },
+    
+    "repairTimeEngine": 
+    {
+    "$ref": { "path":"def.repairTimeItem"},
       "enabled": true,
       "updateEvent": "PY(ON_ENGINE_UPDATE)",
       "x": 4,
       "y": -147,
       "format": "<b>{{py:repairTimeEngine%0.1f}}</b>"
     },
-    "repairTimeGun": {
-         "$ref": { "path":"def.repairTimeItem" },
+    
+    "repairTimeGun": 
+    {
+    "$ref": { "path":"def.repairTimeItem"},
       "enabled": true,
       "updateEvent": "PY(ON_GUN_UPDATE)",
       "x": 4,
       "y": -69,
       "format": "<b>{{py:repairTimeGun%0.1f}}</b>"
     },
-    "repairTimeTurret": {
-          "$ref": { "path":"def.repairTimeItem" },
+    
+    "repairTimeTurret": 
+    {
+    "$ref": { "path":"def.repairTimeItem"},
       "enabled": true,
       "updateEvent": "PY(ON_TURRET_UPDATE)",
       "x": 4,
       "y": -30,
       "format": "<b>{{py:repairTimeTurret%0.1f}}</b>"
     },
-    "repairTimeComplex": {
-            "$ref": { "path":"def.repairTimeItem" },
+    
+    "repairTimeComplex": 
+    {
+    "$ref": { "path":"def.repairTimeItem"},
       "enabled": true,
       "updateEvent": "PY(ON_TRACKS_UPDATE)",
       "x": 177,
       "y": -147,
       "format": "<b>{{py:repairTimeComplex%0.1f}}</b>"
     },
-    "repairTimeSurveying": {
-         "$ref": { "path":"def.repairTimeItem" },
+    
+    "repairTimeSurveying": 
+    {
+    "$ref": { "path":"def.repairTimeItem"},
       "enabled": true,
       "updateEvent": "PY(ON_SURVEYING_UPDATE)",
       "x": 177,
       "y": -108,
       "format": "<b>{{py:repairTimeSurveying%0.1f}}</b>"
     },
-    "repairTimeRadio": {
-        "$ref": { "path":"def.repairTimeItem" },
+    
+    "repairTimeRadio": 
+    {
+    "$ref": { "path":"def.repairTimeItem"},
       "enabled": true,
       "updateEvent": "PY(ON_RADIO_UPDATE)",
       "x": 177,
