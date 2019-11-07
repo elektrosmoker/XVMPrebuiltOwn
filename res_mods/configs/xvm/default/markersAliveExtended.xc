@@ -21,7 +21,8 @@
 				"enabled": true
 			},
 			{
-				"$ref": { "file": "markersTemplates.xc", "path": "HelpSupportIcon"}	
+				"$ref": { "file": "markersTemplates.xc", "path": "HelpSupportIcon"},
+        "enabled": true
 			},            
 			{
 				"$ref": { "file": "markersTemplates.xc", "path": "HP-Ratio"},			
