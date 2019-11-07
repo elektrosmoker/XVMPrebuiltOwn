@@ -1,7 +1,11 @@
 {
   "hotkeys": {
     
-        "assistLogAltMode": { "enabled": true, "keyCode": 56, "onHold": true },
+    "assistLogAltMode": { 
+      "enabled": true, 
+      "keyCode": 56, 
+      "onHold": true 
+      },
     "minimapZoom": {
       "enabled": true,
       "keyCode": 29,
