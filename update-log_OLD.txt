@@ -1,0 +1,79 @@
+2019-11-06:: upd hangar.xc, 
+xvm.xc, hitLog.xc, battleLabelsTemplates.xc
+2019-11-06: added https://github.com/elektrosmoker/XVMPrebuiltConfigs_elektrosmoker
+
+2019-10-13: added carousel.xc by DivingDuck
+                     https://aslain.com/index.php?/topic/14687-maxdata-carousel/
+2019-10-04: carouselNormal.xc - changed scale for info/infoImg
+2019-08-11: upd hangar.xc/battle.xc
+2019-07-08: added assistLog
+2019-07-06: edited colors.xc ($.color.vtype) / playerspanel.xc (hpbars_c_vtype)
+2019-07-03: fixed missing pics for garage stats mod
+2019-07-01: added mini-session-stats 
+                    added dep for statistics.py
+2019-06-26: added hpBar / dependency for myHP.py
+2019-06-25: added dependencies for fragCorrelationBar.py / mod_chat_color.py / 
+                    safeShot.py  / NDO-scripts / infoAutoAim.py / aimingSystem.py / 
+                    boosters.py / battleEfficiency.py / battleMessages.py / battleTimer.py / 
+                    damage_indicator.py
+2019-06-24: added dependecies for beginBattle.py / chancePenetration.py /
+                    debugPanel.py / sight.py / mod_wn8_chance.py
+2019-06-15: added dependecies for speed.xc / hull.xc /  years.xc
+2019-06-14: upd .py files
+                     added battleMessages.py / battleMessages.xc (dmg announcer, spotmsg, 		reload announcer)
+                     added battleEfficiency.py / edited battleLabelsTemplates.xc  (inbattle rating)                   
+2019-05-17: upd readme
+2019-05-07: re-added boosters.py
+2019-05-02: removed boosters.py / edited 
+xvm.xc
+2019-04-28: beautyfied code a bit
+2019-04-08: fixed dmg stickers (was wrong folder)
+2019-04-07: update infopanel (py)
+2019-04-02: fixed pictures for insignias (on guns)
+2019-03-28: enabled camera.xc (see description)
+2019-03-20: added shell speed to aiminfo / renewed sights.py
+2019-03-17: changed 6th sense image .... finally after 7 years ;)
+2019-03-13: removed vehiclenames.xc
+2019-03-03: updated vehicleNames
+2019-02-27: reworked OTM (markers)
+                    added crew skills pics
+                    cleanup
+2019-02-25: added 
+                    \res_mods\versiondir\content\Interface\CheckPoint\circle.dds (austria)
+                    \res_mods\versiondir\gui\maps\fx\damage_stickers (9x .dds by hawg)
+                    \res_mods\versiondir\gui\maps\icons\library (4x bonus_*.png)
+                    \res_mods\versiondir\gui\maps\vehicles\decals\insignia (MoE VoPV_v1V)
+2019-02-22: changed clientflag back to flag -> unsupportted by wg
+2019-02-15: fixed damagelog
+2019-02-10: added boosters.py -> shows detailed info about active boosters
+2019-02-09: added GDZ playerspanel health bar as default (large; formerly medium2)
+2019-02-05: enabled xmpq marker in playerspanel
+2019-02-05: removed damagelog.py (now included in xvm)
+2019-01-30: some improvements...
+                    temporarly added res_mods\configs\xvm\py_macro\xvm\damageLog.py 
+                     (to be removed next xvm patch)
+2019-01-07: set enemy otm to show contour icon
+2019-01-05: rearranged playerspanels (xvmusermarker, clientflag, friendmarker)
+2018-12-19: added moveable damagelog
+                    removed custom teambasespanel.swf
+2018-12-13: added a different splashscreen picture
+2018-12-13: updated vehicleNames.xc
+2018-12-11: using "clientFlag", not "flag" anymore. added new client_flags.py
+2018-11-28: updated for 1.2.0.2
+2018-11-25: updated vehiclenames.xc and readme files
+2018-11-05: no dependecy for guicontrolslobbybattle.swf -> directly in zip
+2018-10-30: Happy Halloween! removed guiControlsLobbyBattle.swf from zip and added Dependency_Ingame_Misc_Consumables instead
+2018-10-25: implemented new xvm function sTW
+2018-10-18: updated guiControlsLobbyBattle.swf (DeBranded) <- this was no good idea!
+2018-10-14: removed not needed files / added (optional) 10step wotlabs color scale to colors.xc, default is 6step xvm scale
+2018-10-13: fixed some symbols
+2018-09-25: changted fragcorellationbar / maincaliber / hppool
+2018-09-24: changed fragcorellationbar
+2018-09-23: changed capturebar.xc
+2018-09-21: added new HPpool and main caliber look
+2018-09-19: colors.xc updated to fit actual xvm wn8 scale
+2018-09-10: elements.xc updated
+2018-09-01: adjustments for 1.1.0
+2018-08-22: RC
+2018-07-31: still in beta
+2018-07-01: based on J1mb0´s xvm config
