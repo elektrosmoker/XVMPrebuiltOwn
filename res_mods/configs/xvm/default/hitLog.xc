@@ -18,7 +18,7 @@
       // Group hits by players name.
       "groupHitsByPlayer": false,
       // Number of lines. It is possible to use the macro {{battle type-key}}.
-      "lines": 15,
+      "lines": 10,
       // Insert order: false - insert new values to begin, true - add to end.
       "addToEnd": true,
       // Type of damage (macro {{dmg-kind}}).

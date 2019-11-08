@@ -63,7 +63,7 @@
       "x": "{{pp.mode=5?{{battletype-key=epic_battle?240|5}}|{{py:sum({{pp.widthLeft}},{{py:xvm.hitLog.log.x}})}}}}",
       "y": "{{pp.mode=5?{{battletype-key=epic_battle?80|90}}|{{py:xvm.hitLog.log.y}}}}",
       "width": 500,
-      "height": 400,
+      "height": 350,
       "layer": "normal",
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
       "format": "{{py:xvm.hitLog.log}}",
