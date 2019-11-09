@@ -143,9 +143,13 @@
 
 
         "format": "<font face='$FieldFont' size='15' color='{{v.vehId=52241?#00ff00|{{v.level=4?{{v.type={{l10n:HT}}?#00ff00|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}|{{v.level=10?{{v.premium?#ff9900|#00ffff}}|{{v.level<4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<1?#00ff00|{{v.premium?#ff9900|#00ffff}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}}}}}}}}}'>{{v.fullname}}</font>", 
+        
         "shadow": ${ "def.textFieldShadow" },
+        
         "color": "{{v.vehId=52241?#00ff00|{{v.level=4?{{v.type={{l10n:HT}}?#00ff00|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}|{{v.level=10?{{v.premium?#ff9900|#00ffff}}|{{v.level<4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<1?#00ff00|{{v.premium?#ff9900|#00ffff}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}}}}}}}}}",
+        
         "alpha": "{{v.premium?85|35}}",
+        
         "blur": "{{v.premium?9|8}}"
         
         },
