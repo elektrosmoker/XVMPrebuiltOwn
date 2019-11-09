@@ -13,7 +13,7 @@
   "small": {
     "width": 160,
     "height": 35,
-    "gap": 10,
+    "gap": 1,
     "fields": {
       "flag": {
         "enabled": true,
@@ -118,19 +118,19 @@
       }
     },
     "extraFields": [
-      // special THANKS to MarsOne
       {
-        "id": "MarsOne_tankNames",
+        "enabled": true,
         "x": 159,
         "y": 14,
         "align": "right",
         "format": "<font face='$FieldFont' size='15' color='{{v.vehId=52241?#00ff00|{{v.level=4?{{v.type={{l10n:HT}}?#00ff00|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level<4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<1?#00ff00|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'>{{v.fullname}}</font>",
         "shadow": ${ "def.textFieldShadow" },
-        "color": "{{v.vehId=52241?#00ff00|{{v.level=4?{{v.type={{l10n:HT}}?#00ff00|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level<4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<1?#00ff00|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}",
+        "color": "{{v.vehId=52241?#00ff00|{{v.level=4?{{v.type={{l10n:HT}}?#00ff00|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}|{{v.level=10?{{v.premium?#ff9900|#00ffff}}|{{v.level<4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<1?#00ff00|{{v.premium?#ff9900|#00ffff}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}}}}}}}}}",
         "alpha": "{{v.premium?85|35}}",
         "blur": "{{v.premium?9|8}}"
       },
       {
+        "enabled": true,
         "x": 1,
         "y": 1,
         "layer": "substrate",
