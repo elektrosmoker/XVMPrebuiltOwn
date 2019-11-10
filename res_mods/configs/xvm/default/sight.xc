@@ -1,7 +1,5 @@
 ﻿{
   "sight": {
-    // true - включиь моды
-    // false - отключить моды
     "enabled": true,
     // время отображения макросов {{py:....Target}} после потери цели
     "delayHideTarget": 3,
