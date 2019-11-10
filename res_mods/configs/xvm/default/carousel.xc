@@ -26,10 +26,10 @@
     
     "filters": {
       "params": {"enabled": true},
-      "bonus": {"enabled": true},
       "favorite": { "enabled": true },
-      "elite":    { "enabled": true },
-      "premium":  { "enabled": true }
+      "premium":  { "enabled": true },
+      "bonus": {"enabled": false},
+      "elite":    { "enabled": false }
     },
     "filtersPadding": {
       "horizontal": 11,
