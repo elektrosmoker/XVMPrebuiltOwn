@@ -143,11 +143,16 @@
     "formatHeader":  "<font face='$FieldFont' size='15' color='#CCCCCC'>{{l10n:Hits}}: <font color='#FFFFFF'><b>\u00D7{{hitlog.n}}</b></font>    {{l10n:Total}}: <font color='#FFFFFF'><b>{{hitlog.dmg-total}}</b></font>    {{l10n:Last}}: <font color='{{c:dmg-kind}}'><b>{{dmg}}</b></font></font>",
       // List of hits format (macros allowed, see macros.txt).
       
-      
+//j1mb0      
 // "formatHistory": "<textformat leading='-4' tabstops='[20,50,90,190]'><font size='12'>\u00D7{{n-player}}:</font><tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab>| {{dmg-player}}<tab>|<font color='{{c:vtype}}'>{{vehicle}}</font> <font face='xvm' size='15' color='#FF0000'>{{alive? |{{blownup?&#x7C;|<font size='19'>&#x77;</font>}}}}</font><tab>|{{name%.15s~..}} <font alpha='#A0'>{{clan}}</font></textformat>"
 
+//elektro_bkp
+  //  "formatHistory": "<textformat tabstops='[30,70,120,210]'><font face='$FieldFont' size='15' color='#CCCCCC'>\u0023{{n-player}}:<tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab><font color='#FFFFFF'>{{dmg-player}}</font><tab><font color='{{c:vtype}}'><b>{{vehicle}}</b></font><tab><b><font alpha='#A0'>{{clan}}</font> {{name}}</b></font></textformat>"
 
-    "formatHistory": "<textformat tabstops='[30,70,120,210]'><font face='$FieldFont' size='15' color='#CCCCCC'>\u0023{{n}}:<tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab><font color='#FFFFFF'>{{dmg-player}}</font><tab><font color='{{c:vtype}}'><b>{{vehicle}}</b></font><tab><b><font alpha='#A0'>{{clan}}</font> {{name}}</b></font></textformat>"
+//current
+    "formatHistory": 
+              "<textformat tabstops='[10,30,100,200]'><tab><font face='mono' size='12' color='#FFFFFF'> \u0023{{n-player}}</font><tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab><font color='{{c:vtype}}'><b>{{vehicle}}</b></font><tab><b> {{name}}</b></textformat>"
+    
     },
     
     

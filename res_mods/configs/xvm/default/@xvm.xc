@@ -57,6 +57,9 @@
 
   // Ingame crits panel by "expert" skill.
   "expertPanel": ${"battle.xc":"expertPanel"},
+  
+  //assist log
+  "assistLog": ${"assistLog.xc":"assistLog"},
 
   // Battle interface text fields
   "battleLabels": ${"battleLabels.xc":"labels"},

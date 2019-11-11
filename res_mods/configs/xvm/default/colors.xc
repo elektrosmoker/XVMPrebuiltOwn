@@ -64,6 +64,15 @@
       "ally_base": ${"def.al"},
       "enemy_base": ${"def.en"}
     },
+        // Dynamic color based on the percentage of damage dealt to the target.
+    "dmg_ratio_player": [
+      { "value": 16.5, "color": ${"def.colorRating.very_bad" } },   
+      { "value": 33.5, "color": ${"def.colorRating.bad"      } },   
+      { "value": 49.5, "color": ${"def.colorRating.normal"   } },   
+      { "value": 66.5, "color": ${"def.colorRating.good"     } },   
+      { "value": 83.5, "color": ${"def.colorRating.very_good"} },  
+      { "value": 999,  "color": ${"def.colorRating.unique"   } }    
+    ],  
     // Dynamic color by damage kind.
     // Динамический цвет по типу урона.
     "dmg_kind": {
