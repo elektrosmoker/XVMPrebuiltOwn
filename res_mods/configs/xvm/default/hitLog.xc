@@ -147,7 +147,7 @@
 // "formatHistory": "<textformat leading='-4' tabstops='[20,50,90,190]'><font size='12'>\u00D7{{n-player}}:</font><tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab>| {{dmg-player}}<tab>|<font color='{{c:vtype}}'>{{vehicle}}</font> <font face='xvm' size='15' color='#FF0000'>{{alive? |{{blownup?&#x7C;|<font size='19'>&#x77;</font>}}}}</font><tab>|{{name%.15s~..}} <font alpha='#A0'>{{clan}}</font></textformat>"
 
 
-    "formatHistory": "<textformat tabstops='[30,70,120,210]'><font face='$FieldFont' size='15' color='#CCCCCC'>\u00D7{{n-player}}:<tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab><font color='#FFFFFF'>{{dmg-player}}</font><tab><font color='{{c:vtype}}'><b>{{vehicle}}</b></font><tab><b><font alpha='#A0'>{{clan}}</font> {{name}}</b></font></textformat>"
+    "formatHistory": "<textformat tabstops='[30,70,120,210]'><font face='$FieldFont' size='15' color='#CCCCCC'>\u0023{{n}}:<tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab><font color='#FFFFFF'>{{dmg-player}}</font><tab><font color='{{c:vtype}}'><b>{{vehicle}}</b></font><tab><b><font alpha='#A0'>{{clan}}</font> {{name}}</b></font></textformat>"
     },
     
     
