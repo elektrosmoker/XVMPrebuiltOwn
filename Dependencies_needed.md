@@ -6,6 +6,7 @@ PY:
                   Dependency_XVM_PY_displayingItems
                   Dependency_XVM_PY_sight
                   Dependency_XVM_PY_sphere
+                  Dependency_XVM_PY_repairControl
                   Dependency_XVM_PY_mod_wn8_chance
                   Dependency_XVM_PY_borderColor
                   Dependency_XVM_PY_infoPanel

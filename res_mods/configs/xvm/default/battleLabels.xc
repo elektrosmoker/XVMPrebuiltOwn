@@ -3,12 +3,17 @@
     "formats": [
       ${"battleLabelsAssistLog.xc":"assistLog_Background"},
       ${"battleLabelsAssistLog.xc":"assistLog"},
+      
+      
       ${"battleLabelsHealthBar.xc":"hpBar"},
       ${"battleLabelsHealthBar.xc":"hpBar_Background"},
       ${"battleLabelsHealthBar.xc":"hpBar_text"},
+      
+      
       ${"battleLabelsTemplates.xc":"def.hull"},
       ${"battleLabelsTemplates.xc":"def.hullText"},
       ${"battleLabelsTemplates.xc":"def.speed"},
+      
       ${"battleLabelsTemplates.xc":"def.battleEfficiency"},
       ${"battleLabelsTemplates.xc":"def.prebattleTimer"},
       ${"battleLabelsTemplates.xc":"def.damageIndicator"},
@@ -21,9 +26,11 @@
       ${"battleLabelsTargetInfo.xc":"TargetInfo"},
       ${"battleLabelsInfoPanel.xc":"def.InfoPanel"},
       ${"battleLabelsInfoPanel.xc":"def.InfoPanelbg"},
+      
       ${"battleLabelsTemplates.xc":"def.EfficiencyReportReceived"},
       ${"battleLabelsTemplates.xc":"def.EfficiencyReportDealt"},
       ${"battleLabelsTemplates.xc":"def.EfficiencyReportBackground"},
+      
       ${"battleLabelsTemplates.xc":"def.hitLogHeader"},
       ${"battleLabelsTemplates.xc":"def.hitLogBody"},
       ${"battleLabelsTemplates.xc":"def.totalHP"},
@@ -42,6 +49,8 @@
       ${"battleLabelsTemplates.xc":"def.repairTimeRadio"},
       ${"battleLabelsTemplates.xc":"def.high_caliber"},
       ${"battleLabelsTemplates.xc":"def.avg_damage"},
+      
+      
       ${"fragCorrelationBar.xc":"def.fonDiffVtype"},
       ${"fragCorrelationBar.xc":"def.DiffVtype"},
       ${"fragCorrelationBar.xc":"def.frameBar"},
@@ -57,7 +66,25 @@
       ${"fragCorrelationBar.xc":"def.vtypeBarAlly"},
       ${"fragCorrelationBar.xc":"def.vtypeBarEnemy"},
       ${"fragCorrelationBar.xc":"def.vtypeBarGlobalAlly"},
-      ${"fragCorrelationBar.xc":"def.vtypeBarGlobalEnemy"}
+      ${"fragCorrelationBar.xc":"def.vtypeBarGlobalEnemy"},
+      
+      
+      ${ "battleLabelsRepairControl.xc":"repairCtrlEngine" },
+      ${ "battleLabelsRepairControl.xc":"repairCtrlAmmoBay" },
+      ${ "battleLabelsRepairControl.xc":"repairCtrlGun" },
+      ${ "battleLabelsRepairControl.xc":"repairCtrlTurret" },
+      ${ "battleLabelsRepairControl.xc":"repairCtrlComplex" },
+      ${ "battleLabelsRepairControl.xc":"repairCtrlSurveying" },
+      ${ "battleLabelsRepairControl.xc":"repairCtrlRadio" },
+      ${ "battleLabelsRepairControl.xc":"repairCtrlFuelTank" },
+
+      ${ "battleLabelsRepairControl.xc":"healCtrlCommander" },
+      ${ "battleLabelsRepairControl.xc":"healCtrlRadioman" },
+      ${ "battleLabelsRepairControl.xc":"healCtrlDriver" },
+      ${ "battleLabelsRepairControl.xc":"healCtrlGunner" },
+      ${ "battleLabelsRepairControl.xc":"healCtrlLoader" }
+      
+      
     ]
   }
 }
