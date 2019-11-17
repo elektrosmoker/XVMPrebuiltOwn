@@ -151,7 +151,7 @@
 
 //current
     "formatHistory": 
-              "<textformat tabstops='[10,30,100,200]'><tab><font face='mono' size='12' color='#FFFFFF'> \u0023{{n-player}}</font><tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab><font color='{{c:vtype}}'><b>{{vehicle}}</b></font><tab><b> {{name}}</b></textformat>"
+              "<textformat tabstops='[10,30,100,200]'><tab><font face='mono' size='12' color='#FFFFFF'> \u0023{{number}}</font><tab><font color='{{c:dmg-kind}}'>{{dmg}}</font><tab><font color='{{c:vtype}}'><b>{{vehicle}}</b></font><tab><b> {{name}}</b></textformat>"
     
     },
     
