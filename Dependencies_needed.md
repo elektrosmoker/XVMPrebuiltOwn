@@ -27,6 +27,7 @@ PY:
                   Dependency_XVM_PY_modesVehicle
                   Dependency_XVM_PY_quantityShells
                   Dependency_XVM_PY_colorMacros
+                  Dependency_XVM_PY_infoChargedShell
  
 
 XC:
@@ -44,3 +45,7 @@ FONTS:
                   Dependency_Fonts_Gunplay
                   Dependency_Fonts_Calligraph
                   Dependency_Fonts_Book_Antiqua
+                  
+                  
+                  
+                  DS-DIGI (in _fonts folder - used for gunsights)
