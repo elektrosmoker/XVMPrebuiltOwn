@@ -1,13 +1,12 @@
-//автор прицела DmitriiS27
-
 {
   "def": {
-///////// сетки прицелов //////////////////////////////////////
+///////// reticle //////////////////////////////////////
     "cameraMode": {
       "enabled": true,
       "updateEvent": "PY(ON_AIM_MODE)",
       "x": -2,
-      "y": -72,
+      //"y": -72,
+      "y": "{{py:aim.y(10)}}",
       "width": 536,
       "height": 283,
       "screenHAlign": "center",
@@ -22,7 +21,8 @@
       "enabled": true,
       "updateEvent": "PY(ON_AIM_MODE)",
       "x": -2,
-      "y": 2,
+      //"y": 2,
+      "y": "{{py:aim.y(0)}}",
       "width": 502,
       "height": 124,
       "screenHAlign": "center",
@@ -31,7 +31,29 @@
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
       "format": "<img src='cfg://icons_sight/{{py:aim.mode}}Sight1.png'>"
     },
-//////// инфо прицела аркадный режим ///////////////////////////////////////  
+    
+    //////// central sights marker /////////////////////////////////////////////////////////	
+    "element": {
+      "enabled": true, 
+      "layer": "bottom",
+      "updateEvent": "PY(ON_AIM_MODE), PY(ON_PLAYER_HEALTH)",
+      // "scaleX": -1,
+      "x": "{{py:aim.mode=arc?-9|{{py:aim.mode=sn?-9}}}}",
+      "y": "{{py:aim.mode=arc?-58|{{py:aim.mode=sn?18}}}}",
+      "rotation": -45,
+       //"borderColor": "0x000000",
+      "width": 40,
+      "height": 40,
+      "screenHAlign": "center",
+      "screenVAlign": "center",
+	  "alpha" : "{{py:aim.mode=arc?45|{{py:aim.mode=sn?45|{{py:aim.mode=str?0}}}}}}",
+      "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
+      "textFormat": { "align": "center", "color": "0xd4ffaa" },
+      "format": "<font face='DS-Digital' size='40'>+</font>"
+    },	
+    
+    
+//////// info sight arcade mode ///////////////////////////////////////  
     "name": {
       "enabled": true,
       "updateEvent": "PY(ON_AIM_MODE), PY(ON_TARGET)",
@@ -98,28 +120,11 @@
       "alpha" : "{{py:sight.nameTarget?{{py:aim.mode=arc?100|100}}|100}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
       "textFormat": { "align": "left", "color": "0xd4ffaa" },
-      "format": "VisionRadius ~<font face='' size='12'>{{py:sight.visionRadiusTarget%3.f}}m</font>"
+      "format": "Vision ~<font face='' size='12'>{{py:sight.visionRadiusTarget%3.f}}m</font>"
     },
-//////// центральный маркер прицелов  /////////////////////////////////////////////////////////	
-    "element": {
-      "enabled": true,
-      "updateEvent": "PY(ON_AIM_MODE), PY(ON_PLAYER_HEALTH)",
-      // "scaleX": -1,
-      "x": "{{py:aim.mode=arc?-10|{{py:aim.mode=sn?-10}}}}",
-      "y": "{{py:aim.mode=arc?-61|{{py:aim.mode=sn?20}}}}",
-      "rotation": -45,
-       //"borderColor": "0x000000",
-      "width": 40,
-      "height": 40,
-      "screenHAlign": "center",
-      "screenVAlign": "center",
-	  "alpha" : "{{py:aim.mode=arc?45|{{py:aim.mode=sn?45|{{py:aim.mode=str?0}}}}}}",
-      "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
-      "format": "<font face='DS-Digital' size='40'>+</font>"
-    },	
 
-///////////////////////////  прицел в аркадном режиме //////////////////////////////////////////////////////////////////////	
+
+/////////////////////////// Arcade Sight //////////////////////////////////////////////////////////////////////	
 	"shells": {
       "enabled": true,
       "updateEvent": "PY(ON_AMMO_CHANGED), PY(ON_AIM_MODE)",
@@ -272,7 +277,7 @@
       "textFormat": { "align": "center", "color": "0x{{py:dynamic_colorGRB( 0xd4ffaa, 0xff5d00,{{py:sight.reloadPercent}})}}" },	 	  
       "format": "<font face='DS-Digital' size='24'>{{py:sight.leftTime=0?{{py:sight.quantityInClipShells>0?{{py:sight.reloadTimeClip%3.2f}}|{{py:sight.reloadTime%3.2f}}}}|{{py:sight.leftTime%3.2f}}}}</font>"
     },
-/////////////////////////////////  прицел в арт. режиме ///////////////////////////////////////////////////////////////////////////////////	
+/////////////////////////////////  sight in arty mode ///////////////////////////////////////////////////////////////////////////////////	
   	  "piercingActual_arty": {
       "enabled": true,
       "updateEvent": "PY(ON_AIM_MODE), PY(ON_MARKER_POSITION)",
@@ -356,4 +361,3 @@
     }		
   }
 }
-//автор прицела DmitriiS27
