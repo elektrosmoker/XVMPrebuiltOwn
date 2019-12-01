@@ -24,6 +24,9 @@ PY:
                   Dependency_XVM_PY_statistics
                   Dependency_XVM_PY_SWF_damageIndicator
                   Dependency_XVM_PY_AssistLog
+                  Dependency_XVM_PY_modesVehicle
+                  Dependency_XVM_PY_quantityShells
+                  Dependency_XVM_PY_colorMacros
  
 
 XC:

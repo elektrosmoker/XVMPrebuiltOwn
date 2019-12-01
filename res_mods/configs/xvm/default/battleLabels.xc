@@ -3,13 +3,11 @@
     "formats": [
       ${"battleLabelsAssistLog.xc":"assistLog_Background"},
       ${"battleLabelsAssistLog.xc":"assistLog"},
-      
-      
+            
       ${"battleLabelsHealthBar.xc":"hpBar"},
       ${"battleLabelsHealthBar.xc":"hpBar_Background"},
       ${"battleLabelsHealthBar.xc":"hpBar_text"},
-      
-      
+            
       ${"battleLabelsTemplates.xc":"def.hull"},
       ${"battleLabelsTemplates.xc":"def.hullText"},
       ${"battleLabelsTemplates.xc":"def.speed"},
@@ -18,12 +16,17 @@
       ${"battleLabelsTemplates.xc":"def.prebattleTimer"},
       ${"battleLabelsTemplates.xc":"def.damageIndicator"},
       ${"battleLabelsTemplates.xc":"def.teamRating"},
+      
       ${"battleLabelsAimInfo.xc":"aimInfo"},
+      
       ${"battleLabelsPiercingChance.xc":"piercingChance"},
       ${"battleLabelsPiercingChance.xc":"normHitAngle"},
+      
       ${"battleLabelsDebugPanel.xc":"def.debugPanel"},
       ${"battleLabelsDebugPanel.xc":"def.debugPanelbg"},
+      
       ${"battleLabelsTargetInfo.xc":"TargetInfo"},
+      
       ${"battleLabelsInfoPanel.xc":"def.InfoPanel"},
       ${"battleLabelsInfoPanel.xc":"def.InfoPanelbg"},
       
@@ -41,8 +44,7 @@
       ${"battleLabelsTemplates.xc":"def.lastHit"},
       ${"battleLabelsTemplates.xc":"def.fire"},
       ${"battleLabelsTemplates.xc":"def.totalEfficiency"},
-      
-      
+            
       ${"battleLabelsTemplates.xc":"def.repairTimeEngine"},
       ${"battleLabelsTemplates.xc":"def.repairTimeGun"},
       ${"battleLabelsTemplates.xc":"def.repairTimeTurret"},
@@ -52,8 +54,7 @@
       
       ${"battleLabelsTemplates.xc":"def.high_caliber"},
       ${"battleLabelsTemplates.xc":"def.avg_damage"},
-      
-      
+            
       ${"fragCorrelationBar.xc":"def.fonDiffVtype"},
       ${"fragCorrelationBar.xc":"def.DiffVtype"},
       ${"fragCorrelationBar.xc":"def.frameBar"},
@@ -70,8 +71,7 @@
       ${"fragCorrelationBar.xc":"def.vtypeBarEnemy"},
       ${"fragCorrelationBar.xc":"def.vtypeBarGlobalAlly"},
       ${"fragCorrelationBar.xc":"def.vtypeBarGlobalEnemy"},
-      
-      
+            
       ${ "battleLabelsRepairControl.xc":"repairCtrlEngine" },
       ${ "battleLabelsRepairControl.xc":"repairCtrlAmmoBay" },
       ${ "battleLabelsRepairControl.xc":"repairCtrlGun" },
@@ -85,9 +85,44 @@
       ${ "battleLabelsRepairControl.xc":"healCtrlRadioman" },
       ${ "battleLabelsRepairControl.xc":"healCtrlDriver" },
       ${ "battleLabelsRepairControl.xc":"healCtrlGunner" },
-      ${ "battleLabelsRepairControl.xc":"healCtrlLoader" }
+      ${ "battleLabelsRepairControl.xc":"healCtrlLoader" },
       
       
+      //gunsights
+
+${ "battleLabelSight.xc":"def.cameraMode"},	
+${ "battleLabelSight.xc":"def.cameraMode_sn"},
+
+${ "battleLabelSight.xc":"def.name"},	
+${ "battleLabelSight.xc":"def.infoTank"},
+${ "battleLabelSight.xc":"def.infoTTX"},
+${ "battleLabelSight.xc":"def.visionTTX"},
+
+${ "battleLabelSight.xc":"def.element"},
+${ "battleLabelSight.xc":"def.shells"},
+${ "battleLabelSight.xc":"def.shells_speed"},
+${ "battleLabelSight.xc":"def.shells_types"},
+
+${ "battleLabelSight.xc":"def.reloadBar_line"},
+${ "battleLabelSight.xc":"def.reload_percent"},
+${ "battleLabelSight.xc":"def.distances"},
+${ "battleLabelSight.xc":"def.timeReloadClip"}, 
+${ "battleLabelSight.xc":"def.timeReload"},
+${ "battleLabelSight.xc":"def.baseTimeReload"},
+${ "battleLabelSight.xc":"def.reloadBar_arty"},
+${ "battleLabelSight.xc":"def.timeAIM_arty"},
+${ "battleLabelSight.xc":"def.timeFlight_arty"},
+${ "battleLabelSight.xc":"def.distances_arty"},
+${ "battleLabelSight.xc":"def.piercingActual_arty"}
+
+
+
+
+
+
+
+
+           
     ]
   }
 }
