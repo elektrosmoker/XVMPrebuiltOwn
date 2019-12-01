@@ -81,7 +81,7 @@
       "alpha" : "{{py:sight.nameTarget?{{py:aim.mode=arc?100|100}}|100}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
       "textFormat": { "align": "left", "color": "0xd4ffaa" },
-      "format": "Target reloads ~<font face='' size='12'>{{py:sight.reloadTarget%3.1f}}sec</font>"
+      "format": "reloads ~<font face='' size='12'>{{py:sight.reloadTarget%3.1f}}sec</font>"
     },
       "visionTTX": {
       "enabled": true,
