@@ -38,8 +38,8 @@
         </GlobalFilter>
         <FolderPairs>
             <Pair>
-                <Left>C:\Users\elektrosmoker\OneDrive\RelHax_ModPack_Work\XVMPrebuiltConfigs\XVMPrebuiltConfigs_elektrosmoker\res_mods\configs\xvm\default</Left>
-                <Right>F:\02_Gamez\World_of_Tanks\res_mods\configs\xvm\default</Right>
+                <Left>C:\Users\elektrosmoker\OneDrive\RelHax_ModPack_Work\XVMPrebuiltConfigs\XVMPrebuiltConfigs_elektrosmoker\res_mods\configs</Left>
+                <Right>F:\02_Gamez\World_of_Tanks\res_mods\configs</Right>
             </Pair>
         </FolderPairs>
         <OnCompletion/>
