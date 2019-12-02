@@ -29,6 +29,7 @@ PY:
                   Dependency_XVM_PY_colorMacros
                   Dependency_XVM_PY_infoChargedShell
                   Dependency_XVM_PY_targetInfo
+                  Dependency_XVM_PY_anglesAiming
  
 
 XC:

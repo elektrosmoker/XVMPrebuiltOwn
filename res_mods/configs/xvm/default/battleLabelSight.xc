@@ -277,7 +277,7 @@
       "textFormat": { "align": "center", "color": "0x{{py:dynamic_colorGRB( 0xd4ffaa, 0xff5d00,{{py:sight.reloadPercent}})}}" },	 	  
       "format": "<font face='DS-Digital' size='24'>{{py:sight.leftTime=0?{{py:sight.quantityInClipShells>0?{{py:sight.reloadTimeClip%3.2f}}|{{py:sight.reloadTime%3.2f}}}}|{{py:sight.leftTime%3.2f}}}}</font>"
     },
-/////////////////////////////////  sight in arty mode ///////////////////////////////////////////////////////////////////////////////////	
+/////////////////////////////////  arty sight ///////////////////////////////////////////////////////////////////////////////////	
   	  "piercingActual_arty": {
       "enabled": true,
       "updateEvent": "PY(ON_AIM_MODE), PY(ON_MARKER_POSITION)",
@@ -358,6 +358,59 @@
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
       "textFormat": { "align": "center", "color": "0x{{py:dynamic_colorGRB( 0xd4ffaa, 0xff5d00,{{py:sight.reloadPercent}})}}" },
       "format": "<font face='dynamic2' size='130'>{{py:sight.reloadPercent%.335a}}</font>"
-    }		
+    },
+
+
+////////////////////////////// gun constraints ///////////////////////////////
+
+"angleAimingLeft": {
+      "enabled": true,
+      "updateEvent": "PY(ON_ANGLES_AIMING), PY(ON_AIM_MODE)",
+      "x": "{{py:anglesAiming.left}}",
+      "y": "{{py:aim.y}}",
+      "width": 19,
+      "height": 66,
+      "screenHAlign": "center",
+      "screenVAlign": "center",
+      "format": "{{py:anglesAiming.left>-5?<img src='xvm://res/Angles/Left_limit.png'>|<img src='xvm://res/Angles/Left.png'>}}"
+    }, 
+    "angleAimingRight": {
+      "enabled": true,
+      "updateEvent": "PY(ON_ANGLES_AIMING), PY(ON_AIM_MODE)",
+      "x": "{{py:anglesAiming.right}}",
+      "y": "{{py:aim.y}}",
+      "width": 19,
+      "height": 66,
+      "screenHAlign": "center",
+      "screenVAlign": "center",
+      "format": "{{py:anglesAiming.right<5?<img src='xvm://res/Angles/Right_limit.png'>|<img src='xvm://res/Angles/Right.png'>}}"
+    }, 
+    "angleAimingBottom": {
+      "enabled": true,
+      "updateEvent": "PY(ON_ANGLES_AIMING)",
+      "x": 0,
+      "y": "{{py:anglesAiming.bottom(12)}}",
+      "width": 194,
+      "height": 29,
+      "alpha" : "{{py:anglesAiming.bottom(12)<350?{{py:math.sub(350, {{py:anglesAiming.bottom(12)}})}}|0}}",
+      "screenHAlign": "center",
+      "screenVAlign": "center",
+      "format": "<img src='xvm://res/Angles/Bottom.png'>"
+    }, 
+    "angleAimingTop": {
+      "enabled": true,
+      "updateEvent": "PY(ON_ANGLES_AIMING)",
+      "x": 0,
+      "y": "{{py:anglesAiming.top(-12)}}",
+      "width": 194,
+      "height": 29,
+      "alpha" : "{{py:anglesAiming.top(-12)>-350?{{py:math.sum({{py:anglesAiming.top(-12)}}, 350)}}|0}}",
+      "screenHAlign": "center",
+      "screenVAlign": "center",
+      "format": "<img src='xvm://res/Angles/Top.png'>"
+    }
+
+
+		
   }
 }

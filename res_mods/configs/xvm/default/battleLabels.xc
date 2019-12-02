@@ -113,7 +113,12 @@ ${ "battleLabelSight.xc":"def.reloadBar_arty"},
 ${ "battleLabelSight.xc":"def.timeAIM_arty"},
 ${ "battleLabelSight.xc":"def.timeFlight_arty"},
 ${ "battleLabelSight.xc":"def.distances_arty"},
-${ "battleLabelSight.xc":"def.piercingActual_arty"}
+${ "battleLabelSight.xc":"def.piercingActual_arty"},
+
+${"battleLabelSight.xc":"def.angleAimingLeft"},
+${"battleLabelSight.xc":"def.angleAimingRight"},
+${"battleLabelSight.xc":"def.angleAimingTop"},
+${"battleLabelSight.xc":"def.angleAimingBottom"}
 
 
 
