@@ -28,6 +28,7 @@ PY:
                   Dependency_XVM_PY_quantityShells
                   Dependency_XVM_PY_colorMacros
                   Dependency_XVM_PY_infoChargedShell
+                  Dependency_XVM_PY_targetInfo
  
 
 XC:
