@@ -39,12 +39,13 @@
           "$delay": 100, 
           "alpha": 0 
           },
+   //"battleTimer": { "$delay": 100, "alpha": 0 },
     
     "prebattleTimer": {      
         "visible": false,
             "timer": { "visible": false },
             "background": { "visible": false },
-            "qpInfoFlagContainer": { "visible": false },
+            "infoContainer": { "visible": false },
             "win": { "visible": false },
             "message": { "visible": false }
       }

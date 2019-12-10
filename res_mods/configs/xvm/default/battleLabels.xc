@@ -13,9 +13,10 @@
       ${"battleLabelsTemplates.xc":"def.speed"},
       
       ${"battleLabelsTemplates.xc":"def.battleEfficiency"},
-      ${"battleLabelsTemplates.xc":"def.prebattleTimer"},
       ${"battleLabelsTemplates.xc":"def.damageIndicator"},
-      ${"battleLabelsTemplates.xc":"def.teamRating"},
+      
+      //WN8 Rating //DISABLED WoT 1.7.0
+      //${"battleLabelsTemplates.xc":"def.teamRating"},
       
       ${"battleLabelsAimInfo.xc":"aimInfo"},
       
@@ -118,7 +119,13 @@ ${ "battleLabelSight.xc":"def.piercingActual_arty"},
 ${"battleLabelSight.xc":"def.angleAimingLeft"},
 ${"battleLabelSight.xc":"def.angleAimingRight"},
 ${"battleLabelSight.xc":"def.angleAimingTop"},
-${"battleLabelSight.xc":"def.angleAimingBottom"}
+${"battleLabelSight.xc":"def.angleAimingBottom"},
+
+
+//battle timers
+
+${"battleLabelsBattleTimer.xc":"def.prebattleTimer"},
+//${"battleLabelsBattleTimer.xc":"def.battleTimer"}
 
 
 

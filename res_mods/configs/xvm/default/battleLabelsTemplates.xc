@@ -77,23 +77,6 @@
   
   
   
-   "prebattleTimer": {
-      "enabled": true,
-      "updateEvent": ", PY(ON_BATTLE_TIMER), PY(ON_BEGIN_BATTLE)",
-      "x": 0,
-      "y": 250,
-      "screenHAlign": "center",
-      "align": "center",
-      "shadow": { "distance": 0, "angle": 0, "alpha": 100, "blur": 5, "strength": 2 },
-
-      "alpha" : "{{py:isBattle?0|100}}",
-      "textFormat": { "color": "0xff00ff", "size": 100, "align": "center", "bold": "false"  },
-      "format": "{{py:xvm.minutesBT%02d}} : {{py:xvm.secondsBT%02d}}"
-    },
-  
-  
-  
-  
 //shows speed 
 
         "speed": {
@@ -217,7 +200,9 @@
 
 
     
-//ex-winchance now teamrating (new style)   
+// WN8 teamrating (new style) 
+// DISABLED in battlelabels.xc- WoT 1.7.0
+
  
     "teamRating": {
       "enabled": true,
