@@ -123,9 +123,8 @@ ${"battleLabelSight.xc":"def.angleAimingBottom"},
 
 
 //battle timers
-
-${"battleLabelsBattleTimer.xc":"def.prebattleTimer"},
-//${"battleLabelsBattleTimer.xc":"def.battleTimer"}
+//${"battleLabelsBattleTimer.xc":"def.battleTimer"},
+${"battleLabelsBattleTimer.xc":"def.prebattleTimer"}
 
 
 
