@@ -39,7 +39,7 @@
           "$delay": 100, 
           "alpha": 0 
           },
-   //"battleTimer": { "$delay": 100, "alpha": 0 },
+   "battleTimer": { "$delay": 100, "alpha": 0 },
     
     "prebattleTimer": {      
         "visible": false,
