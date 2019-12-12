@@ -1,6 +1,33 @@
 {
   "labels": {
     "formats": [
+    
+    //default modules
+    
+      ${"battleLabelsTemplates.xc":"def.hitLogHeader"},
+      ${"battleLabelsTemplates.xc":"def.hitLogBody"},
+      
+      ${"battleLabelsTemplates.xc":"def.damageLogBackground"},
+      ${"battleLabelsTemplates.xc":"def.damageLog"},      
+      ${"battleLabelsTemplates.xc":"def.lastHit"},
+      ${"battleLabelsTemplates.xc":"def.fire"},
+      
+      ${"battleLabelsTemplates.xc":"def.totalEfficiency"},
+            
+      ${"battleLabelsTemplates.xc":"def.repairTimeEngine"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeGun"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeTurret"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeComplex"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeSurveying"},
+      ${"battleLabelsTemplates.xc":"def.repairTimeRadio"},
+    
+    
+    //
+    //  additional modules
+    //
+    //
+    
+    
       ${"battleLabelsAssistLog.xc":"assistLog_Background"},
       ${"battleLabelsAssistLog.xc":"assistLog"},
             
@@ -8,15 +35,20 @@
       ${"battleLabelsHealthBar.xc":"hpBar_Background"},
       ${"battleLabelsHealthBar.xc":"hpBar_text"},
             
-      ${"battleLabelsTemplates.xc":"def.hull"},
-      ${"battleLabelsTemplates.xc":"def.hullText"},
-      ${"battleLabelsTemplates.xc":"def.speed"},
+      ${"battleLabelsHullSpeed.xc":"hull"},
+      ${"battleLabelsHullSpeed.xc":"hullText"},
+      ${"battleLabelsHullSpeed.xc":"speed"},
       
-      ${"battleLabelsTemplates.xc":"def.battleEfficiency"},
-      ${"battleLabelsTemplates.xc":"def.damageIndicator"},
+      ${"battleLabelsBattleEfficiency.xc":"battleEfficiency"},
+      
+      ${"battleLabelsDamageIndicator.xc":"damageIndicator"},
+            
+      ${"battleLabelsAvgDmg.xc":"avg_damage"},
+      
+      ${"battleLabelsHighCaliber.xc":"high_caliber"},
       
       //WN8 Rating //DISABLED WoT 1.7.0
-      //${"battleLabelsTemplates.xc":"def.teamRating"},
+      //${"battleLabelsTeamRating.xc":"teamRating"},
       
       ${"battleLabelsAimInfo.xc":"aimInfo"},
       
@@ -31,30 +63,9 @@
       ${"battleLabelsInfoPanel.xc":"def.InfoPanel"},
       ${"battleLabelsInfoPanel.xc":"def.InfoPanelbg"},
       
-      ${"battleLabelsTemplates.xc":"def.EfficiencyReportReceived"},
-      ${"battleLabelsTemplates.xc":"def.EfficiencyReportDealt"},
-      ${"battleLabelsTemplates.xc":"def.EfficiencyReportBackground"},
-      
-      ${"battleLabelsTemplates.xc":"def.hitLogHeader"},
-      ${"battleLabelsTemplates.xc":"def.hitLogBody"},
-      ${"battleLabelsTemplates.xc":"def.totalHP"},
-      ${"battleLabelsTemplates.xc":"def.avgDamage"},
-      ${"battleLabelsTemplates.xc":"def.mainGun"},
-      ${"battleLabelsTemplates.xc":"def.damageLogBackground"},
-      ${"battleLabelsTemplates.xc":"def.damageLog"},
-      ${"battleLabelsTemplates.xc":"def.lastHit"},
-      ${"battleLabelsTemplates.xc":"def.fire"},
-      ${"battleLabelsTemplates.xc":"def.totalEfficiency"},
-            
-      ${"battleLabelsTemplates.xc":"def.repairTimeEngine"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeGun"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeTurret"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeComplex"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeSurveying"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeRadio"},
-      
-      ${"battleLabelsTemplates.xc":"def.high_caliber"},
-      ${"battleLabelsTemplates.xc":"def.avg_damage"},
+      ${"battleLabelsEfficiencyReport.xc":"EfficiencyReportReceived"},
+      ${"battleLabelsEfficiencyReport.xc":"EfficiencyReportDealt"},
+      ${"battleLabelsEfficiencyReport.xc":"EfficiencyReportBackground"},
             
       ${"fragCorrelationBar.xc":"def.fonDiffVtype"},
       ${"fragCorrelationBar.xc":"def.DiffVtype"},
@@ -90,41 +101,40 @@
       
       
       //gunsights
+      ${ "battleLabelSight.xc":"def.cameraMode"},	
+      ${ "battleLabelSight.xc":"def.cameraMode_sn"},
 
-${ "battleLabelSight.xc":"def.cameraMode"},	
-${ "battleLabelSight.xc":"def.cameraMode_sn"},
+      ${ "battleLabelSight.xc":"def.name"},	
+      ${ "battleLabelSight.xc":"def.infoTank"},
+      ${ "battleLabelSight.xc":"def.infoTTX"},
+      ${ "battleLabelSight.xc":"def.visionTTX"},
 
-${ "battleLabelSight.xc":"def.name"},	
-${ "battleLabelSight.xc":"def.infoTank"},
-${ "battleLabelSight.xc":"def.infoTTX"},
-${ "battleLabelSight.xc":"def.visionTTX"},
+      ${ "battleLabelSight.xc":"def.element"},
+      ${ "battleLabelSight.xc":"def.shells"},
+      ${ "battleLabelSight.xc":"def.shells_speed"},
+      ${ "battleLabelSight.xc":"def.shells_types"},
 
-${ "battleLabelSight.xc":"def.element"},
-${ "battleLabelSight.xc":"def.shells"},
-${ "battleLabelSight.xc":"def.shells_speed"},
-${ "battleLabelSight.xc":"def.shells_types"},
+      ${ "battleLabelSight.xc":"def.reloadBar_line"},
+      ${ "battleLabelSight.xc":"def.reload_percent"},
+      ${ "battleLabelSight.xc":"def.distances"},
+      ${ "battleLabelSight.xc":"def.timeReloadClip"}, 
+      ${ "battleLabelSight.xc":"def.timeReload"},
+      ${ "battleLabelSight.xc":"def.baseTimeReload"},
+      ${ "battleLabelSight.xc":"def.reloadBar_arty"},
+      ${ "battleLabelSight.xc":"def.timeAIM_arty"},
+      ${ "battleLabelSight.xc":"def.timeFlight_arty"},
+      ${ "battleLabelSight.xc":"def.distances_arty"},
+      ${ "battleLabelSight.xc":"def.piercingActual_arty"},
 
-${ "battleLabelSight.xc":"def.reloadBar_line"},
-${ "battleLabelSight.xc":"def.reload_percent"},
-${ "battleLabelSight.xc":"def.distances"},
-${ "battleLabelSight.xc":"def.timeReloadClip"}, 
-${ "battleLabelSight.xc":"def.timeReload"},
-${ "battleLabelSight.xc":"def.baseTimeReload"},
-${ "battleLabelSight.xc":"def.reloadBar_arty"},
-${ "battleLabelSight.xc":"def.timeAIM_arty"},
-${ "battleLabelSight.xc":"def.timeFlight_arty"},
-${ "battleLabelSight.xc":"def.distances_arty"},
-${ "battleLabelSight.xc":"def.piercingActual_arty"},
-
-${"battleLabelSight.xc":"def.angleAimingLeft"},
-${"battleLabelSight.xc":"def.angleAimingRight"},
-${"battleLabelSight.xc":"def.angleAimingTop"},
-${"battleLabelSight.xc":"def.angleAimingBottom"},
+      ${"battleLabelSight.xc":"def.angleAimingLeft"},
+      ${"battleLabelSight.xc":"def.angleAimingRight"},
+      ${"battleLabelSight.xc":"def.angleAimingTop"},
+      ${"battleLabelSight.xc":"def.angleAimingBottom"},
 
 
-//battle timers
-${"battleLabelsBattleTimer.xc":"def.battleTimer"},
-${"battleLabelsBattleTimer.xc":"def.prebattleTimer"}
+      //battle timers
+      ${"battleLabelsBattleTimer.xc":"def.battleTimer"},
+      ${"battleLabelsBattleTimer.xc":"def.prebattleTimer"}
 
 
 
