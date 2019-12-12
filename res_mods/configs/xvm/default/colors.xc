@@ -31,6 +31,10 @@
     }
   },
   "colors": {
+  
+      // Farbe für anonyme und / oder neue Spieler (weniger als 100 Kämpfe).
+    "anonymousColor": "#fff2e6",
+  
       "wn8": [
       { "value": 451, "color": ${"def.colorRating.very_bad"} },
       { "value": 985, "color": ${"def.colorRating.bad"} },

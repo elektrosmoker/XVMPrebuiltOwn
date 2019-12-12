@@ -1,5 +1,14 @@
 {
   "def": {
+  
+  // Anonymous Icon.
+    "anon": {
+      "enabled": true,
+      "x": 128, "y": 5, "width": 16, "height": 16, "align": "center", "alpha": 100, "bindToIcon": true,
+      "format": "{{r?| <img src='xvm://res/icons/other/anon.png'>}}"
+    },
+  
+  
     "hpRatio": {
       "x": 0,
       "y": 1,
@@ -9,6 +18,8 @@
      // "bgColor": "{{player?0xFFDD33|{{c:system}}}}"
      "bgColor": "{{player?0x00ff99|{{c:system}}}}"
     },
+    
+    
     "enemySpottedMarker": {
       "enabled": true,
       "alpha": "{{a:spotted}}",
@@ -19,6 +30,8 @@
       "format": "{{spotted}}",
       "shadow": {}
     },
+    
+    
     "xmqpServiceMarker": {
       "enabled": true,
       "x": 120,
@@ -32,6 +45,8 @@
       "format": "<font color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}}}</font>",
       "shadow": {}
     },
+    
+    
     "clanIcon": {
       "enabled": true,
       "hotKeyCode": 56,
@@ -46,6 +61,8 @@
       "bindToIcon": true,
       "src": "{{clanicon}}"
     },
+    
+    
     "xvmUserMarker": {
       "enabled": true,
       "x": -10,
@@ -60,6 +77,8 @@
       "bindToIcon": true,
       "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
     },
+    
+    
     "hpBarBg": {
       "hotKeyCode": 56,
       "onHold": "true",
@@ -111,6 +130,8 @@
         "angle": 45
       }
     },
+    
+    
     "playersHPbar": {
       "x": 0,
       "y": 11,
@@ -130,6 +151,8 @@
       "alpha": "{{alive?50|20}}",
       "borderColor": "0xFFFFFF"
     },
+    
+    
     "friendIcon": {
       "enabled": true,
       "bindToIcon": true,
@@ -174,6 +197,8 @@
       "alpha": 100,
       "src": "cfg://default/icons/{{ignored?ignored}}.png"
     },
+    
+    
     "FlagIcon": {
       "enabled": true,
       "bindToIcon": true,
@@ -193,6 +218,9 @@
       "alpha": 90
     }
   },
+  
+  
+  
   "playersPanel": {
     "enabled": true,
     "alpha": 60,
@@ -226,6 +254,9 @@
         }
       }
     },
+    
+    
+    
     "short": {
       "enabled": true,
       "standardFields": [
@@ -254,8 +285,8 @@
       "nickOffsetXRight": 0,
       "nickMinWidth": 46,
       "nickMaxWidth": 158,
-      "nickFormatLeft": "<font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r}}</font> {{name%.15s~..}}<font alpha='#A0'>{{clan}}</font>",
-      "nickFormatRight": "<font alpha='#A0'>{{clan}}</font>{{name%.15s~..}} <font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r}}</font>",
+      "nickFormatLeft": "<font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{r}}</font> {{name%.15s~..}}<font alpha='#A0'>{{clan}}</font>",
+      "nickFormatRight": "<font alpha='#A0'>{{clan}}</font>{{name%.15s~..}} <font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{r}}</font>",
       "nickShadowLeft": null,
       "nickShadowRight": null,
       "vehicleOffsetXLeft": 0,
@@ -267,6 +298,7 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
+      ${"def.anon"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -279,6 +311,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
+      ${"def.anon"},
         ${"def.FlagIconRIGHT"},
         ${"def.ignoredIconRIGHT"},
         ${"def.friendIconRIGHT"},
@@ -291,6 +324,9 @@
         ${"def.enemySpottedMarker"}
       ]
     },
+    
+    
+    
     "medium": {
       "enabled": true,
       "standardFields": [
@@ -321,8 +357,8 @@
       "nickOffsetXRight": 0,
       "nickMinWidth": 46,
       "nickMaxWidth": 158,
-      "nickFormatLeft": "<font alpha='#A0'>{{clan}}</font> <font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name}}</font>",
-      "nickFormatRight": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{name}}</font> <font alpha='#A0'>{{clan}}</font>",
+      "nickFormatLeft": "<font alpha='#A0'>{{clan}}</font> <font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{name}}</font>",
+      "nickFormatRight": "<font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{name}}</font> <font alpha='#A0'>{{clan}}</font>",
       "nickShadowLeft": null,
       "nickShadowRight": null,
       "vehicleOffsetXLeft": 0,
@@ -334,6 +370,7 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
+      ${"def.anon"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -346,6 +383,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
+      ${"def.anon"},
         ${"def.FlagIconRIGHT"},
         ${"def.ignoredIconRIGHT"},
         ${"def.friendIconRIGHT"},
@@ -358,6 +396,9 @@
         ${"def.enemySpottedMarker"}
       ]
     },
+    
+    
+    
     "medium2": {
       "enabled": true,
       "standardFields": [
@@ -394,12 +435,13 @@
       "vehicleOffsetXLeft": 0,
       "vehicleOffsetXRight": 0,
       "vehicleWidth": 72,
-      "vehicleFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
-      "vehicleFormatRight": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
+      "vehicleFormatLeft": "<font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
+      "vehicleFormatRight": "<font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
       "vehicleShadowLeft": null,
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
+      ${"def.anon"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -412,6 +454,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
+      ${"def.anon"},
         ${"def.FlagIconRIGHT"},
         ${"def.ignoredIconRIGHT"},
         ${"def.friendIconRIGHT"},
@@ -424,6 +467,9 @@
         ${"def.enemySpottedMarker"}
       ]
     },
+    
+    
+    
     "large": {
       "enabled": true,
       "standardFields": [
@@ -460,12 +506,13 @@
       "vehicleOffsetXLeft": 0,
       "vehicleOffsetXRight": 0,
       "vehicleWidth": 72,
-      "vehicleFormatLeft": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
-      "vehicleFormatRight": "<font color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
+      "vehicleFormatLeft": "<font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
+      "vehicleFormatRight": "<font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
       "vehicleShadowLeft": null,
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
+      ${"def.anon"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -480,6 +527,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
+      ${"def.anon"},
         ${"def.FlagIconRIGHT"},
         ${"def.ignoredIconRIGHT"},
         ${"def.friendIconRIGHT"},
@@ -494,5 +542,8 @@
         ${"def.enemySpottedMarker"}
       ]
     }
+    
+    
+    
   }
 }

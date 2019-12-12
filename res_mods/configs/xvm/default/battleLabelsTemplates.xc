@@ -1,52 +1,8 @@
 {
   "def": { 
-      "totalHP": {
-      "enabled": false,
-      "updateEvent": "PY(ON_UPDATE_HP)",
-      "x": 0,
-      "y": 30,
-      "screenHAlign": "center",
-      "align": "center",
-      "shadow": {"distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5},
-      "textFormat": {"font": "mono", "size": 18, "align": "center"},
-      "format": "{{py:xvm.total_hp.text}}"
-    },
-    "avgDamage": {
-      "enabled": false,
-      "updateEvent": "PY(ON_TOTAL_EFFICIENCY)",
-      "x": -170,
-      "y": 30,
-      "screenHAlign": "center",
-      "align": "right",
-      "shadow": {"distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5},
-      "textFormat": {"size": 15, "align": "center"},
-      "format": "{{py:xvm.total_hp.avgDamage('{{l10n:avgDamage}}: ',{{py:xvm.totalDamage}})}}"
-    },
-    
-    
-    
-    //grosskaliber old
-    
-    "mainGun": {
-      "enabled": false,
-      "updateEvent": "PY(ON_TOTAL_EFFICIENCY)",
-      "x": 170,
-      "y": 30,
-      "screenHAlign": "center",
-      "shadow": {"distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5},
-      "textFormat": {"size": 15, "align": "center"},
-      "format": "{{py:xvm.total_hp.mainGun('{{l10n:mainGun}}: ',{{py:xvm.totalDamage}})}}"
-    },
-    
-    
-    
-    
-    
   
 //hitlog
-
-
-    "hitLogHeader": {
+  "hitLogHeader": {
       "enabled": true,
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY), ON_PANEL_MODE_CHANGED",
       //"x": "{{pp.mode=0?{{battletype-key=epic_battle?240|20}}|{{py:sum({{pp.widthLeft}},55)}}}}",
@@ -58,7 +14,7 @@
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
       "format": "{{py:xvm.totalDamage=0?{{l10n:Hits}}: <font size='13'>#0</font>|{{l10n:Hits}}: <font size='13'>#{{py:xvm.numberHitsDealt}}</font> {{l10n:Total}}: <font size='17' color='{{py:xvm.totalDamageColor}}'><b>{{py:xvm.totalDamage}}</b></font> {{l10n:Last}}: <font color='{{py:xvm.dmgKindColor}}'><b>{{py:xvm.dmg}}</b></font>}}"
     },
-    "hitLogBody": {
+  "hitLogBody": {
       "enabled": true,
       "hotKeyCode": 56, "onHold": "true", "visibleOnHotKey": false,
       "updateEvent": "PY(ON_HIT_LOG), ON_PANEL_MODE_CHANGED",
@@ -79,9 +35,9 @@
   
       
     
-//damage log default
+//damage log
     
-    "damageLog": {
+  "damageLog": {
       "enabled": true,
       "updateEvent": "PY(ON_HIT)",
       "x": "{{py:xvm.damageLog.log.x}}",
@@ -114,11 +70,16 @@
         "mouseWheel": "damageLog_mouseWheel"
       }
     },
-    "damageLogBackground": {
+    
+    
+  "damageLogBackground": {
       "enabled": false,
 "$ref": { "path":"def.damageLog" },
       "format": "{{py:xvm.damageLog.log.bg}}"
     },
+    
+    
+    
     "lastHit": {
       "enabled": true,
       "updateEvent": "PY(ON_LAST_HIT)",

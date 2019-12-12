@@ -36,8 +36,8 @@
     "darkenNotReadyIcon": true,
     "formatLeftNick": "<font alpha='#A0'>{{clan}}</font> {{name%.20s~..}}",
     "formatRightNick": "{{name%.20s~..}} <font alpha='#A0'>{{clan}}</font>",
-    "formatLeftVehicle": "{{vehicle}}<font face='Lucida Console' size='12'> <font color='{{c:kb}}'>{{kb%2d~k}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:winrate}}'>{{rating%2d~%}}</font></font>",
-    "formatRightVehicle": "<font face='Lucida Console' size='12'><font color='{{c:winrate}}'>{{rating%2d~%}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:kb}}'>{{kb%2d~k}}</font> </font>{{vehicle}}",
+    "formatLeftVehicle": "{{vehicle}}<font face='Lucida Console' size='12'> <font color='{{c:kb}}'>{{kb%2d~k}}</font> <font color='{{c:r|{{.colors.anonymousColor}}}}'>{{r}}</font> <font color='{{c:winrate}}'>{{rating%2d~%}}</font></font>",
+    "formatRightVehicle": "<font face='Lucida Console' size='12'><font color='{{c:winrate}}'>{{rating%2d~%}}</font> <font color='{{c:r|{{.colors.anonymousColor}}}}'>{{r}}</font> <font color='{{c:kb}}'>{{kb%2d~k}}</font> </font>{{vehicle}}",
     "extraFieldsLeft": [
       ${"templates.clanIcon"}
     ],
