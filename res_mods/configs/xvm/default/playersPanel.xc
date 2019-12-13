@@ -1,6 +1,7 @@
 {
   "def": {
-  
+   
+/////////////////////farbige hpbar innerhalb des playerspanel 
     "hpRatio": {
       "x": 0,
       "y": 1,
@@ -10,8 +11,7 @@
      // "bgColor": "{{player?0xFFDD33|{{c:system}}}}"
      "bgColor": "{{player?0x00ff99|{{c:system}}}}"
     },
-  
-  
+
     "playersHPbar": {
       "x": 0,
       "y": 11,
@@ -31,8 +31,9 @@
       "alpha": "{{alive?50|20}}",
       "borderColor": "0xFFFFFF"
     },
-  
     
+    
+///////////////////// spieler nutzt xvm  
     "xvmUserMarker": {
       "enabled": true,
       "x": -10,
@@ -47,8 +48,11 @@
       "bindToIcon": true,
       "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
     },  
-      
-    
+
+
+
+
+///////////////////// flaggen icon (wenn in xvm settings eingestellt, ansonst keine anzeige)    
     "FlagIcon": {
       "enabled": true,
       "bindToIcon": true,
@@ -66,10 +70,13 @@
       "align": "center",
       "src": "xvm://res/icons/flags/{{flag}}.png",
       "alpha": 90
-    },
+    }, 
 
-  
-  
+
+
+
+/////////////////////freund-markierung und idtiotenkennzeichnung
+ // grünes icon = freund / rot = geblockt 
     "friendIcon": {
       "enabled": true,
       "bindToIcon": true,
@@ -113,10 +120,12 @@
       "align": "center",
       "alpha": 100,
       "src": "cfg://default/icons/{{ignored?ignored}}.png"
-    },  
-  
-      
-    
+    }, 
+
+
+
+
+///////////////////// gegner gesichtet und sichtbar    
     "enemySpottedMarker": {
       "enabled": true,
       "alpha": "{{a:spotted}}",
@@ -126,9 +135,12 @@
       "bindToIcon": true,
       "format": "{{spotted}}",
       "shadow": {}
-    },
-    
-    
+    }, 
+
+
+
+
+///////////////////// glühlampe ein/aus  -> teammitglied gespottet ja/nein
     "xmqpServiceMarker": {
       "enabled": true,
       "x": 120,
@@ -141,19 +153,28 @@
       },
       "format": "<font color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}}}</font>",
       "shadow": {}
-    },
-    
-    
-  // Anonymous Icon.
+    }, 
+
+
+
+
+///////////////////// Anonymous Icon.
     "anon": {
       "enabled": true,
-      "x": 128, "y": 5, "width": 20, "height": 20, "align": "center", "alpha": 100, "bindToIcon": true,
+      "x": 128, 
+      "y": 5, 
+      "width": 20, 
+      "height": 20, 
+      "align": "center", 
+      "alpha": 100, 
+      "bindToIcon": true,
       "format": "{{r?| <img src='xvm://res/icons/other/anon.png'>}}"
-    },
-    
-    
-    
-    
+    }, 
+
+
+
+
+/////////////////////clan icon      
     "clanIcon": {
       "enabled": true,
       "hotKeyCode": 56,
@@ -167,10 +188,12 @@
       "alpha": 100,
       "bindToIcon": true,
       "src": "{{clanicon}}"
-    },
-    
+    }, 
 
-    
+
+
+
+///////////////////// "fliegende" hp bar bei tastendruck
     
     "hpBarBg": {
       "hotKeyCode": 56,
@@ -225,14 +248,14 @@
     }
     
     
-  },
-    
-    
+  }, 
 
 
-  
-  
-  
+
+
+////////////////////////////////////////////////////////////////////////////
+
+      
   "playersPanel": {
     "enabled": true,
     "alpha": 75,
@@ -265,10 +288,9 @@
           "formats": []
         }
       }
-    },
-    
-    
-    
+    }, 
+///////////////////
+
     "short": {
       "enabled": true,
       "standardFields": [
@@ -335,10 +357,9 @@
         ${"def.xvmUserMarkerRIGHT"},
         ${"def.enemySpottedMarker"}
       ]
-    },
-    
-    
-    
+    }, 
+///////////////////
+
     "medium": {
       "enabled": true,
       "standardFields": [
@@ -407,10 +428,9 @@
         ${"def.xvmUserMarkerRIGHT"},
         ${"def.enemySpottedMarker"}
       ]
-    },
-    
-    
-    
+    }, 
+///////////////////
+
     "medium2": {
       "enabled": true,
       "standardFields": [
@@ -478,10 +498,9 @@
         ${"def.xvmUserMarkerRIGHT"},
         ${"def.enemySpottedMarker"}
       ]
-    },
-    
-    
-    
+    }, 
+///////////////////
+
     "large": {
       "enabled": true,
       "standardFields": [
