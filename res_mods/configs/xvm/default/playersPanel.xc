@@ -66,8 +66,8 @@
       "align": "center",
       "src": "xvm://res/icons/flags/{{flag}}.png",
       "alpha": 90
-    }
-  },
+    },
+
   
   
     "friendIcon": {
@@ -115,19 +115,7 @@
       "src": "cfg://default/icons/{{ignored?ignored}}.png"
     },  
   
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-    
+      
     
     "enemySpottedMarker": {
       "enabled": true,
@@ -234,10 +222,10 @@
         "distance": 0,
         "angle": 45
       }
-    },
+    }
     
     
-
+  },
     
     
 

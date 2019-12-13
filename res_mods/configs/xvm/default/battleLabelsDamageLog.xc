@@ -40,7 +40,7 @@
     
   "damageLogBackground": {
       "enabled": false,
-"$ref": { "path":"def.damageLog" },
+"$ref": { "path":"damageLog" },
       "format": "{{py:xvm.damageLog.log.bg}}"
     },
     
