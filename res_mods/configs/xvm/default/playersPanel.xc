@@ -1,14 +1,6 @@
 {
   "def": {
   
-  // Anonymous Icon.
-    "anon": {
-      "enabled": true,
-      "x": 128, "y": 5, "width": 16, "height": 16, "align": "center", "alpha": 100, "bindToIcon": true,
-      "format": "{{r?| <img src='xvm://res/icons/other/anon.png'>}}"
-    },
-  
-  
     "hpRatio": {
       "x": 0,
       "y": 1,
@@ -18,6 +10,123 @@
      // "bgColor": "{{player?0xFFDD33|{{c:system}}}}"
      "bgColor": "{{player?0x00ff99|{{c:system}}}}"
     },
+  
+  
+    "playersHPbar": {
+      "x": 0,
+      "y": 11,
+      "valign": "center",
+      "height": 21,
+      "width": "{{hp-ratio:125}}",
+      "bgColor": "{{player?{{.colors.damage.player_enemy_hit}}|{{c:vtype}}}}",
+      "alpha": "{{alive?50|0}}"
+    },
+    "backgroundPHPB": {
+      "x": 0,
+      "y": 11,
+      "valign": "center",
+      "height": 21,
+      "width": 125,
+      "bgColor": "0x333333",
+      "alpha": "{{alive?50|20}}",
+      "borderColor": "0xFFFFFF"
+    },
+  
+    
+    "xvmUserMarker": {
+      "enabled": true,
+      "x": -10,
+      "y": 5,
+      "bindToIcon": true,
+      "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
+    },
+    "xvmUserMarkerRIGHT": {
+      "enabled": true,
+      "x": -10,
+      "y": 5,
+      "bindToIcon": true,
+      "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
+    },  
+      
+    
+    "FlagIcon": {
+      "enabled": true,
+      "bindToIcon": true,
+      "x": 90,
+      "y": 4,
+      "align": "center",
+      "src": "xvm://res/icons/flags/{{flag}}.png",
+      "alpha": 90
+    },
+    "FlagIconRIGHT": {
+      "enabled": true,
+      "bindToIcon": true,
+      "x": 88,
+      "y": 4,
+      "align": "center",
+      "src": "xvm://res/icons/flags/{{flag}}.png",
+      "alpha": 90
+    }
+  },
+  
+  
+    "friendIcon": {
+      "enabled": true,
+      "bindToIcon": true,
+      "x": 120,
+      "y": 5,
+      "width": 10,
+      "height": 10,
+      "align": "center",
+      "alpha": 100,
+      "src": "cfg://default/icons/{{friend?friend}}.png"
+    },
+    "ignoredIcon": {
+      "enabled": true,
+      "bindToIcon": true,
+      "x": 120,
+      "y": 5,
+      "width": 10,
+      "height": 10,
+      "align": "center",
+      "alpha": 100,
+      "src": "cfg://default/icons/{{ignored?ignored}}.png"
+    },
+    "friendIconRIGHT": {
+      "enabled": true,
+      "bindToIcon": true,
+      "x": 120,
+      "y": 5,
+      "width": 10,
+      "height": 10,
+      "align": "center",
+      "alpha": 100,
+      "src": "cfg://default/icons/{{friend?friend}}.png"
+    },
+    "ignoredIconRIGHT": {
+      "enabled": true,
+      "bindToIcon": true,
+      "x": 100,
+      "y": 5,
+      "width": 10,
+      "height": 10,
+      "align": "center",
+      "alpha": 100,
+      "src": "cfg://default/icons/{{ignored?ignored}}.png"
+    },  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
     
     
     "enemySpottedMarker": {
@@ -47,6 +156,16 @@
     },
     
     
+  // Anonymous Icon.
+    "anon": {
+      "enabled": true,
+      "x": 128, "y": 5, "width": 20, "height": 20, "align": "center", "alpha": 100, "bindToIcon": true,
+      "format": "{{r?| <img src='xvm://res/icons/other/anon.png'>}}"
+    },
+    
+    
+    
+    
     "clanIcon": {
       "enabled": true,
       "hotKeyCode": 56,
@@ -62,21 +181,7 @@
       "src": "{{clanicon}}"
     },
     
-    
-    "xvmUserMarker": {
-      "enabled": true,
-      "x": -10,
-      "y": 5,
-      "bindToIcon": true,
-      "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
-    },
-    "xvmUserMarkerRIGHT": {
-      "enabled": true,
-      "x": -10,
-      "y": 5,
-      "bindToIcon": true,
-      "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
-    },
+
     
     
     "hpBarBg": {
@@ -132,98 +237,17 @@
     },
     
     
-    "playersHPbar": {
-      "x": 0,
-      "y": 11,
-      "valign": "center",
-      "height": 21,
-      "width": "{{hp-ratio:125}}",
-      "bgColor": "{{player?{{.colors.damage.player_enemy_hit}}|{{c:vtype}}}}",
-      "alpha": "{{alive?50|0}}"
-    },
-    "backgroundPHPB": {
-      "x": 0,
-      "y": 11,
-      "valign": "center",
-      "height": 21,
-      "width": 125,
-      "bgColor": "0x333333",
-      "alpha": "{{alive?50|20}}",
-      "borderColor": "0xFFFFFF"
-    },
+
     
     
-    "friendIcon": {
-      "enabled": true,
-      "bindToIcon": true,
-      "x": 120,
-      "y": 5,
-      "width": 10,
-      "height": 10,
-      "align": "center",
-      "alpha": 100,
-      "src": "cfg://default/icons/{{friend?friend}}.png"
-    },
-    "ignoredIcon": {
-      "enabled": true,
-      "bindToIcon": true,
-      "x": 120,
-      "y": 5,
-      "width": 10,
-      "height": 10,
-      "align": "center",
-      "alpha": 100,
-      "src": "cfg://default/icons/{{ignored?ignored}}.png"
-    },
-    "friendIconRIGHT": {
-      "enabled": true,
-      "bindToIcon": true,
-      "x": 120,
-      "y": 5,
-      "width": 10,
-      "height": 10,
-      "align": "center",
-      "alpha": 100,
-      "src": "cfg://default/icons/{{friend?friend}}.png"
-    },
-    "ignoredIconRIGHT": {
-      "enabled": true,
-      "bindToIcon": true,
-      "x": 100,
-      "y": 5,
-      "width": 10,
-      "height": 10,
-      "align": "center",
-      "alpha": 100,
-      "src": "cfg://default/icons/{{ignored?ignored}}.png"
-    },
-    
-    
-    "FlagIcon": {
-      "enabled": true,
-      "bindToIcon": true,
-      "x": 90,
-      "y": 4,
-      "align": "center",
-      "src": "xvm://res/icons/flags/{{flag}}.png",
-      "alpha": 90
-    },
-    "FlagIconRIGHT": {
-      "enabled": true,
-      "bindToIcon": true,
-      "x": 88,
-      "y": 4,
-      "align": "center",
-      "src": "xvm://res/icons/flags/{{flag}}.png",
-      "alpha": 90
-    }
-  },
+
+
   
   
   
   "playersPanel": {
     "enabled": true,
-    "alpha": 60,
+    "alpha": 75,
     "iconAlpha": 100,
     "removeSelectedBackground": false,
     "removePanelsModeSwitcher": false,

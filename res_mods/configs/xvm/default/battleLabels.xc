@@ -2,31 +2,22 @@
   "labels": {
     "formats": [
     
-    //default modules
-    
-      ${"battleLabelsTemplates.xc":"def.hitLogHeader"},
-      ${"battleLabelsTemplates.xc":"def.hitLogBody"},
+      ${"battleLabelsHitLog.xc":"hitLogHeader"},
+      ${"battleLabelsHitLog.xc":"hitLogBody"},
       
-      ${"battleLabelsTemplates.xc":"def.damageLogBackground"},
-      ${"battleLabelsTemplates.xc":"def.damageLog"},      
-      ${"battleLabelsTemplates.xc":"def.lastHit"},
-      ${"battleLabelsTemplates.xc":"def.fire"},
+      ${"battleLabelsDamageLog.xc":"damageLogBackground"},
+      ${"battleLabelsDamageLog.xc":"damageLog"},      
+      ${"battleLabelsDamageLog.xc":"lastHit"},
+      ${"battleLabelsDamageLog.xc":"fire"},
       
-      ${"battleLabelsTemplates.xc":"def.totalEfficiency"},
+      ${"battleLabelsTotalEfficiency.xc":"totalEfficiency"},
             
-      ${"battleLabelsTemplates.xc":"def.repairTimeEngine"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeGun"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeTurret"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeComplex"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeSurveying"},
-      ${"battleLabelsTemplates.xc":"def.repairTimeRadio"},
-    
-    
-    //
-    //  additional modules
-    //
-    //
-    
+      ${"battleLabelsRepairTimer.xc":"repairTimeEngine"},
+      ${"battleLabelsRepairTimer.xc":"repairTimeGun"},
+      ${"battleLabelsRepairTimer.xc":"repairTimeTurret"},
+      ${"battleLabelsRepairTimer.xc":"repairTimeComplex"},
+      ${"battleLabelsRepairTimer.xc":"repairTimeSurveying"},
+      ${"battleLabelsRepairTimer.xc":"repairTimeRadio"},
     
       ${"battleLabelsAssistLog.xc":"assistLog_Background"},
       ${"battleLabelsAssistLog.xc":"assistLog"},
@@ -92,28 +83,22 @@
       ${ "battleLabelsRepairControl.xc":"repairCtrlSurveying" },
       ${ "battleLabelsRepairControl.xc":"repairCtrlRadio" },
       ${ "battleLabelsRepairControl.xc":"repairCtrlFuelTank" },
-
       ${ "battleLabelsRepairControl.xc":"healCtrlCommander" },
       ${ "battleLabelsRepairControl.xc":"healCtrlRadioman" },
       ${ "battleLabelsRepairControl.xc":"healCtrlDriver" },
       ${ "battleLabelsRepairControl.xc":"healCtrlGunner" },
       ${ "battleLabelsRepairControl.xc":"healCtrlLoader" },
       
-      
-      //gunsights
       ${ "battleLabelSight.xc":"def.cameraMode"},	
       ${ "battleLabelSight.xc":"def.cameraMode_sn"},
-
       ${ "battleLabelSight.xc":"def.name"},	
       ${ "battleLabelSight.xc":"def.infoTank"},
       ${ "battleLabelSight.xc":"def.infoTTX"},
       ${ "battleLabelSight.xc":"def.visionTTX"},
-
       ${ "battleLabelSight.xc":"def.element"},
       ${ "battleLabelSight.xc":"def.shells"},
       ${ "battleLabelSight.xc":"def.shells_speed"},
       ${ "battleLabelSight.xc":"def.shells_types"},
-
       ${ "battleLabelSight.xc":"def.reloadBar_line"},
       ${ "battleLabelSight.xc":"def.reload_percent"},
       ${ "battleLabelSight.xc":"def.distances"},
@@ -125,25 +110,14 @@
       ${ "battleLabelSight.xc":"def.timeFlight_arty"},
       ${ "battleLabelSight.xc":"def.distances_arty"},
       ${ "battleLabelSight.xc":"def.piercingActual_arty"},
-
       ${"battleLabelSight.xc":"def.angleAimingLeft"},
       ${"battleLabelSight.xc":"def.angleAimingRight"},
       ${"battleLabelSight.xc":"def.angleAimingTop"},
       ${"battleLabelSight.xc":"def.angleAimingBottom"},
 
-
-      //battle timers
       ${"battleLabelsBattleTimer.xc":"def.battleTimer"},
       ${"battleLabelsBattleTimer.xc":"def.prebattleTimer"}
-
-
-
-
-
-
-
-
-           
+ 
     ]
   }
 }
