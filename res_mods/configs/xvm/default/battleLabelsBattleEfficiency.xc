@@ -8,8 +8,8 @@
 "battleEfficiency": {
     "enabled": true,
     "updateEvent": "PY(ON_BATTLE_EFFICIENCY)",
-    "x": 420,
-    "y": 3,
+    "x": 290,
+    "y": 0,
     "width": 215,
     "height": 25,
     "align": "center",
