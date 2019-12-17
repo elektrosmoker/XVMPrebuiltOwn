@@ -181,7 +181,9 @@
         "enabled": true,
         "x": 129,
         "y": 11,
-        "format": "<img src='img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png' width='23' height='23'>"
+        "width": 23,
+        "height": 23,        
+        "src": "{{v.mastery!=0?img://gui/maps/icons/library/proficiency/class_icons_{{v.mastery}}.png}}"
       },
       {
         "enabled": true,
