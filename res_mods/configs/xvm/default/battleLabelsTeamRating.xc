@@ -7,12 +7,13 @@
 
 
     "teamRating": {
-//      "enabled": true,
-      "enabled": false,
+      "enabled": true,
+//      "enabled": false,
       "updateEvent": "PY(ON_UPDATE_TEAM_RATING)",
-      "x": -600,
+      "x": 505,
       "y": 4,
-      "screenHAlign": "center",
+    "screenHAlign": "left",
+    "screenVAlign": "top",
       "shadow": {
         "color": "0x000000",
         "distance": 1,

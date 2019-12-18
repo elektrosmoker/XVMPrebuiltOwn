@@ -38,8 +38,7 @@
       
       ${"battleLabelsHighCaliber.xc":"high_caliber"},
       
-      //WN8 Rating //DISABLED WoT 1.7.0
-      //${"battleLabelsTeamRating.xc":"teamRating"},
+      ${"battleLabelsTeamRating.xc":"teamRating"},
       
       ${"battleLabelsAimInfo.xc":"aimInfo"},
       
