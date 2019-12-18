@@ -126,7 +126,7 @@
       "format": "<font color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}}}</font>",
       "shadow": {}
     },
-    "anon": {
+    "snowflake": {
       "enabled": true,
       "x": 128,
       "y": 5,
@@ -135,7 +135,7 @@
       "align": "center",
       "alpha": 100,
       "bindToIcon": true,
-      "format": "{{r?| <img src='xvm://res/icons/other/anon.png'>}}"
+      "format": "{{r?| <img src='xvm://res/icons/snowflake/snowflake.png'>}}"
     },
     "clanIcon": {
       "enabled": true,
@@ -277,7 +277,7 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
-        ${"def.anon"},
+        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -290,7 +290,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
-        ${"def.anon"},
+        ${"def.snowflake"},
         ${"def.FlagIconRIGHT"},
         ${"def.ignoredIconRIGHT"},
         ${"def.friendIconRIGHT"},
@@ -346,7 +346,7 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
-        ${"def.anon"},
+        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -359,7 +359,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
-        ${"def.anon"},
+        ${"def.snowflake"},
         ${"def.FlagIconRIGHT"},
         ${"def.ignoredIconRIGHT"},
         ${"def.friendIconRIGHT"},
@@ -414,7 +414,7 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
-        ${"def.anon"},
+        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -427,7 +427,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
-        ${"def.anon"},
+        ${"def.snowflake"},
         ${"def.FlagIconRIGHT"},
         ${"def.ignoredIconRIGHT"},
         ${"def.friendIconRIGHT"},
@@ -482,7 +482,7 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
-        ${"def.anon"},
+        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -497,7 +497,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
-        ${"def.anon"},
+        ${"def.snowflake"},
         ${"def.FlagIconRIGHT"},
         ${"def.ignoredIconRIGHT"},
         ${"def.friendIconRIGHT"},
