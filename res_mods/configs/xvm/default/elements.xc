@@ -2,15 +2,18 @@
   "elements": [
     {
     // - - -    
-    // TEST START
-        // - - -
+    // "..isn't a primitive type: void"
+    
     "epicScorePanelUI": { 
            "visible": false, 
            "$delay": 100, 
            "alpha": 0 
            },
-    // - - -      
-    // TEST END  
+    "epicRandomScorePanel": { 
+          "visible": false, 
+          "$delay": 100, 
+          "alpha": 0 
+          },
     // - - -  
   
     "siegeModePanel": {
@@ -19,7 +22,7 @@
             },
     
     "consumablesPanel": { 
-            "$delay": 8000, 
+            "$delay": 800, 
             "y": "{{py:math.sub({{py:xvm.screenHeight}}, 80)}}" 
             },
     
@@ -27,18 +30,13 @@
             "$delay": 100, 
             "alpha": 0 
             },
-    
+
     "fragCorrelationBar": { 
            "visible": false, 
            "$delay": 100, 
            "alpha": 0 
            },
-    
-    "epicRandomScorePanel": { 
-          "visible": false, 
-          "$delay": 100, 
-          "alpha": 0 
-          },
+              
    "battleTimer": { "$delay": 100, "alpha": 0 },
     
     "prebattleTimer": {      

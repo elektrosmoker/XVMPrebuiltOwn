@@ -28,7 +28,13 @@
         "align": "center",
         "size": 15
       },
-      "format": "Team WN8\n<font color='{{py:c_alliesAliveRatingRatio}}'>{{py:alliesAliveRating}} {{py:alliesAliveRatingRatio>0?&gt;|&lt;}} {{py:enemiesAliveRating}}</font>\n{{py:alliesAliveRatingRatio=0?<img src='xvm://res/icons/Chance/{{py:alliesAliveRating>0?win|defeat}}.png' width='40' height='29'>|<img src='xvm://res/icons/Chance/stat_sys_battery_{{py:alliesAliveRatingRatio}}.png' width='40' height='29'>}}"
+      
+      
+      // defekt: {{py:c_alliesAliveRatingRatio}}
+//      "format": "Team WN8\n<font color='{{py:c_alliesAliveRatingRatio}}'>{{py:alliesAliveRating}} {{py:alliesAliveRatingRatio>0?&gt;|&lt;}} {{py:enemiesAliveRating}}</font>\n{{py:alliesAliveRatingRatio=0?<img src='xvm://res/icons/Chance/{{py:alliesAliveRating>0?win|defeat}}.png' width='40' height='29'>|<img src='xvm://res/icons/Chance/stat_sys_battery_{{py:alliesAliveRatingRatio}}.png' width='40' height='29'>}}"
+
+
+      "format": "Team WN8\n{{py:alliesAliveRating}} {{py:alliesAliveRatingRatio>0?&gt;|&lt;}} {{py:enemiesAliveRating}}\n{{py:alliesAliveRatingRatio=0?<img src='xvm://res/icons/Chance/{{py:alliesAliveRating>0?win|defeat}}.png' width='40' height='29'>|<img src='xvm://res/icons/Chance/stat_sys_battery_{{py:alliesAliveRatingRatio}}.png' width='40' height='29'>}}"
     }
   
   

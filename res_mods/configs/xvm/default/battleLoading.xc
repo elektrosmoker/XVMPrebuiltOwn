@@ -34,8 +34,8 @@
     "vehicleIconOffsetXLeft": 0,
     "vehicleIconOffsetXRight": 0,
     "darkenNotReadyIcon": true,
-    "formatLeftNick": "<font alpha='#A0'>{{clan}}</font> <font color='{{c:r|{{.colors.anonymousColor}}}}'>{{name%.20s~..}}{{my-anonym? <img src='cfg://default/icons/anonim.png' vspace='-3'>}}</font>",
-    "formatRightNick": "<font color='{{c:r|{{.colors.anonymousColor}}}}'>{{name%.20s~..}}{{my-anonym? <img src='cfg://default/icons/anonim.png' vspace='-3'>}}</font> <font alpha='#A0'>{{clan}}</font>",
+    "formatLeftNick": "<font alpha='#A0'>{{clan}}</font> <font color='{{c:r|{{.colors.anonymousColor}}}}'>{{name%.20s~..}}</font>",
+    "formatRightNick": "<font color='{{c:r|{{.colors.anonymousColor}}}}'>{{name%.20s~..}}</font> <font alpha='#A0'>{{clan}}</font>",
     "formatLeftVehicle": "{{vehicle}}<font face='Lucida Console' size='12'> <font color='{{c:kb}}'>{{kb%2d~k}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:winrate}}'>{{rating%2d~%}}</font></font>",
     "formatRightVehicle": "<font face='Lucida Console' size='12'><font color='{{c:winrate}}'>{{rating%2d~%}}</font> <font color='{{c:r}}'>{{r}}</font> <font color='{{c:kb}}'>{{kb%2d~k}}</font> </font>{{vehicle}}",
     "extraFieldsLeft": [
