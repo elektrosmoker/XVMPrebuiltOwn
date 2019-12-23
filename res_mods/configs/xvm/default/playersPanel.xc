@@ -114,8 +114,10 @@
 ///////////////////////////////////////////
 ///////////////////////////////////////////  
 ////////////////// Anonymous Icon.
+
+//snowflake  - link in extrafields erstellen; falls genutzt
     "snowflake": {
-      "enabled": true,
+      "enabled": false,
       "x": 120,
       "y": 0,
       //"width": 20,
@@ -125,6 +127,21 @@
       "bindToIcon": true,
       "format": "{{r?| <img src='xvm://res/icons/snowflake/snowflake.png'>}}"
     },
+    
+// Anonym Icon by SicFunzler & budyx.
+    "IsAnonym": {
+      "enabled": true,
+      "x": -8, 
+      "y": 7, 
+      //"width": 13, 
+      //"height": 16, 
+      "align": "center",
+      "position": "top",
+      "alpha": "{{py:IsAnonym('{{name}}')}}", 
+      "bindToIcon": true,
+      "src": "cfg://default/icons/anonym.png"
+    },
+    
 ///////////////////////////////////////////  
 ///////////////////////////////////////////    
 ///////////////////clan icon    
@@ -287,6 +304,7 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
+        ${"def.IsAnonym"},
         ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
@@ -300,6 +318,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
+        ${"def.IsAnonym"},
         ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
@@ -358,6 +377,7 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
+        ${"def.IsAnonym"},
         ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
@@ -371,6 +391,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
+        ${"def.IsAnonym"},
         ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
@@ -428,6 +449,7 @@
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
+        ${"def.IsAnonym"},
         ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
@@ -441,6 +463,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
+        ${"def.IsAnonym"},
         ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
@@ -492,12 +515,13 @@
       "vehicleOffsetXLeft": 0,
       "vehicleOffsetXRight": 0,
       "vehicleWidth": 72,
-      "vehicleFormatLeft": "<font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>{{my-anonym? <img src='cfg://default/icons/anonim.png' vspace='-3'>}}",
-      "vehicleFormatRight": "<font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>{{my-anonym? <img src='cfg://default/icons/anonim.png' vspace='-3'>}}",
+      "vehicleFormatLeft": "<font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
+      "vehicleFormatRight": "<font color='{{c:r|{{.colors.anonymousColor}}}}' alpha='{{alive?#FF|#80}}'>{{vehicle}}</font>",
       "vehicleShadowLeft": null,
       "vehicleShadowRight": null,
       "fixedPosition": false,
       "extraFieldsLeft": [
+        ${"def.IsAnonym"},
         ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
@@ -513,6 +537,7 @@
         ${"def.xmqpServiceMarker"}
       ],
       "extraFieldsRight": [
+        ${"def.IsAnonym"},
         ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
