@@ -142,6 +142,7 @@
       "src": "cfg://default/icons/anonym.png"
     },
     
+    
 ///////////////////////////////////////////  
 ///////////////////////////////////////////    
 ///////////////////clan icon    
@@ -305,7 +306,6 @@
       "fixedPosition": false,
       "extraFieldsLeft": [
         ${"def.IsAnonym"},
-        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -319,7 +319,6 @@
       ],
       "extraFieldsRight": [
         ${"def.IsAnonym"},
-        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -338,7 +337,6 @@
       "enabled": true,
       "standardFields": [
         "frags",
-        "badge",
         "nick"
       ],
       "expandAreaWidth": 230,
@@ -378,7 +376,6 @@
       "fixedPosition": false,
       "extraFieldsLeft": [
         ${"def.IsAnonym"},
-        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -392,7 +389,6 @@
       ],
       "extraFieldsRight": [
         ${"def.IsAnonym"},
-        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -450,7 +446,6 @@
       "fixedPosition": false,
       "extraFieldsLeft": [
         ${"def.IsAnonym"},
-        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -464,7 +459,6 @@
       ],
       "extraFieldsRight": [
         ${"def.IsAnonym"},
-        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -522,7 +516,6 @@
       "fixedPosition": false,
       "extraFieldsLeft": [
         ${"def.IsAnonym"},
-        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
@@ -538,7 +531,6 @@
       ],
       "extraFieldsRight": [
         ${"def.IsAnonym"},
-        ${"def.snowflake"},
         ${"def.FlagIcon"},
         ${"def.ignoredIcon"},
         ${"def.friendIcon"},
