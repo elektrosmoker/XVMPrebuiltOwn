@@ -30,6 +30,7 @@ DISABLED          Dependency_XVM_PY_mod_wn8_chance
                   Dependency_XVM_PY_infoChargedShell
                   Dependency_XVM_PY_targetInfo
                   Dependency_XVM_PY_anglesAiming
+                  Dependency_XVM_PY_IsAnonym
  
 
 XC:
