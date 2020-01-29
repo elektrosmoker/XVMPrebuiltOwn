@@ -12,5 +12,6 @@
              "offsetX": 25,
              "offsetY": 60,
              "backgroundAlpha": 70
+             }
   }
 }
