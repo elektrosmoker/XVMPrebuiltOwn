@@ -4,7 +4,8 @@ PY:
                   Dependency_XVM_PY_chancePenetration
                   Dependency_XVM_PY_beginBattle
                   Dependency_XVM_PY_displayingItems
-                  Dependency_XVM_PY_sight
+                  Dependency_XVM_PY_aiming
+                  Dependency_XVM_PY_markerPosition
                   Dependency_XVM_PY_sphere
                   Dependency_XVM_PY_repairControl
 DISABLED          Dependency_XVM_PY_mod_wn8_chance
