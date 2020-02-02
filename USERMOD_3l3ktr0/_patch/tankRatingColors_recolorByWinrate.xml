@@ -1,0 +1,14 @@
+//IngameInfo_TankRatingColors_recolorByWinrate
+<patchs>
+  //paint by winrate
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.recolorByRating</path>
+    <search>
+    </search>
+    <replace>1</replace>
+  </patch>
+</patchs>

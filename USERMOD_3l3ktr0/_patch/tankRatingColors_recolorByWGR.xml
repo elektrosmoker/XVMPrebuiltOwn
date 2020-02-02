@@ -1,0 +1,14 @@
+//IngameInfo_TankRatingColors_ recolorByWGR
+<patchs> 
+     //paint by WGR
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.recolorByRating</path>
+    <search>
+    </search>
+    <replace>0</replace>
+  </patch>
+</patchs> 

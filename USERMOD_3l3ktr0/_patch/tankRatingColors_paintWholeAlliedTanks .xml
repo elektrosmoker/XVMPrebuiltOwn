@@ -1,0 +1,48 @@
+//IngameInfo_TankRatingColors_paintWholeAlliedTanks    
+<patchs>
+    // paint whole allied tanks
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_ally_chassis</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+    
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_ally_gun</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+    
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_ally_hull</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+    
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_ally_turret</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+</patchs>     
+     

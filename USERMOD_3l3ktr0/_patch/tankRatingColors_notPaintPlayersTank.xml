@@ -1,0 +1,47 @@
+//IngameInfo_TankRatingColors_notPaintPlayersTank     
+<patchs>     
+     //dont paint player´s tank
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_player_chassis</path>
+    <search>
+    </search>
+    <replace>false</replace>
+  </patch>
+     
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_player_gun</path>
+    <search>
+    </search>
+    <replace>false</replace>
+  </patch>
+     
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_player_hull</path>
+    <search>
+    </search>
+    <replace>false</replace>
+  </patch>
+     
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_player_turret</path>
+    <search>
+    </search>
+    <replace>false</replace>
+  </patch>
+</patchs>     
