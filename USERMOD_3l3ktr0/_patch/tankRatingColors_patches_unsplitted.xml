@@ -1,0 +1,235 @@
+
+//IngameInfo_TankRatingColors
+<patchs>
+  //enable
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.enabled</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+</patchs>
+ 
+ 
+ 
+//IngameInfo_TankRatingColors_ignorePresentPaints 
+<patchs>
+  //ignore present paints
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.ignorePresentPaints</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+</patchs>
+  
+  
+  
+//IngameInfo_TankRatingColors_removeCamouflages  
+   <patchs>
+  //remove camouflages
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.removeCamouflages</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+    </patchs>
+  
+  
+   
+//IngameInfo_TankRatingColors_paintWholeAlliedTanks    
+<patchs>
+    // paint whole allied tanks
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_ally_chassis</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+    
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_ally_gun</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+    
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_ally_hull</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+    
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_ally_turret</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+</patchs>     
+     
+     
+
+//IngameInfo_TankRatingColors_paintWholeEnemyTanks 
+<patchs> 
+     //paint whole enemy tanks
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_enemy_chassis</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+     
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_enemy_gun</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+     
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_enemy_hull</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+     
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_enemy_turret</path>
+    <search>
+    </search>
+    <replace>true</replace>
+  </patch>
+ </patchs>    
+     
+     
+
+
+//IngameInfo_TankRatingColors_notPaintPlayersTank     
+<patchs>     
+     //dont paint player´s tank
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_player_chassis</path>
+    <search>
+    </search>
+    <replace>false</replace>
+  </patch>
+     
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_player_gun</path>
+    <search>
+    </search>
+    <replace>false</replace>
+  </patch>
+     
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_player_hull</path>
+    <search>
+    </search>
+    <replace>false</replace>
+  </patch>
+     
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.paint_player_turret</path>
+    <search>
+    </search>
+    <replace>false</replace>
+  </patch>
+</patchs>     
+     
+     
+
+
+<!-- //IngameInfo_TankRatingColors_ recolorByWGR
+<patchs> 
+     //paint by WGR
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.recolorByRating</path>
+    <search>
+    </search>
+    <replace>0</replace>
+  </patch>
+</patchs>  --> 
+
+
+
+//IngameInfo_TankRatingColors_recolorByWinrate
+<patchs>
+  //paint by winrate
+  <patch>
+    <type>json</type>
+    <mode>edit</mode>
+    <patchPath>app</patchPath>
+    <file>\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json</file>
+    <path>$.recolorByRating</path>
+    <search>
+    </search>
+    <replace>1</replace>
+  </patch>
+</patchs>
