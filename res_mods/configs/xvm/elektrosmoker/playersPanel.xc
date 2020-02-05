@@ -97,7 +97,7 @@
       //"height": 10,
       "align": "center",
       "alpha": 100,
-      "src": "cfg://default/icons/{{friend?friend}}.png"
+      "src": "xvm://res/icons/{{friend?friend}}.png"
     },
   // geblockt
     "ignoredIcon": {
@@ -109,7 +109,7 @@
       //"height": 10,
       "align": "center",
       "alpha": 100,
-      "src": "cfg://default/icons/{{ignored?ignored}}.png"
+      "src": "xvm://res/icons/{{ignored?ignored}}.png"
     },
 ///////////////////////////////////////////
 ///////////////////////////////////////////  
@@ -139,7 +139,7 @@
       "position": "top",
       "alpha": "{{py:IsAnonym('{{name}}')}}", 
       "bindToIcon": true,
-      "src": "cfg://default/icons/anonym.png"
+      "src": "xvm://res/icons/anonym.png"
     },
     
     

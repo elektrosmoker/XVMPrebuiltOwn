@@ -23,7 +23,7 @@
       
       "width": 288, "height": 124,
       "align": "center", "valign": "center", "alpha": "{{py:infoPanel.format?100|0}}", "screenHAlign": "center", "screenVAlign": "center",
-      "format": "<img src='cfg://default/icons/InfoPanel/InfoPanelbg.png' width='287' height='123'>"
+      "format": "<img src='xvm://res/icons/InfoPanel/InfoPanelbg.png' width='287' height='123'>"
     }
   }
 }
