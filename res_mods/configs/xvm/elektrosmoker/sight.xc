@@ -19,23 +19,23 @@
         "onHold": true }
     },
     // true - не отображать прицел после смерти
-    "hideSightAfterDeath": false,    
+    "hideSightAfterDeath": true,    
     // true - не отображать сетку прицела
     "removeIndicator": false,
     // true - не отображать центральный маркер
     "removeCentralMarker": false,
     // true - не отображать полосу перезарядки
-    "removeLoad": false,
+    "removeLoad": true,
     // true - не отображать полосу прочности 
-    "removeCondition": false,   
+    "removeCondition": true,   
     // true - не отображать кассеты 
     "removeContainers": false,
     // true - не отображать таймер перезарядки 
-    "removeLoadingTimer": false,
+    "removeLoadingTimer": true,
     // true - не отображать индикатор кратности прицела 
-    "removeZoomIndicator": false,
+    "removeZoomIndicator": true,
     // true - не отображать дистанцию до цели 
-    "removeDistance": false,
+    "removeDistance": true,
     // true - не отображать количество снарядов
     "removeQuantityShells": false,
     // опция управляет отображением спидометра (значение по умолчанию - "wheels")
