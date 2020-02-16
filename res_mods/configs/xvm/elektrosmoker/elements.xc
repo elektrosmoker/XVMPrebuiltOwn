@@ -22,7 +22,7 @@
             },
     
     "consumablesPanel": { 
-            "$delay": 800, 
+            "$delay": 8000, 
             "y": "{{py:math.sub({{py:xvm.screenHeight}}, 80)}}" 
             },
     

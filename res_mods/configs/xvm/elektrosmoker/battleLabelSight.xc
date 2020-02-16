@@ -10,7 +10,7 @@
       "height": 283,
       "screenHAlign": "center",
       "screenVAlign": "center",
-      "alpha" : "{{alive?100|0}}",
+      "alpha" : "{{my-alive?100|0}}",
       "shadow": { 
                 "distance": 1, 
                 "angle": 90, 
