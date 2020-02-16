@@ -3,42 +3,32 @@
 ///////// reticle //////////////////////////////////////
     "cameraMode": {
       "enabled": true,
-      "updateEvent": "PY(ON_AIM_MODE)",
-      "x": -2,
-      //"y": -72,
-      "y": "{{py:aim.y(10)}}",
+      "updateEvent": "PY(ON_AIM_MODE), PY(ON_MY_HP)",
+   "x": "{{py:aim.mode=arc?-3|{{py:aim.mode=sn?13}}}}",
+   "y": "{{py:aim.mode=arc?-68|{{py:aim.mode=sn?80}}}}",
       "width": 536,
       "height": 283,
       "screenHAlign": "center",
       "screenVAlign": "center",
-	  "alpha" : "{{py:aim.mode=arc?100|0}}",
-      "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
+      "alpha" : "{{alive?100|0}}",
+      "shadow": { 
+                "distance": 1, 
+                "angle": 90, 
+                "alpha": 70, 
+                "blur": 5, 
+                "strength": 3 
+                },
       "format": "<img src='cfg://icons_sight/{{py:aim.mode}}Sight1.png'>"
     },
     
- 
-    "cameraMode_sn": {
-      "enabled": true,
-      "updateEvent": "PY(ON_AIM_MODE)",
-      "x": -2,
-      //"y": 2,
-      "y": "{{py:aim.y(0)}}",
-      "width": 502,
-      "height": 124,
-      "screenHAlign": "center",
-      "screenVAlign": "center",
-	  "alpha" : "{{py:aim.mode=sn?100|0}}",
-      "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "format": "<img src='cfg://icons_sight/{{py:aim.mode}}Sight1.png'>"
-    },
     
-    //////// central sights marker /////////////////////////////////////////////////////////	
+     //////// central sights marker /////////////////////////////////////////////////////////	
     "element": {
       "enabled": true, 
       "layer": "bottom",
-      "updateEvent": "PY(ON_AIM_MODE), PY(ON_PLAYER_HEALTH)",
+      "updateEvent": "PY(ON_AIM_MODE), PY(ON_PLAYER_HEALTH), PY(ON_CALC_ARMOR)",
       // "scaleX": -1,
-      "x": "{{py:aim.mode=arc?-9|{{py:aim.mode=sn?-9}}}}",
+      "x": "{{py:aim.mode=arc?-10|{{py:aim.mode=sn?-10}}}}",
       "y": "{{py:aim.mode=arc?-58|{{py:aim.mode=sn?18}}}}",
       "rotation": -45,
        //"borderColor": "0x000000",
@@ -48,8 +38,8 @@
       "screenVAlign": "center",
 	  "alpha" : "{{py:aim.mode=arc?45|{{py:aim.mode=sn?45|{{py:aim.mode=str?0}}}}}}",
       "shadow": { "distance": 1, "angle": 90, "alpha": 70, "blur": 5, "strength": 3 },
-      "textFormat": { "align": "center", "color": "0xd4ffaa" },
-      "format": "<font face='DS-Digital' size='40'>+</font>"
+      "textFormat": { "align": "center", "color": "0xffffff" },
+      "format": "<font face='DS-Digital' color='{{py:sight.c_piercingChance}}' size='40'>+</font>"
     },	
     
     

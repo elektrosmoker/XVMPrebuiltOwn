@@ -89,7 +89,6 @@
       ${ "battleLabelsRepairControl.xc":"healCtrlLoader" },
       
       ${ "battleLabelSight.xc":"def.cameraMode"},	
-      ${ "battleLabelSight.xc":"def.cameraMode_sn"},
       ${ "battleLabelSight.xc":"def.name"},	
       ${ "battleLabelSight.xc":"def.infoTank"},
       ${ "battleLabelSight.xc":"def.infoTTX"},
