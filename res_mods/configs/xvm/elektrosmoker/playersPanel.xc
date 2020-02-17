@@ -1,8 +1,5 @@
 {
   "def": {
-///////////////////////////////////////////  
-/////////////////////farbige hpbar innerhalb des playerspanel    
-// farbige dünne hp leiste am oberen rand (der dicken hp leiste)
     "hpRatio": {
       "x": 0,
       "y": 1,
@@ -11,8 +8,7 @@
       "alpha": "{{alive?80|0}}",
       "bgColor": "{{player?0x00ff99|{{c:system}}}}"
     },
-// dicke farbige hp leiste  
-      "playersHPbar": {
+    "playersHPbar": {
       "x": 0,
       "y": 11,
       "valign": "center",
@@ -21,7 +17,6 @@
       "bgColor": "{{player?{{.colors.damage.player_enemy_hit}}|{{c:vtype}}}}",
       "alpha": "{{alive?50|0}}"
     },
-//  hintergrund der dicken hp leiste
     "backgroundPHPB": {
       "x": 0,
       "y": 11,
@@ -32,9 +27,6 @@
       "alpha": "{{alive?50|20}}",
       "borderColor": "0xFFFFFF"
     },
-////////////////////////////////////////////   
-///////////////////////////////////////////  
- ///////////////////// spieler nutzt xvm     
     "xvmUserMarker": {
       "enabled": true,
       "x": -10,
@@ -42,12 +34,6 @@
       "bindToIcon": true,
       "src": "xvm://res/icons/xvm/xvm-user-{{xvm-user|none}}.png"
     },
-///////////////////////////////////////////  
-/////////////////////
-    //  conticons
-////////////////////   
-///////////////////////////////////////////
-///////////////////// flaggen icon (wenn in xvm settings eingestellt, ansonst keine anzeige)       
     "FlagIcon": {
       "enabled": true,
       "bindToIcon": true,
@@ -57,9 +43,6 @@
       "src": "xvm://res/icons/flags/{{flag}}.png",
       "alpha": 90
     },
-///////////////////////////////////////////    
-///////////////////////////////////////////   
-///////////////////// gegner gesichtet und sichtbar  (rechtes panel)    
     "enemySpottedMarker": {
       "enabled": true,
       "alpha": "{{a:spotted}}",
@@ -70,7 +53,6 @@
       "format": "{{spotted}}",
       "shadow": {}
     },
-//////////////////// glühlampe ein/aus  -> teammitglied gespottet ja/nein    (linkes panel)
     "xmqpServiceMarker": {
       "enabled": true,
       "x": 105,
@@ -84,71 +66,43 @@
       "format": "<font color='{{alive?{{x-spotted?#FFBB00|{{x-sense-on?#D9D9D9|#BFBFBF}}}}|#FFFFFF}}' alpha='{{alive?#FF|#80}}'>{{alive?{{x-spotted?&#x70;|{{x-sense-on?&#x70;|{{x-enabled?&#x7A;}}}}}}}}</font>",
       "shadow": {}
     },
-///////////////////////////////////////////    
-///////////////////////////////////////////  
-/////////////////////freund-markierung und idtiotenkennzeichnung
- // freund 
     "friendIcon": {
       "enabled": true,
       "bindToIcon": true,
       "x": 115,
       "y": 0,
-      //"width": 10,
-      //"height": 10,
       "align": "center",
       "alpha": 100,
       "src": "xvm://res/icons/{{friend?friend}}.png"
     },
-  // geblockt
     "ignoredIcon": {
       "enabled": true,
       "bindToIcon": true,
       "x": 115,
-      "y": 5,
-      //"width": 10,
-      //"height": 10,
+      "y": 0,
       "align": "center",
       "alpha": 100,
       "src": "xvm://res/icons/{{ignored?ignored}}.png"
     },
-///////////////////////////////////////////
-///////////////////////////////////////////  
-////////////////// Anonymous Icon.
-
-//snowflake  - link in extrafields erstellen; falls genutzt
     "snowflake": {
       "enabled": false,
       "x": 120,
       "y": 0,
-      //"width": 20,
-      //"height": 20,
       "align": "center",
       "alpha": 100,
       "bindToIcon": true,
       "format": "{{r?| <img src='xvm://res/icons/snowflake/snowflake.png'>}}"
     },
-    
-// Anonym Icon by SicFunzler & budyx.
     "IsAnonym": {
       "enabled": true,
-      "x": -8, 
-      "y": 7, 
-      //"width": 13, 
-      //"height": 16, 
+      "x": -8,
+      "y": 7,
       "align": "center",
       "position": "top",
-      "alpha": "{{py:IsAnonym('{{name}}')}}", 
+      "alpha": "{{py:IsAnonym('{{name}}')}}",
       "bindToIcon": true,
       "src": "xvm://res/icons/anonym.png"
     },
-    
-    
-///////////////////////////////////////////  
-///////////////////////////////////////////    
-///////////////////clan icon    
-//  (vergleiche ende x(clanicon)  mit anfang x(hitlog) -> [ x + width = 140 + 24 = 164] = max anfang x hitlog )
-// ...oder so irgendwie...meine eselsbrücken für feldgrößen waren auch schonmal besser...
-//
     "clanIcon": {
       "enabled": true,
       "hotKeyCode": 56,
@@ -163,10 +117,6 @@
       "bindToIcon": true,
       "src": "{{clanicon}}"
     },
-///////////////////////////////////////////
-///////////////////////////////////////////    
-///////////////////// "fliegende" hp bar bei tastendruck    
-//hintergrund
     "hpBarBg": {
       "hotKeyCode": 56,
       "onHold": "true",
@@ -179,7 +129,6 @@
       "bgColor": "0x000000",
       "alpha": "{{alive?48|0}}"
     },
-//hp leiste
     "hpBar": {
       "hotKeyCode": 56,
       "onHold": "true",
@@ -192,7 +141,6 @@
       "bgColor": "{{player?#FFDD33|{{c:vtype}}}}",
       "alpha": "{{alive?80|0}}"
     },
-//hp text
     "hp": {
       "hotKeyCode": 56,
       "onHold": "true",
@@ -220,13 +168,7 @@
         "angle": 45
       }
     }
-///////////////////////////////////////////    
-//////////end def////////////////////////////
   },
-///////////////////////////////////////////
-//
-//PANEL SETTINGS
-///////////////////////////////////////////
   "playersPanel": {
     "enabled": true,
     "alpha": 100,
@@ -260,9 +202,6 @@
         }
       }
     },
-///////////////////////////////////////////
-//panel varianten
-///////////////////////////////////////////
     "short": {
       "enabled": true,
       "standardFields": [
@@ -291,8 +230,7 @@
       "nickOffsetXRight": 0,
       "nickMinWidth": 46,
       "nickMaxWidth": 158,
-      // disabled - standardFields
-      "nickFormatLeft": "<font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r}}</font> {{name%.15s..}}<font alpha='#A0'>{{clan}}</font>",           
+      "nickFormatLeft": "<font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r}}</font> {{name%.15s..}}<font alpha='#A0'>{{clan}}</font>",
       "nickFormatRight": "<font alpha='#A0'>{{clan}}</font>{{name%.15s~..}} <font face='mono' size='{{xvm-stat?13|0}}' color='{{c:r}}' alpha='{{alive?#FF|#80}}'>{{r}}</font>",
       "nickShadowLeft": null,
       "nickShadowRight": null,
@@ -331,8 +269,6 @@
         ${"def.enemySpottedMarker"}
       ]
     },
-///////////////////////////////////////////
-///////////////////////////////////////////
     "medium": {
       "enabled": true,
       "standardFields": [
@@ -401,8 +337,6 @@
         ${"def.enemySpottedMarker"}
       ]
     },
-///////////////////////////////////////////
-///////////////////////////////////////////
     "medium2": {
       "enabled": true,
       "standardFields": [
@@ -471,8 +405,6 @@
         ${"def.enemySpottedMarker"}
       ]
     },
-///////////////////////////////////////////
-///////////////////////////////////////////
     "large": {
       "enabled": true,
       "standardFields": [
@@ -545,9 +477,5 @@
         ${"def.enemySpottedMarker"}
       ]
     }
-///////////////////////////////////////////
-/////////end playerspanel///////////////////////
   }
-///////////////////////////////////////////
-//END
 }
