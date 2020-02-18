@@ -39,6 +39,7 @@
       ${"battleLabelsHighCaliber.xc":"high_caliber"},
       
       ${"battleLabelsTeamRating.xc":"teamRating"},
+      ${"battleLabelsTeamRating.xc":"teamRatingVis"},
       
       ${"battleLabelsAimInfo.xc":"aimInfo"},
       
