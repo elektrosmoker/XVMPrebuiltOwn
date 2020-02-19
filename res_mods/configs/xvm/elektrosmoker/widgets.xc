@@ -17,6 +17,7 @@
       ${ "widgetsStatsAlt.xc":"statistics2" },
       ${ "widgetsTemplates.xc":"clock" },
       ${ "widgetsBoosters.xc":"boosters" },
+      ${ "widgetsBoosters.xc":"boostersBG" },
       ${ "widgetsYears.xc":"years" },
       ${ "widgetsSessionInfo.xc":"sessionTime" },
       ${ "widgetsSessionInfo.xc":"sessionWinsCount" },
