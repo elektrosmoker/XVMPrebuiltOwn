@@ -23,8 +23,8 @@
     "type": "extrafield",
     "formats": [
       { 
-        "x": 329,
-        "y": 0,
+        "x": 330,
+        "y": -1,
         "width": 317,
         "height": 80,
         "alpha": 50,
