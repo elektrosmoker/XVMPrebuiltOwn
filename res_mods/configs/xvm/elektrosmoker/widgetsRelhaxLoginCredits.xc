@@ -12,7 +12,7 @@
     123Gauss            pl Nullmaruzero
     The_Illusion        pl Neoros
                         fr Toshiro
-    Promoted by:        es LordFelix
+    Media Relations:        es LordFelix
     Silvers_            ru DrWeb7_1
     */
     
@@ -82,7 +82,7 @@
                 "screenVAlign": "center",       // Vertical alignment of field at screen ("top", "center", "botton").
                 "shadow":       { "enabled": true, "distance": 0, "angle": 0, "color": "0x000000", "alpha": 100, "blur": 2, "strength": 6 },
                 "textFormat":   { "font": "DinPro-Bold", "color": "0x75bc81", "size": 20, "align": "right", "valign": "top"},
-                "format":       "<u><font color='#84c4ca'>Developed by:</font></u> \nWillster419 \nelektrosmoker \ndirty20067 \n123Gauss \nThe_Illusion \n\n<u><font color='#84c4ca'>Promoted by:</font></u> \nSilvers_ "
+                "format":       "<u><font color='#84c4ca'>Developed by:</font></u> \nWillster419 \nelektrosmoker \ndirty20067 \n123Gauss \nThe_Illusion \n\n<u><font color='#84c4ca'>Media Relations:</font></u> \nSilvers_ "
             }
         ]
     },
