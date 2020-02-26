@@ -45,6 +45,7 @@ FONTS:
                     
                   Dependency_Fonts_Visitor_TT1_BRK
                   Dependency_Fonts_NDO
+                  Dependency_Fonts_Dinpro
                   Dependency_Fonts_KAPb14
                   Dependency_Fonts_Gunplay
                   Dependency_Fonts_Calligraph
