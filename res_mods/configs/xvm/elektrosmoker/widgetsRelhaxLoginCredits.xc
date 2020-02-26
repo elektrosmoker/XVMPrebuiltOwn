@@ -7,9 +7,9 @@
             RELHAX MODPACK TEAM
     Developed by:       -- Translated by:
     Willster419         en Rkk1945
-    Dirty20067          en Merkk
-    123Gauss            de Grumpelumpf
-    elektrosmoker       pl Nullmaruzero
+    elektrosmoker       en Merkk
+    Dirty20067          de Grumpelumpf
+    123Gauss            pl Nullmaruzero
     The_Illusion        pl Neoros
                         fr Toshiro
     Promoted by:        es LordFelix
@@ -22,7 +22,7 @@
         "type":                 "extrafield",
         "formats": [
             {
-                "x":           -175,            // Horizontal position.
+                "x":           -180,            // Horizontal position.
                 "y":            285,            // Vertical position.
                 "width":        100,            // Width.
                 "height":       100,            // Height.
@@ -39,7 +39,7 @@
         "type":                 "extrafield",
         "formats": [
             {
-                "x":            175,            // Horizontal position.
+                "x":            180,            // Horizontal position.
                 "y":            285,            // Vertical position.
                 "width":        100,            // Width.
                 "height":       100,            // Height.
@@ -57,7 +57,7 @@
         "formats": [
             {
                 "x":            0,              // Horizontal position.
-                "y":            378,            // Vertical position. -23px (up) if another line is needed.
+                "y":            385,            // Vertical position. -23px (up) if another line is needed.
                 "width":        450,            // Width.
                 "height":       80,             // Height.
                 "screenHAlign": "center",       // Horizontal alignment of field at screen ("left", "center", "right").
@@ -74,7 +74,7 @@
         "type":                 "extrafield",
         "formats": [
             {
-                "x":           -360,            // Horizontal position.
+                "x":           -370,            // Horizontal position.
                 "y":            291,            // Vertical position.  -23px (up) if another line is needed.
                 "width":        200,            // Width.
                 "height":       250,            // Height.
@@ -82,7 +82,7 @@
                 "screenVAlign": "center",       // Vertical alignment of field at screen ("top", "center", "botton").
                 "shadow":       { "enabled": true, "distance": 0, "angle": 0, "color": "0x000000", "alpha": 100, "blur": 2, "strength": 6 },
                 "textFormat":   { "font": "DinPro-Bold", "color": "0x75bc81", "size": 20, "align": "right", "valign": "top"},
-                "format":       "<u><font color='#84c4ca'>Developed by:</font></u> \nWillster419 \ndirty20067 \n123Gauss \nelektrosmoker \nThe_Illusion \n\n<u><font color='#84c4ca'>Promoted by:</font></u> \nSilvers_ "
+                "format":       "<u><font color='#84c4ca'>Developed by:</font></u> \nWillster419 \nelektrosmoker \ndirty20067 \n123Gauss \nThe_Illusion \n\n<u><font color='#84c4ca'>Promoted by:</font></u> \nSilvers_ "
             }
         ]
     },
@@ -92,7 +92,7 @@
         "type":                 "extrafield",
         "formats": [
             {
-                "x":            360,            // Horizontal position.
+                "x":            370,            // Horizontal position.
                 "y":            291,            // Vertical position.
                 "width":        200,            // Width.
                 "height":       250,            // Height.
