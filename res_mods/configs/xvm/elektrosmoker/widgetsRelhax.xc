@@ -35,8 +35,8 @@
         "updateEvent": "ON_EVERY_SECOND",
         "formats": [
             {
-                "x":            -220,            // Horizontal position.
-                "y":            34,            // Vertical position.
+                "x":            -190,            // Horizontal position.
+                "y":            55,            // Vertical position.
                 "width":        200,            // Width.
                 "height":       250,            // Height.
                 "screenHAlign": "right",       // Horizontal alignment of field at screen ("left", "center", "right").
