@@ -2,8 +2,9 @@
 {
   "years": {
       "enabled": true,
-      "layer": "top",
+      "layer": "normal",
       "type": "extrafield",
+        "updateEvent": "ON_EVERY_SECOND",
       "formats": [
       {
        "x":-480, 

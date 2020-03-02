@@ -10,7 +10,6 @@
     ],
     "lobby": [
       ${"widgetsRelhax.xc":"RelhaxLogo"},
-      ${"widgetsRelhax.xc":"RelhaxHeader"},
       ${"widgetsRelhax.xc":"Credits"},
       ${"widgetsTemplates.xc":"statistics"},
       ${"widgetsStatsAlt.xc":"statistics2"},
