@@ -29,7 +29,7 @@
     
     
     "Credits": {
-        "enabled":              true,
+        "enabled":              false,
         "layer":                "normal",
         "type":                 "extrafield",
         "updateEvent": "ON_EVERY_SECOND",
