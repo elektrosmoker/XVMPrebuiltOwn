@@ -30,6 +30,7 @@
       "offsetY": 0
     },
     "showRankedBattleResults": true,
+    "showDailyQuestWidget": true,
     // Consumables panel - show/hide the number of Consumables and directives.
     "equipmentPanel": {
       //true - show the remaining quantity of Consumables in depot
