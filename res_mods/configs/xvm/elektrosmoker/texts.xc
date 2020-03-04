@@ -96,7 +96,7 @@
       // Бой спецрежима (новый)(гонки, футбол и т.п.)
       "event_battles_2": "",
       // Режим «Линия фронта»
-      "epic_battle": ""
+      "epic_battle": "",
       // Frontline (training).
       "epic_battle_training": "",
       // Tournament (event).
