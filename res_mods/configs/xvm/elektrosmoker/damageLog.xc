@@ -13,15 +13,25 @@
     // Лог полученного урона.
     
     
-    
-    
     "log": {
-    
       // true - allow to move log in battle and disallow macros for "x" and "y" settings.
       // false - disallow to move log in battle and allow macros for "x" and "y" settings.
       "moveInBattle": true,
       "x": 240,
       "y": -23,
+      
+      
+      // true - show hits without damage.
+      "showHitNoDamage": true,
+      // true - summarize damages from fire.
+      "groupDamagesFromFire": true,
+      // true - summarize damages from ramming, crash, falling (if more than one damage per second).
+      "groupDamagesFromRamming_WorldCollision": true,
+      // true - summarize damages from artillery strike and airstrike (if more than one damage per second).
+      "groupDamageFromArtAndAirstrike": true,
+      // Kind of the received damage (macro {{dmg-kind}}).
+      
+      
       // Kind of the received damage (macro {{dmg-kind}}).
       // Тип полученного урона (макрос {{dmg-kind}}).
       "dmg-kind": {
@@ -31,6 +41,7 @@
         "world_collision": "<img src='xvm://res/icons/damageLog/Dmg/world_collision.png'  width='20' height='17' vspace='-2'>", // world collision
         "drowning": "<img src='xvm://res/icons/damageLog/Dmg/drowning.png'  width='20' height='17' vspace='-2'>", // drowning 
         "overturn": "<img src='xvm://res/icons/damageLog/Dmg/overturn.png'  width='20' height='17' vspace='-2'>", // overturn 
+        "recovery": "{{l10n:forsaken}}<tab><font face='xvm'>&#x100;</font>",                               // self-destruction
         "death_zone": "<img src='xvm://res/icons/damageLog/Dmg/death_zone.png'  width='20' height='17' vspace='-1'>", // death zone
         "gas_attack": "<img src='xvm://res/icons/damageLog/Dmg/gas_attack.png'  width='20' height='17' vspace='-5'>", // gas attack 
         "art_attack": "<img src='xvm://res/icons/damageLog/Dmg/artillery.png'  width='20' height='17' vspace='-5'>", // art attack
@@ -45,6 +56,7 @@
         "world_collision": "#228855",      // world collision / столкновение с объектами, падение.
         "drowning": "#CCCCCC",             // drowning / утопление.
         "overturn": "#CCCCCC",             // overturn / опрокидывание.
+        "recovery": "#CCCCCC",             // self-destruction / самоуничтожение (in the "Frontline" mode / в режиме "Линия фронта").
         "death_zone": "#CCCCCC",           // death zone / смертельная зона.
         "gas_attack": "#CCCCCC",           // gas attack / газовая атака.
         "art_attack": "{{c:hit-effects}}", // art attack / артиллерийская поддержка.
@@ -247,7 +259,8 @@
             "ramming": "<img src='xvm://res/icons/damageLog/Dmg/ramming.png'  width='20' height='17' vspace='-3'>", // ramming
               "world_collision": "<img src='xvm://res/icons/damageLog/Dmg/world_collision.png'  width='20' height='17' vspace='-2'>", // world collision
                 "drowning": "<img src='xvm://res/icons/damageLog/Dmg/drowning.png' width='20' height='17' vspace='-2'>", // drowning 
-                  "overturn": "<img src='xvm://res/icons/damageLog/Dmg/overturn.png' width='20' height='17' vspace='-2'>", // overturn 
+                  "overturn": "<img src='xvm://res/icons/damageLog/Dmg/overturn.png' width='20' height='17' vspace='-2'>", // overturn
+                    "recovery": "{{l10n:forsaken}}",    // self-destruction  
                     "death_zone": "<img src='xvm://res/icons/damageLog/Dmg/death_zone.png' width='20' height='17' vspace='-1'>", // death zone
                       "gas_attack": "<img src='xvm://res/icons/damageLog/Dmg/gas_attack.png' width='20' height='17' vspace='-3'>", // gas attack
                         "art_attack": "<img src='xvm://res/icons/damageLog/Dmg/artillery.png' width='20' height='17' vspace='-3'>", // art attack
@@ -346,6 +359,7 @@
         "world_collision": "<img src='xvm://res/icons/damageLog/Dmg/world_collision.png'  width='42' height='17' vspace='-2'>",    // world collision
         "drowning": "<img src='xvm://res/icons/damageLog/Dmg/drowning.png'  width='62' height='37' vspace='-2'>",         // drowning 
         "overturn": "<img src='xvm://res/icons/damageLog/Dmg/overturn.png'  width='62' height='37' vspace='-2'>",           // overturn 
+        "recovery": "{{l10n:forsaken}}",      // self-destruction
         "death_zone": "Death Zone",                      // death zone / смертельная зона
         "gas_attack": "Gas Attack",                      // gas attack / газовая атака
         "art_attack": "<img src='xvm://res/icons/damageLog/Dmg/artillery.png'  width='62' height='37' vspace='-3'>",         // art attack 

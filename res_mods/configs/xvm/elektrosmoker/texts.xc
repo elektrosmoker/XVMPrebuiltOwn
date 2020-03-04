@@ -97,6 +97,10 @@
       "event_battles_2": "",
       // Режим «Линия фронта»
       "epic_battle": ""
+      // Frontline (training).
+      "epic_battle_training": "",
+      // Tournament (event).
+      "tournament_event": ""                            
     },
     // Text for {{topclan}} macro.
     // Текст для макроса {{topclan}}
