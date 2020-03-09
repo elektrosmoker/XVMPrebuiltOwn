@@ -23,7 +23,7 @@
       "valign": "center",
       "height": 21,
       "width": 125,
-      "bgColor": "0x333333",
+      "bgColor": "{{player?0xcc0066|0x333333}}",
       "alpha": "{{alive?50|20}}",
       "borderColor": "0xFFFFFF"
     },
