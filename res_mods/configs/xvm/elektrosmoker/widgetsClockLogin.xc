@@ -1,6 +1,6 @@
 {    
             // gold color: 0xFFC363
-    "LF_Clock_Login": {
+    "Clock_Login": {
         "enabled":              true,           // Show clock in login screen.
         "layer":                "top",          // layer - "bottom", "normal" (default), "top".
         "type":                 "extrafield",

@@ -3,6 +3,12 @@
     // #84c4ca      #4a6f71     #272526     #00e300             #75be81 
     // (LT Blue)    (DK Blue)   (DK grey)   (OM eyes green)     (OM leaves green)
     
+    
+    
+        //{{py:math.add(y, {{py:math.mul({{py:math.sub({{py:xvm.screenHeight}}, 1080)}}, 0.25)}})}}
+        // = y + 0.25(VRes - 1080)
+        
+        
     /*
             RELHAX MODPACK TEAM
     Developed by:       -- Translated by:
@@ -11,19 +17,24 @@
     Dirty20067          de Grumpelumpf
     123Gauss            pl Nullmaruzero
     The_Illusion        pl Neoros
-                        fr Toshiro
-    Media Relations:        es LordFelix
-    Silvers_            ru DrWeb7_1
+    SaucE               fr Toshiro
+    Zethen              es LordFelix
+                        ru DrWeb7_1
+    Media Relations:        
+    Silvers_            
     */
     
-    "LF_OM_Logo": {
+    
+    
+    "OM_Logo": {
         "enabled":              true,
         "layer":                "top",
         "type":                 "extrafield",
         "formats": [
             {
                 "x":           -180,            // Horizontal position.
-                "y":            285,            // Vertical position.
+                                                // Vertical position, resolution corrected.
+                "y":            "{{py:math.add(285, {{py:math.mul({{py:math.sub({{py:xvm.screenHeight}}, 1080)}}, 0.25)}})}}",
                 "width":        100,            // Width.
                 "height":       100,            // Height.
                 "screenHAlign": "center",       // Horizontal alignment of field at screen ("left", "center", "right").
@@ -33,14 +44,15 @@
             }
         ]
     },
-    "LF_Relhax_Logo": {
+    "Relhax_Logo": {
         "enabled":              true,
         "layer":                "top",
         "type":                 "extrafield",
         "formats": [
             {
                 "x":            180,            // Horizontal position.
-                "y":            285,            // Vertical position.
+                                                // Vertical position, resolution corrected.
+                "y":            "{{py:math.add(285, {{py:math.mul({{py:math.sub({{py:xvm.screenHeight}}, 1080)}}, 0.25)}})}}",
                 "width":        100,            // Width.
                 "height":       100,            // Height.
                 "screenHAlign": "center",       // Horizontal alignment of field at screen ("left", "center", "right").
@@ -50,14 +62,15 @@
             }
         ]
     },
-    "LF_Relhax_Modpack": {
+    "Relhax_Modpack": {
         "enabled":              true,
         "layer":                "top",
         "type":                 "extrafield",
         "formats": [
             {
                 "x":            0,              // Horizontal position.
-                "y":            385,            // Vertical position. -23px (up) if another line is needed.
+                                                // Vertical position, resolution corrected. -23px (up) if another line is needed.
+                "y":            "{{py:math.add(368, {{py:math.mul({{py:math.sub({{py:xvm.screenHeight}}, 1080)}}, 0.25)}})}}",
                 "width":        450,            // Width.
                 "height":       80,             // Height.
                 "screenHAlign": "center",       // Horizontal alignment of field at screen ("left", "center", "right").
@@ -68,14 +81,15 @@
             }
         ]
     },
-    "LF_Credits_Devs": {
+    "Credits_Devs": {
         "enabled":              true,
         "layer":                "top",
         "type":                 "extrafield",
         "formats": [
             {
                 "x":           -370,            // Horizontal position.
-                "y":            268,            // Vertical position.  -23px (up) if another line is needed.
+                                                // Vertical position, resolution corrected. -23px (up) if another line is needed.
+                "y":            "{{py:math.add(291, {{py:math.mul({{py:math.sub({{py:xvm.screenHeight}}, 1080)}}, 0.25)}})}}",
                 "width":        200,            // Width.
                 "height":       300,            // Height.
                 "screenHAlign": "center",       // Horizontal alignment of field at screen ("left", "center", "right").
@@ -86,14 +100,15 @@
             }
         ]
     },
-    "LF_Credits_Translators": {
+    "Credits_Translators": {
         "enabled":              true,
         "layer":                "top",
         "type":                 "extrafield",
         "formats": [
             {
                 "x":            370,            // Horizontal position.
-                "y":            291,            // Vertical position.
+                                                // Vertical position, resolution corrected.
+                "y":            "{{py:math.add(291, {{py:math.mul({{py:math.sub({{py:xvm.screenHeight}}, 1080)}}, 0.25)}})}}",
                 "width":        200,            // Width.
                 "height":       250,            // Height.
                 "screenHAlign": "center",       // Horizontal alignment of field at screen ("left", "center", "right").

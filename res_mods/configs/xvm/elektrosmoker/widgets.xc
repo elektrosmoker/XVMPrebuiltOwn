@@ -1,12 +1,12 @@
 {
   "widgets": {
     "login": [
-      ${"widgetsClockLogin.xc":"LF_Clock_Login"},
-      ${"widgetsRelhaxLoginCredits.xc":"LF_Credits_Translators"},
-      ${"widgetsRelhaxLoginCredits.xc":"LF_Credits_Devs"},
-      ${"widgetsRelhaxLoginCredits.xc":"LF_Relhax_Modpack"},
-      ${"widgetsRelhaxLoginCredits.xc":"LF_Relhax_Logo"},
-      ${"widgetsRelhaxLoginCredits.xc":"LF_OM_Logo"}
+      ${"widgetsClockLogin.xc":"Clock_Login"},
+      ${"widgetsRelhaxLoginCredits.xc":"Credits_Translators"},
+      ${"widgetsRelhaxLoginCredits.xc":"Credits_Devs"},
+      ${"widgetsRelhaxLoginCredits.xc":"Relhax_Modpack"},
+      ${"widgetsRelhaxLoginCredits.xc":"Relhax_Logo"},
+      ${"widgetsRelhaxLoginCredits.xc":"OM_Logo"}
     ],
     "lobby": [
       ${"widgetsRelhax.xc":"RelhaxLogo"},
