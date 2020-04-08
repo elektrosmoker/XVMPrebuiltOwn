@@ -31,11 +31,18 @@
             "alpha": 0 
             },
 
-    "fragCorrelationBar": { 
-           "visible": false, 
-           "$delay": 100, 
-           "alpha": 0 
-           },
+//    "fragCorrelationBar": { 
+//           "visible": false, 
+//           "$delay": 100, 
+//           "alpha": 0 
+//           },
+              
+      "fragCorrelationBar": {
+        "alpha": "{{py:thp_show('{{battletype-key}}')?0|1}}",
+        "teamFragsSeparatorField": {
+          "y": -2
+        }
+      },
               
    "battleTimer": { "$delay": 100, "alpha": 0 },
     

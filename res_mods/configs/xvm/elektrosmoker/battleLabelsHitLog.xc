@@ -20,7 +20,7 @@
       "hotKeyCode": 56, "onHold": "true", "visibleOnHotKey": false,
       "updateEvent": "PY(ON_HIT_LOG), ON_PANEL_MODE_CHANGED",
       "x": "{{pp.mode=5?{{battletype-key=epic_battle?240|5}}|{{py:sum({{pp.widthLeft}},{{py:xvm.hitLog.log.x}})}}}}",
-      "y": "{{pp.mode=5?{{battletype-key=epic_battle?80|90}}|{{py:xvm.hitLog.log.y}}}}",
+      "y": "{{pp.mode=5?{{battletype-key=epic_battle?80|190}}|{{py:xvm.hitLog.log.y}}}}",
       "width": 500,
       "height": 350,
       "layer": "normal",

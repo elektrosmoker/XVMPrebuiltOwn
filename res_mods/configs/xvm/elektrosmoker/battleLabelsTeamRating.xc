@@ -22,7 +22,7 @@
         "align": "center",
         "size": 15
       },
-      "format": "Team WN8\n<font color='{{py:alliesAliveRatingRatio>=0?#00EE00|#EE0000}}'>{{py:alliesAliveRating}} {{py:alliesAliveRatingRatio>0?&gt;|&lt;}} {{py:enemiesAliveRating}}</font>"
+      "format": "{{battletype-key=regular?Team WN8\n<font color='{{py:alliesAliveRatingRatio>=0?#00EE00|#EE0000}}'>{{py:alliesAliveRating}} {{py:alliesAliveRatingRatio>0?&gt;|&lt;}} {{py:enemiesAliveRating}}</font>}}"
     },
     
     "teamRatingVis": {
@@ -47,7 +47,7 @@
         "align": "center",
         "size": 15
       },
-      "format": "{{py:alliesAliveRatingRatio=0?<img src='xvm://res/icons/Chance/{{py:alliesAliveRating>0?win|defeat}}.png' width='40' height='29'>|<img src='xvm://res/icons/Chance/stat_sys_battery_{{py:alliesAliveRatingRatio}}.png' width='40' height='29'>}}"
+      "format": "{{battletype-key=regular?{{py:alliesAliveRatingRatio=0?<img src='xvm://res/icons/Chance/{{py:alliesAliveRating>0?win|defeat}}.png' width='40' height='29'>|<img src='xvm://res/icons/Chance/stat_sys_battery_{{py:alliesAliveRatingRatio}}.png' width='40' height='29'>}}}}"
     }
     
 }
