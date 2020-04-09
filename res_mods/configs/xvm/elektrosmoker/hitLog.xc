@@ -12,7 +12,7 @@
       //false - disallow to move log in battle and allow macros for "x" and "y" settings.
       "moveInBattle": false,
       "x": 70,
-      "y": 70,
+      "y": "{{battletype-key=regular?70|110}}",
       // true - allow scrolling of the contents of the log.
       "scrollLog": true,
       // Group hits by players name.
