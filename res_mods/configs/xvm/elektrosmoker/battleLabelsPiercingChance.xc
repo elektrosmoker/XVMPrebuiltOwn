@@ -14,7 +14,7 @@
       "alpha" : 100,
       "shadow": { "distance": 1, "angle": 90, "alpha": 90, "blur": 5, "strength": 3 },
       "textFormat": { "align": "center", "valign": "center" },
-      "format": "<font color='{{py:sight.c_piercingChance}}' size='20'>{{py:sight.piercingActual}} {{py:sight.piercingActual?/|}} {{py:sight.armorActual}}</font>"
+      "format": "<b><font color='{{py:sight.c_piercingChance}}' size='20'>{{py:sight.piercingActual}} {{py:sight.piercingActual?/|}} {{py:sight.armorActual}}</font></b>"
     },
     
    "normHitAngle": {

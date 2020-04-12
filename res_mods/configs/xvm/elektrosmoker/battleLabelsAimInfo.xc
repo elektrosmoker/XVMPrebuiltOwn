@@ -7,14 +7,13 @@
     "screenHAlign": "center",
     "screenVAlign": "center",
     "x": 370,
-    "y": 250,
+    "y": 230,
     "width": 200,
     "height": 150,
     "alpha": "{{py:isBattle?100|0}}",
-    //"alpha": "100",
     "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 5, "strength": 1.5 },
     "textFormat": { "font": "mono", "size": 14, "align": "left" },
-    "format": "<font size='20' color='#ccffff'>Flight Time: </font><font size='24' color='#ff0066'>{{py:sight.timeFlight%1.1f}}s</font> s\n<font color='#ccffff'>Distance: </font>{{py:sight.distance%3.1f}}m\n <font size='16' color='#ccffff'>Aim Time: </font><font size='18' color='#ff6666'>{{py:sight.timeAIM%1.1f}}</font>s\n"
+    "format": "<font size='20' color='#ccffff'>Flight Time: </font><b><font size='24' color='#ff0066'>{{py:sight.timeFlight%1.1f}}s</font></b> s\n<font color='#ccffff'>Distance: </font>{{py:sight.distance%3.1f}}m\n <font size='16' color='#ccffff'>Aim Time: </font><font size='18' color='#ff6666'>{{py:sight.timeAIM%1.1f}}</font>s\n"
   }
   
   

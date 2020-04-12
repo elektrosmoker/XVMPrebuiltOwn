@@ -9,7 +9,7 @@
       "layer": "bottom",
       "screenHAlign": "right",      
       "textFormat": { "color": "0xF4EFE8", "size": 15},
-      "format": "{{py:xvm.assistLog}}",
+      "format": "<u><b><font face='visitor TT1 BRK' size='16' color='#9999ff'>AssistLog:</font></b></u>\n{{py:xvm.assistLog}}",
       "﻿﻿mouseEvents": {
         "mouseDown": "assis﻿tLog_mouseDown",
         "mouseUp": "assistLog_mouseUp",

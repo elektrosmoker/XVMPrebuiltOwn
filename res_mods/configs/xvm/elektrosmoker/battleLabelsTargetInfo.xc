@@ -6,7 +6,7 @@
     "updateEvent": "ON_TARGET_IN, ON_TARGET_OUT",  
     "x": 300,
       "y": 600,
-	    "alpha": 100,//"{{ally?#00|#FF}}",
+	    "alpha": 100,
       "flags": ["enemy", "ally", "squadman", "teamKiller"],
       "screenHAlign": "center",
       "screenVAlign": "top",

@@ -28,7 +28,7 @@
         "color": "0xF4EFE8",
         "size": 15
       },
-      "format": "{{py:xvm.damageLog.log}}",
+      "format": "<u><b><font face='visitor TT1 BRK' size='16' color='#9999ff'>DamageLog:</font></b></u>\n{{py:xvm.damageLog.log}}",
       "mouseEvents": {
         "mouseDown": "damageLog_mouseDown",
         "mouseUp": "damageLog_mouseUp",
