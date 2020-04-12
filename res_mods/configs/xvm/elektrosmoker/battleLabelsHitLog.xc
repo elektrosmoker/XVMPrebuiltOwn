@@ -25,7 +25,7 @@
       "height": 350,
       "layer": "normal",
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
-      "format": "<u><b><font face='visitor TT1 BRK' size='16' color='#9999ff'>HitLog:</font></b></u>\n{{py:xvm.hitLog.log}}",
+      "format": "<font face='visitor TT1 BRK' size='16' color='#9999ff'><b><u>HitLog:</b></u></font>\n <font face='DinPro-Bold' size='15'>{{py:xvm.hitLog.log}}</font>",
       "mouseEvents": {
         "mouseDown": "hitLog_mouseDown",
         "mouseUp": "hitLog_mouseUp",

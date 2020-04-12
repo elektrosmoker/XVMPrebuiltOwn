@@ -3,7 +3,7 @@
     "enabled": true,
     "showFor": "all",
     "aliveOnly": false,
-    "delay": 6,
+    "delay": 10,
     "altKey": 56,
     "compareValues": {
       "moreThan": {
@@ -25,7 +25,7 @@
        <br/><textformat tabstops='[50,85]'><font color='#FF4137'> {{shell_type_1}}<tab>{{shell_power_1}}<tab>{{shell_damage_1}}</font></textformat>
        <br/><textformat tabstops='[50,85]'><font color='#48D1CC'> {{shell_type_2}}<tab>{{shell_power_2}}<tab>{{shell_damage_2}}</font></textformat>
        <br/><textformat tabstops='[50,85]'><font color='#FF8523'> {{shell_type_3}}<tab>{{shell_power_3}}<tab>{{shell_damage_3}}</font></textformat>
-       <br/> Reload Time: {{gun_reload_equip}} sec.
+       <br/><font size='15' color='#FF00FF'> Reload Time: {{gun_reload_equip}} sec.</font>
        <br/><textformat tabstops='[150,219,259]'> View Range: {{vision_radius}}m<tab>Hull: {{armor_hull_front}}<tab>{{armor_hull_side}}<tab>{{armor_hull_back}}</textformat>
        <br/><font color='{{py:infoPanel.compareColor({{vehicle_weight}}, {{pl_vehicle_weight}})}}'> <b>Ramming chance versus {{vehicle_weight}} tons!</b></font>"
     ]

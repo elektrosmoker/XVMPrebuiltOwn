@@ -28,7 +28,7 @@
         "color": "0xF4EFE8",
         "size": 15
       },
-      "format": "<u><b><font face='visitor TT1 BRK' size='16' color='#9999ff'>DamageLog:</font></b></u>\n{{py:xvm.damageLog.log}}",
+      "format": "<font face='visitor TT1 BRK' size='16' color='#9999ff'><b><u>DamageLog:</b></u></font>\n <font face='DinPro-Bold' size='15'>{{py:xvm.damageLog.log}}</font>",
       "mouseEvents": {
         "mouseDown": "damageLog_mouseDown",
         "mouseUp": "damageLog_mouseUp",
@@ -39,9 +39,9 @@
     
     
   "damageLogBackground": {
-      "enabled": false,
+      "enabled": true,
 "$ref": { "path":"damageLog" },
-      "format": "{{py:xvm.damageLog.log.bg}}"
+      "format": "\n{{py:xvm.damageLog.log.bg}}"
     },
     
     
