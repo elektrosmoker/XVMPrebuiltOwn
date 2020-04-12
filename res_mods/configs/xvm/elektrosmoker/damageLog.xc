@@ -238,7 +238,7 @@
     "logBackground": {
       "$ref": { "path":"damageLog.log" },
       // Damage log background format.
-      "formatHistory": "<img height='15' width='400' src='xvm://res/icons/damageLog/{{dmg=0?no_dmg|dmg}}.png'>"
+      "formatHistory": "<img height='22' width='400' src='xvm://res/icons/damageLog/{{dmg=0?no_dmg|dmg}}.png'>"
     },
     
     
@@ -281,7 +281,7 @@
     "logAltBackground": {
       "$ref": { "path":"damageLog.logAlt" },
       // Damage log background format.
-      "formatHistory": "<img height='15' width='400' src='xvm://res/icons/damageLog/{{dmg=0?no_dmg|dmg}}.png'>"
+      "formatHistory": "<img height='18' width='400' src='xvm://res/icons/damageLog/{{dmg=0?no_dmg|dmg}}.png'>"
     },
     
     
