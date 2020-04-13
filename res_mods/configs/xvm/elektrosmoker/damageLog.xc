@@ -18,8 +18,10 @@
       // false - disallow to move log in battle and allow macros for "x" and "y" settings.
       "moveInBattle": true,
       "x": 240,
-      "y": -23,
+      "y": -10,
       
+      // true - allow scrolling of the contents of the log.
+      "scrollLog": true,
       
       // true - show hits without damage.
       "showHitNoDamage": true,

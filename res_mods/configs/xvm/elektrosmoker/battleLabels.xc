@@ -3,9 +3,11 @@
     "formats": [
     
       ${"battleLabelsHitLog.xc":"hitLogHeader"},
+      ${"battleLabelsHitLog.xc":"hitLogHeader2"},
       ${"battleLabelsHitLog.xc":"hitLogBody"},
       
       ${"battleLabelsDamageLog.xc":"damageLogBackground"},
+      ${"battleLabelsDamageLog.xc":"damageLogHeader"},
       ${"battleLabelsDamageLog.xc":"damageLog"},      
       ${"battleLabelsDamageLog.xc":"lastHit"},
       ${"battleLabelsDamageLog.xc":"fire"},
@@ -20,6 +22,7 @@
       ${"battleLabelsRepairTimer.xc":"repairTimeRadio"},
     
       ${"battleLabelsAssistLog.xc":"assistLog_Background"},
+      ${"battleLabelsAssistLog.xc":"assistLog_Header"},
       ${"battleLabelsAssistLog.xc":"assistLog"},
             
       ${"battleLabelsHealthBar.xc":"hpBar"},

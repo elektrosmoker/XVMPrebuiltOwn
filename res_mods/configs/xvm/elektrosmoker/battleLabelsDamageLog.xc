@@ -2,6 +2,28 @@
 
 
 //damage log //fire //last hit
+
+
+
+    
+    "damageLogHeader": {
+      "enabled": true,
+      "updateEvent": "PY(ON_ASSIST_LOG)",
+      "x": 240,
+      "y": -210,
+      "width": 250,
+      "height": 20,
+      "layer": "bottom",
+      "screenHAlign": "left",  
+      "screenVAlign": "bottom",      
+      "textFormat": { "font": "visitor TT1 BRK", "color": "0x9999ff", "size": 16},
+      "format": "<b><u>DamageLog:</b></u>",
+      "﻿﻿mouseEvents": {
+        "mouseDown": "assis﻿tLog_mouseDown",
+        "mouseUp": "assistLog_mouseUp",
+        "mouseMove": "assistLog_mouseMove"
+        }
+    },
     
   "damageLog": {
       "enabled": true,
@@ -9,7 +31,7 @@
       "x": "{{py:xvm.damageLog.log.x}}",
       "y": "{{py:xvm.damageLog.log.y}}",
       "width": 400,
-      "height": 210,
+      "height": 200,
       "layer": "bottom",
       "screenVAlign": "bottom",
       "shadow": {
@@ -28,7 +50,7 @@
         "color": "0xF4EFE8",
         "size": 15
       },
-      "format": "<font face='visitor TT1 BRK' size='16' color='#9999ff'><b><u>DamageLog:</b></u></font>\n <font face='DinPro-Bold' size='15'>{{py:xvm.damageLog.log}}</font>",
+      "format": "<font face='DinPro-Bold' size='15'>{{py:xvm.damageLog.log}}</font>",
       "mouseEvents": {
         "mouseDown": "damageLog_mouseDown",
         "mouseUp": "damageLog_mouseUp",
@@ -41,7 +63,7 @@
   "damageLogBackground": {
       "enabled": true,
 "$ref": { "path":"damageLog" },
-      "format": "\n{{py:xvm.damageLog.log.bg}}"
+      "format": "{{py:xvm.damageLog.log.bg}}"
     },
     
     

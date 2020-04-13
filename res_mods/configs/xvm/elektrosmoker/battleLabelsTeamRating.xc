@@ -3,8 +3,8 @@
     "teamRating": {
       "enabled": true,
       "updateEvent": "PY(ON_UPDATE_TEAM_RATING)",
-      "x": 480,
-      "y": 4,
+      "x": 0,
+      "y": 25,
     "align": "center",
     "screenHAlign": "left",
     "screenVAlign": "top",
@@ -28,8 +28,8 @@
     "teamRatingVis": {
       "enabled": true,
       "updateEvent": "PY(ON_UPDATE_TEAM_RATING)",
-      "x": 560,
-      "y": 4,
+      "x": 80,
+      "y": 25,
     "align": "center",
     "screenHAlign": "left",
     "screenVAlign": "top",

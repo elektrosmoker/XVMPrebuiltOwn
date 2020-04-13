@@ -7,9 +7,6 @@
 "high_caliber": {
       "enabled": true,
       "updateEvent": "PY(ON_TOTAL_EFFICIENCY)",
-      "hotKeyCode": 56,
-      "onHold": true,
-      "visibleOnHotKey": false,
       "x": -790,
       "y": 30,
       "width": 120,
@@ -28,9 +25,9 @@
         "strength": 1.5
       },
       "textFormat": {
-        "font": "NDO",
+        "font": "Gunplay",
         "size": 17,
-        "color": "0xFCFCFC",
+        "color": "0x660066",
         "align": "center"
       },
       "format": "{{battletype-key=regular?<b>{{py:high_caliber({{py:xvm.totalDamage}})}}</b>}}"

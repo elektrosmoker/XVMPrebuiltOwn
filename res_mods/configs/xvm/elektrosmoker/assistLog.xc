@@ -1,6 +1,5 @@
 /**
   * Macros used in assistLog:
-  * Макросы используемые в assistLog:
    
     {{assist}}             - TO DO / последний нанесенный урон с вашей помощью.
     {{track}}              - TO DO / последний нанесенный урон по технике со сбитой вами гусеницой.
@@ -65,17 +64,17 @@
       //true - разрешить перемещение лога в бою и запретить макросы в настройках "x" и "y"
       //false - запретить перемещение лога в бою и разрешить макросы в настройках "x" и "y"
       "moveInBattle": false,
-      "x": -320,
-      "y": 75,
+      "x": 10,
+      "y": 460,
       // Group hits by players name.
       // Группировать попадания по игроку.
       "groupHitsByPlayer": true,
       // TO DO
       // количество строк
-      "lines": 10,
+      "lines": 8,
       // Insert order: false - insert new values to begin, true - add to end.
       // Сортировка попаданий: false - новые значения добавляются сверху, true - снизу.
-      "addToEnd": false,
+      "addToEnd": true,
       // TO DO
       // Тип нанесенного урона по асситу (макрос {{assist-type}}).
       "assist-type": {
@@ -112,11 +111,11 @@
       },
       // List of hits format (macros allowed, see macros.txt).
       // Формат лога попаданий (допускаются макроподстановки, см. macros.txt)
-      "formatHistory": "<textformat leading='-3' tabstops='[25,53,93,133,173]'><font size='14'>\u00D7{{sum-count}}:</font><tab><font face='mono'>{{sum-track%4d}}</font><tab> | <font face='mono'>{{sum-spot%4d}}</font><tab> | {{stun?<font face='mono'>{{sum-stun%4d}}</font><tab> &#x7C; |}}<font face='mono' color='{{c:sum-assist}}'>{{sum-assist%4d}}</font><tab> | <font color='{{c:vtype}}'>{{vtype}}</font> {{vehicle}} <font face='xvm' size='19' color='#FF0000'>{{alive? |&#x77;}}</font></textformat>"
+      "formatHistory": "<textformat leading='-3' tabstops='[25,53,93,133,173]'><font size='14'>\u00D7{{sum-count}}:</font><tab><font face='mono' color='{{c:sum-track}}'>{{sum-track%4d}}</font><tab> | <font face='mono' color='{{c:sum-spot}}'>{{sum-spot%4d}}</font><tab> | {{stun?<font face='mono' color='{{c:sum-stun}}'>{{sum-stun%4d}}</font><tab> &#x7C; |}}<font face='mono' color='{{c:sum-assist}}'>{{sum-assist%4d}}</font><tab> | <font color='{{c:vtype}}'>{{vtype}}</font> {{vehicle}} <font face='xvm' size='19' color='#FF0000'>{{alive? |&#x77;}}</font></textformat>"
     },
     "altLog": {
       "$ref": { "path":"assistLog.log" },
-      "formatHistory": ""
+      "formatHistory": "<textformat leading='-3' tabstops='[25,53,93,133,173]'><font size='14'>\u00D7{{sum-count}}:</font><tab><font face='mono' color='{{c:sum-track}}'>{{sum-track%4d}}</font><tab> | <font face='mono' color='{{c:sum-spot}}'>{{sum-spot%4d}}</font><tab> | {{stun?<font face='mono' color='{{c:sum-stun}}'>{{sum-stun%4d}}</font><tab> &#x7C; |}}<font face='mono' color='{{c:sum-assist}}'>{{sum-assist%4d}}</font><tab> | <font color='{{c:vtype}}'>{{vtype}}</font> {{vehicle}} <font face='xvm' size='19' color='#FF0000'>{{alive? |&#x77;}}</font></textformat>"
     },
     "backgroundLog": {
       "$ref": { "path":"assistLog.log" },
