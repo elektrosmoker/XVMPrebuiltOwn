@@ -13,6 +13,8 @@
       ${"widgetsRelhax.xc":"Credits"},
       ${"widgetsTemplates.xc":"statistics"},
       ${"widgetsStatsAlt.xc":"statistics2"},
+      ${"widgetsStatsExtd.xc":"statsExtdHeader"},
+      ${"widgetsStatsExtd.xc":"statsExtd"},
       ${"widgetsTemplates.xc":"clock"},
       ${"widgetsBoosters.xc":"boosters"},
       ${"widgetsBoosters.xc":"boostersBG"},
