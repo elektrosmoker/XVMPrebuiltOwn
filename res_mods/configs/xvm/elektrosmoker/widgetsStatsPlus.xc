@@ -15,7 +15,7 @@
                 "screenHAlign": "left",       // Horizontal alignment of field at screen ("left", "center", "right").
                 "shadow":       { "enabled": true, "distance": 0, "angle": 0, "color": "0x000000", "alpha": 100, "blur": 2, "strength": 6 },
                 "textFormat":   { "font": "DinPro-Bold", "color": "0x990075", "size": 15, "align": "left", "valign": "top"},
-                "format":       "<u>Personal Stats +:<\u>"
+                "format":       "<u>Personal Stats + (beta):<\u>"
             }
         ]
     },
