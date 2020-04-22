@@ -4,7 +4,7 @@
     
     "totalEfficiency": {
       "enabled": false,
-      "updateEvent": "PY(ON_TOTAL_EFFICIENCY)",
+      "updateEvent": "PY(ON_EFFICIENCY_UPDATE)",
       "x": 1,
      // "y": -230, // when used with standard dmg panel
       "y": -160,   //for use with small dmg panel
