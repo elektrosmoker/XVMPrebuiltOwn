@@ -6,7 +6,7 @@
 
 "high_caliber": {
       "enabled": true,
-      "updateEvent": "PY(ON_EFFICIENCY_UPDATE)",
+      "updateEvent": "PY(ON_TOTAL_EFFICIENCY)",
       "x": -790,
       "y": 30,
       "width": 120,

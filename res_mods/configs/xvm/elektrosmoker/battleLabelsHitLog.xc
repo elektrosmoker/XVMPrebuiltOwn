@@ -4,7 +4,7 @@
 //hitlog
   "hitLogHeader": {
       "enabled": true,
-      "updateEvent": "PY(ON_EFFICIENCY_UPDATE), ON_PANEL_MODE_CHANGED",
+      "updateEvent": "PY(ON_TOTAL_EFFICIENCY), ON_PANEL_MODE_CHANGED",
       //"x": "{{pp.mode=0?{{battletype-key=epic_battle?240|20}}|{{py:sum({{pp.widthLeft}},55)}}}}",
       //"y": "{{pp.mode=0?{{battletype-key=epic_battle?55|90}}|90}}",
       "x": 330,
