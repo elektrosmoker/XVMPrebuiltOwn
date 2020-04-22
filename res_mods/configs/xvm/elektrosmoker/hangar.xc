@@ -10,6 +10,7 @@
     "showReferralButton": false,
     "showTeaserWidget": false,
     "showRewardWindow": false,
+    "showTenYearsWidget": true,
     "enableGoldLocker": true,
     "enableFreeXpLocker": true,
     "enableCrystalLocker": true,
