@@ -5,7 +5,7 @@
         // Рамка панели счета
       "frameBar": {
             "enabled": true,
-         // "updateEvent": "PY(ON_UPDATE_HP)",
+         // "updateEvent": "PY(ON_HP_UPDATE)",
             "x": 0,
             "y": 0,
             "width": 700,
@@ -33,7 +33,7 @@
         // Здоровье команды союзников в числовом эквиваленте
         "HPAlly": {
             "enabled": true,
-            "updateEvent": "PY(ON_UPDATE_HP)",
+            "updateEvent": "PY(ON_HP_UPDATE)",
             "x": -100,
             "y": 0,
             "screenHAlign": "center",
@@ -45,7 +45,7 @@
         // Здоровье команды противников в числовом эквиваленте
         "HPEnemy": {
             "enabled": true,
-            "updateEvent": "PY(ON_UPDATE_HP)",
+            "updateEvent": "PY(ON_HP_UPDATE)",
             "x": 100,
             "y": 0,
             "screenHAlign": "center",
@@ -57,7 +57,7 @@
         // Разность здоровья команд в числовом эквиваленте для союзников.
         "totalDiffHPAlly": {
             "enabled": true,
-            "updateEvent": "PY(ON_UPDATE_HP)",
+            "updateEvent": "PY(ON_HP_UPDATE)",
             "x": 0,
             "y": 45,
             "screenHAlign": "center",
@@ -70,7 +70,7 @@
         // Разность здоровья команд в числовом эквиваленте для противников.
         "totalDiffHPEnemy": {
             "enabled": true,
-            "updateEvent": "PY(ON_UPDATE_HP)",
+            "updateEvent": "PY(ON_HP_UPDATE)",
             "x": 0,
             "y": 50,
             "screenHAlign": "center",
@@ -111,7 +111,7 @@
         // Шкала живой-уничтоженной техники союзников при сражении 30x30
         "scaleHPAlly30": {
             "enabled": true,
-            "updateEvent": "PY(ON_UPDATE_HP)",
+            "updateEvent": "PY(ON_HP_UPDATE)",
             "x": 0,
             "y": 0,
             "width": 700,
@@ -126,7 +126,7 @@
         // Шкала живой-уничтоженной техники противников при сражении 30x30
         "scaleHPEnemy30": {
             "enabled": true,
-            "updateEvent": "PY(ON_UPDATE_HP)",
+            "updateEvent": "PY(ON_HP_UPDATE)",
             "x": 0,
             "y": 0,
             "width": 700,
