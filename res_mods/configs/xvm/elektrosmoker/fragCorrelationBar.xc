@@ -15,7 +15,7 @@
             "screenHAlign": "center",
             "shadow": { "enabled": false },
             "textFormat": { "align": "center", "leading": -36 },
-            "format": "{{py:thp_show('{{battletype-key}}')?<img src='xvm://res/icons/fragCorrelationBar/fonHPBar.png' width='700' height='80'>}}"
+            "format": "{{py:thp_show?<img src='xvm://res/icons/fragCorrelationBar/fonHPBar.png' width='700' height='80'>}}"
         },
         // Общий счет
        "totalFrag": {
@@ -28,7 +28,7 @@
             "align": "center",
             "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
             "textFormat": { "font": "Calligraph810 BT", "align": "center", "size": 25 },
-            "format": "{{py:thp_show('{{battletype-key}}')?{{py:sp.allyAlive}} : {{py:sp.enemyAlive}}}}"
+            "format": "{{py:thp_show?{{py:sp.allyAlive}} : {{py:sp.enemyAlive}}}}"
         },
         // Здоровье команды союзников в числовом эквиваленте
         "HPAlly": {
@@ -40,7 +40,7 @@
             "align": "center",
             "shadow": { "distance": 1, "angle": 90, "alpha": 100, "blur": 5, "strength": 1.5 },
             "textFormat": { "font": "Gunplay", "size": 21, "align": "center" },
-            "format": "{{py:thp_show('{{battletype-key}}')?<font color='#96FF00'>{{py:xvm.total_hp.ally}}</font>}}"
+            "format": "{{py:thp_show?<font color='#96FF00'>{{py:xvm.total_hp.ally}}</font>}}"
         },
         // Здоровье команды противников в числовом эквиваленте
         "HPEnemy": {
@@ -52,7 +52,7 @@
             "align": "center",
             "shadow": { "distance": 1, "angle": 90, "alpha": 100, "blur": 5, "strength": 1.5 },
             "textFormat": { "font": "Gunplay", "size": 21, "align": "center" },
-            "format": "{{py:thp_show('{{battletype-key}}')?<font color='#FE0E00'>{{py:xvm.total_hp.enemy}}</font>}}"
+            "format": "{{py:thp_show?<font color='#FE0E00'>{{py:xvm.total_hp.enemy}}</font>}}"
         },
         // Разность здоровья команд в числовом эквиваленте для союзников.
         "totalDiffHPAlly": {
@@ -64,7 +64,7 @@
             "align": "center",
             "shadow": { "distance": 1, "angle": 90, "alpha": 100, "blur": 5, "strength": 1.5 },
             "textFormat": { "font": "Gunplay", "size": 15, "color": "#96FF00", "align": "center" },
-            "format": "{{py:thp_show('{{battletype-key}}')?{{{{py:math.sub({{py:xvm.total_hp.ally()}} , {{py:xvm.total_hp.enemy()}})}}>0?+{{py:math.sub({{py:xvm.total_hp.ally()}} , {{py:xvm.total_hp.enemy()}})}}|}}}}"
+            "format": "{{py:thp_show?{{{{py:math.sub({{py:xvm.total_hp.ally()}} , {{py:xvm.total_hp.enemy()}})}}>0?+{{py:math.sub({{py:xvm.total_hp.ally()}} , {{py:xvm.total_hp.enemy()}})}}|}}}}"
         },
         // 
         // Разность здоровья команд в числовом эквиваленте для противников.
@@ -76,7 +76,7 @@
             "screenHAlign": "center",
             "shadow": { "distance": 1, "angle": 90, "alpha": 100, "blur": 5, "strength": 1.5 },
             "textFormat": { "font": "Gunplay", "size": 15, "color": "#FE0E00", "align": "center" },
-            "format": "{{py:thp_show('{{battletype-key}}')?{{{{py:math.sub({{py:xvm.total_hp.enemy()}} , {{py:xvm.total_hp.ally()}})}}>0?{{py:math.sub({{py:xvm.total_hp.ally()}} , {{py:xvm.total_hp.enemy()}})}}|}}}}"
+            "format": "{{py:thp_show?{{{{py:math.sub({{py:xvm.total_hp.enemy()}} , {{py:xvm.total_hp.ally()}})}}>0?{{py:math.sub({{py:xvm.total_hp.ally()}} , {{py:xvm.total_hp.enemy()}})}}|}}}}"
         },
         // Шкала живой-уничтоженной техники союзников при сражении 15x15
         "scaleHPAlly15": {
@@ -91,7 +91,7 @@
             "screenHAlign": "center",
             "shadow": { "enabled": false },
             "textFormat": { "align": "center", "leading": -36 },
-            "format": "{{py:thp_show('{{battletype-key}}')?<img src='xvm://res/icons/fragCorrelationBar/Ally15/{{py:sp.allyAlive}}.png' width='700' height='80'>}}"
+            "format": "{{py:thp_show?<img src='xvm://res/icons/fragCorrelationBar/Ally15/{{py:sp.allyAlive}}.png' width='700' height='80'>}}"
         },
         // Шкала живой-уничтоженной техники противников при сражении 15x15
         "scaleHPEnemy15": {
@@ -106,7 +106,7 @@
             "screenHAlign": "center",
             "shadow": { "enabled": false },
             "textFormat": { "align": "center", "leading": -36 },
-            "format": "{{py:thp_show('{{battletype-key}}')?<img src='xvm://res/icons/fragCorrelationBar/Enemy15/{{py:sp.enemyAlive}}.png' width='700' height='80'>}}"
+            "format": "{{py:thp_show?<img src='xvm://res/icons/fragCorrelationBar/Enemy15/{{py:sp.enemyAlive}}.png' width='700' height='80'>}}"
         },
         // Шкала живой-уничтоженной техники союзников при сражении 30x30
         "scaleHPAlly30": {
@@ -121,7 +121,7 @@
             "screenHAlign": "center",
             "shadow": { "enabled": false },
             "textFormat": { "align": "center", "leading": -36 },
-            "format": "{{py:thp_show('{{battletype-key}}')?<img src='xvm://res/icons/fragCorrelationBar/Ally30/{{py:sp.allyAlive}}.png' width='700' height='80'>}}"
+            "format": "{{py:thp_show?<img src='xvm://res/icons/fragCorrelationBar/Ally30/{{py:sp.allyAlive}}.png' width='700' height='80'>}}"
         },
         // Шкала живой-уничтоженной техники противников при сражении 30x30
         "scaleHPEnemy30": {
@@ -136,7 +136,7 @@
             "screenHAlign": "center",
             "shadow": { "enabled": false },
             "textFormat": { "align": "center", "leading": -36 },
-            "format": "{{py:thp_show('{{battletype-key}}')?<img src='xvm://res/icons/fragCorrelationBar/Enemy30/{{py:sp.enemyAlive}}.png' width='700' height='80'>}}"
+            "format": "{{py:thp_show?<img src='xvm://res/icons/fragCorrelationBar/Enemy30/{{py:sp.enemyAlive}}.png' width='700' height='80'>}}"
         },
         // Маркеры типов техники панели счета для союзников при сражении 15х15
         "vtypeBarAlly": {
@@ -220,7 +220,7 @@
             "screenHAlign": "center",
             "shadow": { "distance": 1, "angle": 90, "alpha": 80, "blur": 3, "strength": 2 },
             "textFormat": { "align": "center", "size": 23 },
-            "format": "{{py:thp_show('{{battletype-key}}')?<font alpha='{{py:fcb.countAllyAlive('HT')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('HT')}}</font> <font face='xvm' size='20' color='#C0C0C0'>&#x3F;</font> <font alpha='{{py:fcb.countEnemyAlive('HT')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('HT')}}</font>\n<font alpha='{{py:fcb.countAllyAlive('MT')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('MT')}}</font> <font face='xvm' size='20' color='#BFA346'>&#x3B;</font> <font alpha='{{py:fcb.countEnemyAlive('MT')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('MT')}}</font>\n<font alpha='{{py:fcb.countAllyAlive('TD')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('TD')}}</font> <font face='xvm' size='20' color='#242EF2'>&#x2E;</font> <font alpha='{{py:fcb.countEnemyAlive('TD')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('TD')}}</font>\n<font alpha='{{py:fcb.countAllyAlive('LT')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('LT')}}</font> <font face='xvm' size='20' color='#5BD350'>&#x3A;</font> <font alpha='{{py:fcb.countEnemyAlive('LT')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('LT')}}</font>\n<font alpha='{{py:fcb.countAllyAlive('SPG')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('SPG')}}</font> <font face='xvm' size='20' color='#F40000'>&#x2D;</font> <font alpha='{{py:fcb.countEnemyAlive('SPG')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('SPG')}}</font>}}"
+            "format": "{{py:thp_show?<font alpha='{{py:fcb.countAllyAlive('HT')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('HT')}}</font> <font face='xvm' size='20' color='#C0C0C0'>&#x3F;</font> <font alpha='{{py:fcb.countEnemyAlive('HT')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('HT')}}</font>\n<font alpha='{{py:fcb.countAllyAlive('MT')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('MT')}}</font> <font face='xvm' size='20' color='#BFA346'>&#x3B;</font> <font alpha='{{py:fcb.countEnemyAlive('MT')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('MT')}}</font>\n<font alpha='{{py:fcb.countAllyAlive('TD')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('TD')}}</font> <font face='xvm' size='20' color='#242EF2'>&#x2E;</font> <font alpha='{{py:fcb.countEnemyAlive('TD')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('TD')}}</font>\n<font alpha='{{py:fcb.countAllyAlive('LT')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('LT')}}</font> <font face='xvm' size='20' color='#5BD350'>&#x3A;</font> <font alpha='{{py:fcb.countEnemyAlive('LT')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('LT')}}</font>\n<font alpha='{{py:fcb.countAllyAlive('SPG')=0?#50|#FF}}'>{{py:fcb.countAllyAlive('SPG')}}</font> <font face='xvm' size='20' color='#F40000'>&#x2D;</font> <font alpha='{{py:fcb.countEnemyAlive('SPG')=0?#50|#FF}}'>{{py:fcb.countEnemyAlive('SPG')}}</font>}}"
         }
     }
 }
