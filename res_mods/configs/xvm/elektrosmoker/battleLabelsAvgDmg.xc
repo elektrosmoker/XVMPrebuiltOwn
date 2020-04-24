@@ -3,10 +3,12 @@
 
 
 //avg dmg new style    
- 
+//needs NDO py scripts 
+//doesnt work currently :/
+
 "avg_damage": {
       "enabled": false,
-      "updateEvent": "ON_DAMAGE_CAUSED",
+      "updateEvent": "ON_DAMAGE_CAUSED, PY(ON_DAMAGE_UPDATE)",
       "hotKeyCode": 56,
       "onHold": true,
       "visibleOnHotKey": true,
