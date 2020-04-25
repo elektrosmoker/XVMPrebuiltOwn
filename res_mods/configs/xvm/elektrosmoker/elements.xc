@@ -1,20 +1,17 @@
 ﻿{
   "elements": [
-    {
-    // - - -    
-    // "..isn't a primitive type: void"
-    
+    {    
     "epicScorePanelUI": { 
            "visible": false, 
            "$delay": 100, 
            "alpha": 0 
            },
-    "epicRandomScorePanel": { 
-          "visible": false, 
-          "$delay": 100, 
-          "alpha": 0 
-          },
-    // - - -  
+           
+//    "epicRandomScorePanel": { 
+//          "visible": false, 
+//          "$delay": 100, 
+//          "alpha": 0 
+//          },
   
     "siegeModePanel": {
             "visible": false, 
