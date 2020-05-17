@@ -11,6 +11,7 @@
     "showTeaserWidget": false,
     "showRewardWindow": false,
     "showTenYearsWidget": true,
+    "showSE20Banner": true,
     "enableGoldLocker": true,
     "enableFreeXpLocker": true,
     "enableCrystalLocker": true,
