@@ -10,7 +10,7 @@
     "showReferralButton": false,
     "showTeaserWidget": false,
     "showRewardWindow": false,
-    "showTenYearsWidget": true,
+    "showTenYearsWidget": false,
     "showSE20Banner": true,
     "enableGoldLocker": true,
     "enableFreeXpLocker": true,
@@ -23,7 +23,7 @@
       "showButton": true,
       "showBattleCount": true
     },
-    "showDogtagWidget": true,
+    "showDogtagWidget": false,
     "serverInfo": {
       "enabled": true,
       "alpha": 50,
