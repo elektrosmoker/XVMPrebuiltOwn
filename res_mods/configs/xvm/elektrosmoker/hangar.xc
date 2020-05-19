@@ -10,7 +10,7 @@
     "showReferralButton": false,
     "showTeaserWidget": false,
     "showRewardWindow": false,
-    "showTenYearsWidget": false,
+    "showTenYearsBanner": false,
     "showSE20Banner": true,
     "enableGoldLocker": true,
     "enableFreeXpLocker": true,
