@@ -8,35 +8,8 @@
   // Definitions.
   // Шаблоны.
   "def": {
-    "RelhaxHPSpottedAlly": {
-      "$ref": { "path":"def.defaultItem" },
-      "flags": [ "ally", "spotted", "alive" ],      
-      "format": "<font face='dynamic' size='{{vtype-key=HT?19|17}}' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{hp-ratio%.436a}}</font>",
-      "x": -8,
-      "y": -10
-      },
-    "RelhaxHPSpottedEnemy": {
-      "$ref": { "path":"def.defaultItem" },
-      "flags": [ "enemy", "spotted", "alive" ],
-      "format": "<font face='dynamic' size='{{vtype-key=HT?19|17}}' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{hp-ratio%.436a|&#xE6;}}</font>",
-        "x": -8,
-      "y": -10
-      },
-    "RelhaxHPSpottedSquadman": {
-      "$ref": { "path":"def.defaultItem" },
-      "flags": [ "squadman", "spotted", "alive" ],
-      "format": "<font face='dynamic' size='{{vtype-key=HT?19|17}}' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{hp-ratio%.436a}}</font>",
-      "x": -8,
-      "y": -10
-      },
-    "RelhaxHPSpottedTeamKiller": {
-      "$ref": { "path":"def.defaultItem" },
-      "flags": [ "teamKiller", "spotted", "alive" ],
-      "format": "<font face='dynamic' size='{{vtype-key=HT?19|17}}' color='{{.minimap.labelsData.colors.txt.{{sys-color-key}}}}'>{{hp-ratio%.436a}}</font>",
-      "x": -8,
-      "y": -10
-      },
-    // Fields default format
+  
+      // Fields default format
     // Формат поля по умолчанию
     "defaultItem": {
       "enabled": true,
@@ -53,6 +26,39 @@
       "antiAliasType": "normal",
       "shadow": { "enabled": true, "distance": 0, "angle": 45, "color": "0x000000", "alpha": 50, "blur": 3, "strength": 4 }
     },
+    
+    
+    "RelhaxHPSpottedAlly": {
+      "$ref": { "path": "def.defaultItem" },
+      "flags": [ "ally", "spotted", "alive" ],      
+      "format": "<font face='dynamic' size='{{vtype-key=HT?19|17}}' color='{{.minimap.labelsData.colors.dot.{{sys-color-key}}}}'>{{hp-ratio%.335a|&#x1B3;}}</font>",
+      "x": -8,
+      "y": -10
+      },
+    "RelhaxHPSpottedEnemy": {
+      "$ref": { "path": "def.defaultItem" },
+      "flags": [ "enemy", "spotted", "alive" ],
+      "format": "<font face='dynamic' size='{{vtype-key=HT?19|17}}' color='{{.minimap.labelsData.colors.dot.{{sys-color-key}}}}'>{{hp-ratio%.335a|&#xE6;}}</font>",
+        "x": -8,
+      "y": -10
+      },
+    "RelhaxHPSpottedSquadman": {
+      "$ref": { "path": "def.defaultItem" },
+      "flags": [ "squadman", "spotted", "alive" ],
+      "format": "<font face='dynamic' size='{{vtype-key=HT?19|17}}' color='{{.minimap.labelsData.colors.dot.{{sys-color-key}}}}'>{{hp-ratio%.335a|&#x1B3;}}</font>",
+      "x": -8,
+      "y": -10
+      },
+    "RelhaxHPSpottedTeamKiller": {
+      "$ref": { "path": "def.defaultItem" },
+      "flags": [ "teamKiller", "spotted", "alive" ],
+      "format": "<font face='dynamic' size='{{vtype-key=HT?19|17}}' color='{{.minimap.labelsData.colors.dot.{{sys-color-key}}}}'>{{hp-ratio%.335a|&#x1B3;}}</font>",
+      "x": -8,
+      "y": -10
+      },
+
+
+
     "defaultAlly": {
       "$ref": { "path":"def.defaultItem" },
       "shadow": { "distance": 0, "angle": 45, "color": "0x76CA08", "alpha": 50, "blur": 3, "strength": 4 }
@@ -68,6 +74,16 @@
     "defaultTeamKiller": {
       "$ref": { "path":"def.defaultItem" },
       "shadow": { "distance": 0, "angle": 45, "color": "0x08E8F7", "alpha": 50, "blur": 3, "strength": 4 }
+    },
+    // XMQP event marker.
+    // Маркер события XMQP.
+    "xmqpEvent": {
+      "$ref": { "path":"def.defaultItem" },
+      "x": 3,
+      "y": -8,
+      "flags": [ "ally", "squadman", "teamKiller", "spotted", "alive" ],
+      "textFormat": { "font": "xvm", "size": 9, "color": "0xFFBB00" },
+      "format": "{{x-spotted?&#x70;&nbsp;}}{{x-overturned?&#x112;}}"
     },
     // Тип техники, видимый
     "vtypeSpotted": {

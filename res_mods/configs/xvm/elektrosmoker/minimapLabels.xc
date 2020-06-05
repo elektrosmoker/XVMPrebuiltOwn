@@ -13,6 +13,7 @@
       ${ "minimapLabelsTemplates.xc":"def.RelhaxHPSpottedEnemy" },//hp circle
       ${ "minimapLabelsTemplates.xc":"def.RelhaxHPSpottedSquadman" },//hp circle
       ${ "minimapLabelsTemplates.xc":"def.RelhaxHPSpottedTeamKiller" },//hp circle
+      ${ "minimapLabelsTemplates.xc":"def.xmqpEvent" },
       ${ "minimapLabelsTemplates.xc":"def.vtypeLostAlly" },
       ${ "minimapLabelsTemplates.xc":"def.vtypeLostSquadman" },
       ${ "minimapLabelsTemplates.xc":"def.vtypeLostEnemy" },
