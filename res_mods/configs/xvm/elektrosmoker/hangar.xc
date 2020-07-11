@@ -67,7 +67,7 @@
     "enableEquipAutoReturn": false,
     "blockVehicleIfLowAmmo": true,
     "lowAmmoPercentage": 20,
-    "notificationsButtonType": "full",
+    "notificationsButtonType": "blink",
     "hidePricesInTechTree": false,
     "masteryMarkInTechTree": true,
     "allowExchangeXPInTechTree": true,
@@ -179,7 +179,7 @@
       "profile": false,
       "PersonalMissionOperationsPage": false
     },
-    
+    "showCustomizationCounter": true,
     
         // Parameters of sorting tankmen in barracks.
     "barracks": {
