@@ -12,7 +12,7 @@
     "showRewardWindow": false,
     "showTenYearsBanner": false,
     "showSE20Banner": false,
-    "showEventBanner": false,
+    "showEventBanner": true,
     "enableGoldLocker": true,
     "enableFreeXpLocker": true,
     "enableCrystalLocker": true,
