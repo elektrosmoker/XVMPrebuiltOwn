@@ -21,6 +21,7 @@
     "consumablesPanel": { 
             "$delay": 8000, 
             "y": "{{py:math.sub({{py:xvm.screenHeight}}, 80)}}" 
+         //   "y": "{{py:xvm.YFromBottom(80)}}" 
             },
     
     "debugPanel": { 
