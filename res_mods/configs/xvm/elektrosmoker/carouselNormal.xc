@@ -102,7 +102,7 @@
       { "enabled": true, "x": 148, "y": 87, "width": 1, "height": 27, "alpha": 10, "src": "xvm://res/icons/maxdata/BANNER_white_30.png" },
 
 // NATION EMBLEM SMALL
-      { "enabled": false, "x": 180, "y": 128, "width": 22, "height": 24, "alpha": 100, "src": "../../gui/maps/icons/eventBoards/emblems/{{v.nation}}.png" },
+      { "enabled": false, "x": 180, "y": 128, "width": 22, "height": 24, "alpha": 100, "src": "../../gui\maps\icons\eventBoards\emblems/{{v.nation}}.png" },
 	     
 // EXCELLENCE ICON
       { "enabled": true, "x": 131, "y": 134, "width": 27, "height": 10, "alpha": 200, "src": "xvm://res/icons/maxdata/mog_a0{{v.marksOnGun}}.png" },	
@@ -170,7 +170,7 @@
 
 // DAMAGE
 	{ "enabled": true, "x": 9, "y": 63, "width": 140, "height": 18, "alpha": 100, "textFormat": {"align": "left", "size": 11, "bold": "false"},
-	"format": "<textformat tabstops='[27]'><font color='#ffffff'><b>DMG</b><tab>: <font color='{{v.c_wn8effd}}'>{{v.tdb%-4d|--}}</font> / <font color='#FFFFFF'>{{v.wn8expd%-4d|--}} = <font color='{{v.c_tdv}}'>{{v.wn8effd%3.2f|NA}}%</font>" },
+	"format": "<textformat tabstops='[27]'><font color='#ffffff'><b>DMG</b><tab>: <font color='{{v.c_wn8effd}}'>{{v.tdb%-4d|--}}</font> / <font color='#FFFFFF'>{{v.wn8expd%-4d|--}} = <font color='{{v.c_tdv}}'>{{py:math.mul(100,{{v.wn8effd%3.2f|NA}})}}%</font>" },
 
 // MARKS OF EXCELLENCE
 	{ "enabled": true, "x": 9, "y": 123, "width": 270, "height": 27, "alpha": 100, "textFormat": {"align": "left", "size": 11, "bold": "false"},
