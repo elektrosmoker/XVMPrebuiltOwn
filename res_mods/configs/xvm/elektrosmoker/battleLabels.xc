@@ -32,6 +32,8 @@
       ${"battleLabelsHullSpeed.xc":"hull"},
       ${"battleLabelsHullSpeed.xc":"hullText"},
       ${"battleLabelsHullSpeed.xc":"speed"},
+      ${"battleLabelsHullElevation.xc":"elevation"},
+      ${"battleLabelsHullElevation.xc":"elevationText"},
       
       ${"battleLabelsBattleEfficiency.xc":"battleEfficiency"},
       

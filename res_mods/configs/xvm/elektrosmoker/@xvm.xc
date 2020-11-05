@@ -156,6 +156,9 @@
   
   //years.xc from HAWG
   "years": ${"years.xc":"years"},
+  
+  //elevation.xc from HAWG
+  "elevation": ${"elevation.xc":"elevation"},
 
   //wn8chatcolor
   "chat": ${"chat.xc":"chat"},
