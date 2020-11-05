@@ -211,7 +211,7 @@
 {
         "enabled": true,                
         "layer": "top",
-        "x":25, "y":78, "width": 85, "height": 20,
+        "x":35, "y":74, "width": 85, "height": 20,
         "textFormat": {"font": "Arial", "bold": "true", "size": 13, "color": "0x4CFF00" },
         "shadow": {       
           "enabled": true,
@@ -225,7 +225,7 @@
       },
        {
        "enabled": true,
-        "x": 2, "y": 78,
+        "x": 10, "y": 74,
         "textFormat": { "color": "0x4CFF00" },
         "shadow": {       
           "enabled": true,
@@ -235,7 +235,7 @@
           "alpha": 99,               
           "blur": 1,                 
           "strength": 3 },        
-        "format": "<font face='Tahoma' size='13' >Arc</font>"        
+        "format": "<font face='Tahoma' size='13' >Arc:</font>"        
         
         },
 
