@@ -204,6 +204,41 @@
         "format": "<textformat tabstops='[36]'><b>HitRatio</b><tab>: <font color='{{v.c_hitsRatio}}'>{{v.hitsRatio%.2f|NA}}%</font>" },
 		
 	
+  
+  
+// ELEVATION by HAWG impl. by elektro
+
+{
+        "enabled": true,                
+        "layer": "top",
+        "x":25, "y":78, "width": 85, "height": 20,
+        "textFormat": {"font": "Arial", "bold": "true", "size": 13, "color": "0x4CFF00" },
+        "shadow": {       
+          "enabled": true,
+          "distance": 4,             
+          "angle": 4,                
+          "color": "0x000000",       
+          "alpha": 99,               
+          "blur": 1,                 
+          "strength": 3 },
+        "format": "{{.elevation.{{v.sysname}}}}" 
+      },
+       {
+       "enabled": true,
+        "x": 2, "y": 78,
+        "textFormat": { "color": "0x4CFF00" },
+        "shadow": {       
+          "enabled": true,
+          "distance": 3,             
+          "angle": 4,                
+          "color": "0x000000",       
+          "alpha": 99,               
+          "blur": 1,                 
+          "strength": 3 },        
+        "format": "<font face='Tahoma' size='13' >Arc</font>"        
+        
+        },
+
 
 // PLACEHOLDER END
 	{}
