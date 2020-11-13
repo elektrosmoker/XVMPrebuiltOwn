@@ -31,13 +31,13 @@
     "url": "https://relhaxmodpack.com/",
 
     // Config last modified.
-    "date": "06.11.2019",
+    "date": "13.11.2020",
 
     // Supported version of the game.
-    "gameVersion": "1.6.1.3",
+    "gameVersion": "1.10.1.13",
 
     // The minimum required version of the XVM mod.
-    "modMinVersion": "8.1.8"
+    "modMinVersion": "8.6.7"
   },
   
   // Parameters for login screen.
