@@ -5,6 +5,7 @@
       "alpha": 100
     },
     "mirroredVehicleIcons": false,
+    "showBattleHint": false,
     "showPostmortemTips": false,
     "showPostmortemDogtag": true,
     "highlightVehicleIcon": true,
@@ -12,7 +13,6 @@
     "clanIconsFolder": "clanicons/",
     "sixthSenseIcon": "xvm://res/SixthSense.png",
     "sixthSenseDuration": 10000,
-    "showBattleHint": false,
     "elements": ${"elements.xc":"elements"},
     "camera": ${"camera.xc":"camera"},
     "minimapDeadSwitch": true
