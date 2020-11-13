@@ -12,13 +12,7 @@
     "clanIconsFolder": "clanicons/",
     "sixthSenseIcon": "xvm://res/SixthSense.png",
     "sixthSenseDuration": 10000,
-    "battleHint": {
-      "hideTrajectoryView": true,
-      "hideSiegeIndicator": true,
-      "hideQuestProgress": true,
-      "hideHelpScreen": true,
-      "hideRadarHint": true      
-    },
+    "showBattleHint": false,
     "elements": ${"elements.xc":"elements"},
     "camera": ${"camera.xc":"camera"},
     "minimapDeadSwitch": true
