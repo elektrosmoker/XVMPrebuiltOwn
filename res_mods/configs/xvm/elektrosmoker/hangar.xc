@@ -13,7 +13,7 @@
     "showDailyQuestWidget": true,
     "showTeaserWidget": false,
     "showRewardWindow": false,
-    "showEventBanner": true,
+    "showEventBanner": false,
     "enableGoldLocker": true,
     "enableFreeXpLocker": true,
     "enableCrystalLocker": true,
