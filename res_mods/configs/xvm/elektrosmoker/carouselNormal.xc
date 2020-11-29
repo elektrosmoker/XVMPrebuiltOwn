@@ -129,14 +129,14 @@
       { 
       "enabled": true, 
       "x": 0, 
-      "y": 12, 
+      "y": 5, 
       "width": 288, 
-      "height": 18, 
+      "height": 25, 
       "alpha": 100, 
       "textFormat": 
       {
       "align": "center", 
-      "size": 14, 
+      "size": 16, 
       "bold": "true"
       },
       
@@ -144,7 +144,7 @@
 //      "format": "{{v.fullname}}" 
 
 
-        "format": "<font face='$FieldFont' size='13' color='{{v.vehId=52241?#00ff00|{{v.level=4?{{v.type={{l10n:HT}}?#00ff00|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}|{{v.level=10?{{v.premium?#ff9900|#00ffff}}|{{v.level<4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<1?#00ff00|{{v.premium?#ff9900|#00ffff}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}}}}}}}}}'>{{v.fullname}}</font>", 
+        "format": "<font face='$FieldFont' color='{{v.vehId=52241?#00ff00|{{v.level=4?{{v.type={{l10n:HT}}?#00ff00|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}|{{v.level=10?{{v.premium?#ff9900|#00ffff}}|{{v.level<4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<1?#00ff00|{{v.premium?#ff9900|#00ffff}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})<2?#00ff00|{{v.premium?#ff9900|#00ffff}}}}}}}}}}}}}}'>{{v.fullname}}</font>", 
         
         "shadow": ${ "def.textFieldShadow" },
         
