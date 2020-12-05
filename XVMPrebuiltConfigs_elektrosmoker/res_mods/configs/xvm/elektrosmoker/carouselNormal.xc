@@ -108,7 +108,7 @@
       { "enabled": true, "x": 131, "y": 134, "width": 27, "height": 10, "alpha": 200, "src": "xvm://res/icons/maxdata/mog_a0{{v.marksOnGun}}.png" },	
 
 // PREMIUM ICON
-      { "enabled": true, "x": 20, "y": 4.5, "width": 14, "height": 13, "alpha": "{{v.premium?68|0}}", "src": "xvm://res/icons/maxdata/premium.png" },
+      { "enabled": true, "x": 20, "y": 4.5, "width": 14, "height": 13, "alpha": "68", "src": "xvm://res/icons/maxdata/{{v.premium|{{v.special}}}}.png" },
 	  
 // MASTERY ICON
       { "enabled": true, "x": 237, "y": 77, "width": 40, "height": 41, "alpha": 90, 
