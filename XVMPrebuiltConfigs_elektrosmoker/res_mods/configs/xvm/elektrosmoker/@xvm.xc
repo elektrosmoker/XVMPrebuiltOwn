@@ -154,6 +154,12 @@
   //hull.xc from HAWG
   "hull": ${"hull.xc":"hull"},
   
+  //gunDmg.xc from HAWG
+  "gunDmg": ${"gunDmg.xc":"gunDmg"},
+  
+  //gunPen.xc from HAWG
+  "gunPen": ${"gunPen.xc":"gunPen"},
+  
   //years.xc from HAWG
   "years": ${"years.xc":"years"},
   
