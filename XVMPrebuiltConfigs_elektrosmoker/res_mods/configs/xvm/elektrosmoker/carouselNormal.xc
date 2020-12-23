@@ -43,7 +43,7 @@
       "rentInfo": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 0.9, "textFormat": {}, "shadow": {} },
 
       // Info text (Crew incomplete, Repairs required)
-      "info":     { "enabled": true, "dx": 0, "dy": -8, "alpha": 100, "scale": 0.9, "textFormat": {}, "shadow": {} },
+      "info":     { "enabled": true, "dx": 30, "dy": -8, "alpha": 100, "scale": 1.4, "textFormat": {}, "shadow": {} },
 
       // Info image
       "infoImg":  { "enabled": true, "dx": 0, "dy": -8, "alpha": 100, "scale": 0.9 },
@@ -62,6 +62,13 @@
 
       // Favorite vehicle mark
       "favorite": { "enabled": true, "dx": 0, "dy": -10, "alpha": 100, "scale": 1.8  },
+      
+
+      // Vehicle mark with the ability to earn bonds.
+      "crystalsBorder": { "enabled": true, "alpha": 100 },
+
+      // Image in in the stats field "stats" for vehicle with the ability to earn bonds.
+      "crystalsIcon": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },      
 
       // Stats field that appears on mouse hover
       "stats": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "textFormat": {"size": 8, "bold": "false"}, "shadow": {"color": "0xFF9900", "alpha": 20, "blur": 12, "strength": 12} }
