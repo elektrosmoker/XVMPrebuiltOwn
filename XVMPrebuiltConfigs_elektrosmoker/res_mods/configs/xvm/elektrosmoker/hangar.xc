@@ -174,10 +174,13 @@
     
     
     "notificationCounter": {
-      "store": false,
-      "missions": false,
-      "profile": false,
-      "PersonalMissionOperationsPage": false
+      "storage": false,                       // Storage        / Склад
+      "store": false,                         // Store          / Магазин
+      "missions": false,                      // Missions       / Задачи
+      "PersonalMissionOperationsPage": false, // Campaigns      / Кампании      
+      "profile": false,                       // Service Record / Достижения
+      "barracks": false,                      // Barracks       / Казарма
+      "StrongholdView": false                 // Clan           / Клан
     },
     "showCustomizationCounter": true,
     
