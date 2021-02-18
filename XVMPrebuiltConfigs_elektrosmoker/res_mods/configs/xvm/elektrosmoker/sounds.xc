@@ -23,7 +23,7 @@
       // Disable original enemy detection event.
       //"enemy_sighted_for_team": "",
       //
-      "xvm_enemySighted": "xvm_enemySighted",
+      "xvm_enemySighted": "",
       // Disable original fire sound event.
       //"vo_fire_started": "",
       //
