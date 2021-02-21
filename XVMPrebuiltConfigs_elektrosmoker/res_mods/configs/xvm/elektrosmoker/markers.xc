@@ -3,6 +3,12 @@
     "enabled": true,
     "templates": ${"markersTemplates.xc":"def"},
     
+     "playerMarkers": {
+      "onStart": true,
+      "keyCode": 49
+    },
+    
+    
     "turretMarkers": {
       "highVulnerability": "{{.markers.templates.enableEnhancedTurretMarker=true?{{.markers.templates.enhancedHighVulnerability}}|{{.markers.templates.standardHighVulnerability}}}}",
       "lowVulnerability": "{{.markers.templates.enableEnhancedTurretMarker=true?{{.markers.templates.enhancedLowVulnerability}}|{{.markers.templates.standardLowVulnerability}}}}"
