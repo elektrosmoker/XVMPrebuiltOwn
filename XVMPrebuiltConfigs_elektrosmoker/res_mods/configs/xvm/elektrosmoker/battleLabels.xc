@@ -95,7 +95,8 @@
       ${"battleLabelsSight.xc":"def.angleAimingBottom"},
       ${"battleLabelsBattleTimer.xc":"def.battleTimer"},
       ${"battleLabelsBattleTimer.xc":"def.prebattleTimer"},
-      ${"battleLabelsSixthsenseTimer.xc":"battleLabelsSixthsenseTimer"}
+      ${"battleLabelsSixthsenseTimer.xc":"sixthSenseTimer"},
+      ${"battleLabelsMaps.xc":"maps"}
     ]
   }
 }

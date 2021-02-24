@@ -2,12 +2,13 @@
   "markers": {
     "enabled": true,
     "templates": ${"markersTemplates.xc":"def"},
-    
+          
      "playerMarkers": {
+    "enabled": true,
       "onStart": true,
-      "keyCode": 49
+      "keyCode": 56
     },
-    
+ 
     
     "turretMarkers": {
       "highVulnerability": "{{.markers.templates.enableEnhancedTurretMarker=true?{{.markers.templates.enhancedHighVulnerability}}|{{.markers.templates.standardHighVulnerability}}}}",
@@ -17,6 +18,7 @@
     
     "ally": {
       "alive": {
+      
         "normal": ${"markersAliveNormal.xc":"ally"},
         "extended": ${"markersAliveExtended.xc":"ally"}
       },
@@ -37,5 +39,8 @@
         "extended": ${"markersDeadExtended.xc":"enemy"}
       }
     }
+    
+    
+    
   }
 }

@@ -18,11 +18,11 @@
                 "blur": 5, 
                 "strength": 3 
                 },
-      "format": "<img src='cfg://icons_sight/{{py:aim.mode}}Sight1.png'>"
+      "format": "<img src='xvm://res/icons_sight/{{py:aim.mode}}Sight1.png'>"
     },
     
     
-     //////// central sights marker /////////////////////////////////////////////////////////	
+     //////// central sights marker (X) /////////////////////////////////////////////////////////	
     "element": {
       "enabled": true, 
       "layer": "bottom",
