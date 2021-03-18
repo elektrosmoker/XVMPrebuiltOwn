@@ -71,7 +71,11 @@
       "crystalsIcon": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100 },      
 
       // Stats field that appears on mouse hover
-      "stats": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "textFormat": {"size": 8, "bold": "false"}, "shadow": {"color": "0xFF9900", "alpha": 20, "blur": 12, "strength": 12} }
+      "stats": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "textFormat": {"size": 8, "bold": "false"}, "shadow": {"color": "0xFF9900", "alpha": 20, "blur": 12, "strength": 12} 
+    },
+      // Battle Pass progression points.
+      // Очки прогрессии боевого пропуска.
+      "progressionPoints": { "enabled": true, "dx": 0, "dy": 0, "alpha": 100, "scale": 1 }
     },
 
 
