@@ -96,7 +96,8 @@
       ${"battleLabelsBattleTimer.xc":"def.battleTimer"},
       ${"battleLabelsBattleTimer.xc":"def.prebattleTimer"},
       ${"battleLabelsSixthsenseTimer.xc":"sixthSenseTimer"},
-      ${"battleLabelsMaps.xc":"maps"}
+      ${"battleLabelsMaps.xc":"maps"},
+      ${"battleLabelsTurret.xc":"turret"}
     ]
   }
 }
