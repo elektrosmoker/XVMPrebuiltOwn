@@ -197,6 +197,87 @@
     },
     "format": "--------------------"
   },
+  
+
+    
+"speed": {
+      "enabled": true,
+      "x": 0,                         
+      "y": -65,
+      "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont", "color": "{{c:system}}", "align": "center", "size": 13 },	  
+      "format": "{{.speed.{{vehiclename}}}}"
+    },
+
+"hull": {
+      "enabled": true,
+      "x": 0,                         
+      "y": -80,
+      "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont", "color": "{{c:system}}", "align": "center", "size": 13 },	  
+      "format": "Hull: {{.hull.{{vehiclename}}}}"
+    },
+
+"turret": {
+      "enabled": true,        
+      "x": 0,                         
+      "y": -164,
+      "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.turret.{{vehiclename}}}}"
+    },
+
+"years": {
+      "enabled": true, 
+      "x": 0,                         
+      "y": -96,
+      "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont", "color": "0xFFFFFF", "align": "center", "size": 14 },	  
+      "format": "{{.years.{{vehiclename}}}}"
+    },
+    
+"gunPen": {
+      "enabled": true,           
+      "x": 0,                         
+      "y": -130,
+      "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.gunPen.{{vehiclename}}}}"
+    },
+	
+"gunDmg": {
+      "enabled": true,          
+      "x": 0,                         
+      "y": -113,
+      "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.gunDmg.{{vehiclename}}}}"
+    },
+    
+"elevation": {
+      "enabled": true,         
+      "x": 0,                         
+      "y": -147,
+      "align": "center",
+      "shadow": {"color":"0x090808", "distance": 1, "angle": 90, "alpha": 60, "blur": 4, "strength": 3 },	  
+      "textFormat": { "font": "$FieldFont","color": "{{c:system}}", "align": "center", "size": 15 },	  
+      "format": "{{.elevation.{{vehiclename}}}}"
+    },
+    
+	
+  
+  
+  
+  
+  
+  
+  
   "xmqpEvent": {
     "name": "xmqp event",
     "enabled": ${"def.enableXmqpServiceMarker"},

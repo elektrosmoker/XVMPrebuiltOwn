@@ -101,6 +101,10 @@
 				"$ref": { "file": "markersTemplates.xc", "path": "Nickname"},				
 				"enabled": true
 			},
+            {
+				"$ref": { "file": "markersTemplates.xc", "path": "spacermarker"},				
+				"enabled": true
+			},
 			{
 				"$ref": { "file": "markersTemplates.xc", "path": "HelpSupportIcon" }	
 			},
@@ -123,7 +127,23 @@
 			{
 				"$ref": { "file": "markersTemplates.xc", "path": "clanIcon"},			
 				"enabled": true
-			}
+			},
+            {
+				"$ref": { "file": "markersTemplates.xc", "path": "turret"},				
+				"enabled": true
+			},
+            {
+				"$ref": { "file": "markersTemplates.xc", "path": "hull"},				
+				"enabled": true
+			},
+            {
+				"$ref": { "file": "markersTemplates.xc", "path": "gunDmg"},				
+				"enabled": true
+			},
+            {
+				"$ref": { "file": "markersTemplates.xc", "path": "gunPen"},				
+				"enabled": true
+			}	
 		],
 		"actionMarker": {																
 			"$ref": { "file": "markersTemplates.xc", "path": "actionMarker"},
