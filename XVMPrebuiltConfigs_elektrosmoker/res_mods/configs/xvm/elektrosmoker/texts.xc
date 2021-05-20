@@ -46,39 +46,44 @@
     },
     // Text for {{battletype}} macro.
     "battletype": {
-      "unknown": "",
-      "regular": "",
+      "unknown": "unknown",
+      "regular": "regular",
       "training": "training",
       "tournament": "tournament",
       "clan": "clan",
-      "tutorial": "",
+      "tutorial": "tutorial",
       "cybersport": "cybersport",
-      "event_battles": "",
+      "event_battles": "event_battles",
       "global_map": "global_map",
       "tournament_regular": "tournament_regular",
       "tournament_clan": "tournament_clan",
-      "rated_sandbox": "",
-      "sandbox": "",
-      "fallout_classic": "",
-      "fallout_multiteam": "",
+      "rated_sandbox": "rated_sandbox",
+      "sandbox": "sandbox",
+      "fallout_classic": "fallout_classic",
+      "fallout_multiteam": "fallout_multiteam",
       "sortie_2": "sortie_2",
       "fort_battle_2": "fort_battle_2",
-      "ranked": "",
-      "bootcamp": "",
-      "epic_random": "",
-      "epic_random_training": "",
-      "event_battles_2": "",
-      "epic_battle": "",
-      "epic_battle_training": "",
-      "tournament_event": "",
+      "ranked": "ranked",
+      "bootcamp": "bootcamp",
+      "epic_random": "epic_random",
+      "epic_random_training": "epic_random_training",
+      "event_battles_2": "event_battles_2",
+      "epic_battle": "epic_battle",
+      "epic_battle_training": "epic_battle_training",
+      "battle_royale_solo": "battle_royale_solo",
+      "battle_royale_squad": "battle_royale_squad",
+      "tournament_event": "tournament_event",
+      "event_random": "event_random",
       "bob": "bob",
-      "event_random": "event_random"      
+      "battle_royale_training_solo": "battle_royale_training_solo",
+      "battle_royale_training_squad": "battle_royale_training_squad",
+      "weekend_brawl": "weekend_brawl"    
     },
     // Text for {{topclan}} macro.
     "topclan": {
       "top": "top",
       "persist": "persist",
-      "regular": ""
+      "regular": "regular"
     }
   }
 }
