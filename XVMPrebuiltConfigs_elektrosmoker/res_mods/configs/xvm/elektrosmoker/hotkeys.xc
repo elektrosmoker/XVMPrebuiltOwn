@@ -29,6 +29,19 @@
       "enabled": true,
       "keyCode": 56,
       "onHold": true
-    }
+    },
+    
+    "hideBattleChat": { 
+       "enabled": true, 
+       "keyCode": 35
+       },
+       
+    "quicklyLeave":  { 
+       "enabled": true, 
+       "keyCode": 62
+       }
+    
+    
+    
   }
 }
