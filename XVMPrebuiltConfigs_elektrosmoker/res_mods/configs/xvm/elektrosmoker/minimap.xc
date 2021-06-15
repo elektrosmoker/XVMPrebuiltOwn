@@ -21,6 +21,8 @@
     "circlesEnabled": true,
     "labelsEnabled": true,
     "linesEnabled": true,
+    // false - use standard the number of hit points (HP) vehicle.
+    "healthPointsEnabled": true,
     "labels": ${"minimapLabels.xc":"labels"},
     "labelsData": ${"minimapLabelsData.xc":"labelsData"},
     "circles": ${"minimapCircles.xc":"circles"},
