@@ -19,7 +19,7 @@
         "onHold": true }
     },
     // true - не отображать прицел после смерти
-    "hideSightAfterDeath": true,    
+    "hideSightAfterDeath": false,    
     // true - не отображать сетку прицела
     "removeIndicator": false,
     // true - не отображать центральный маркер
