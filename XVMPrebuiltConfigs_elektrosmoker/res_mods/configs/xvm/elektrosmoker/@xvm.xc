@@ -172,6 +172,9 @@
   //wn8chatcolor
   "chat": ${"chat.xc":"chat"},
   
+  //dpIncog - hide playerInfo, health
+  "dpIncog": ${"dpIncog.xc":"dpIncog"},
+  
   // Various settings for advanced users
   "tweaks": ${"tweaks.xc":"tweaks"}
 }
