@@ -1,6 +1,6 @@
 ﻿{
   "dpIncog": {
-    "hidePlayerInfo": true,
-	"hideHealth": true
+    "hidePlayerInfo": false,
+	"hideHealth": false
   }
 }
