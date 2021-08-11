@@ -78,7 +78,8 @@
       "battle_royale_training_solo": "battle_royale_training_solo",
       "battle_royale_training_squad": "battle_royale_training_squad",
       "weekend_brawl": "weekend_brawl",
-      "mapbox": "mapbox"    
+      "mapbox": "mapbox",
+      "maps_training": "maps_training"    
     },
     // Text for {{topclan}} macro.
     "topclan": {
