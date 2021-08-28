@@ -23,32 +23,38 @@
 
 "hull": {
       "enabled": true,
+      "hotKeyCode": 56,
+	    "onHold": "true",  
       "layer": "top",
-      "x": 70,
-      "y": -153,
-      "width": 400,
-      "height": 100,
+      "x": 55,
+      "y": -75,
+      "width": 100,
+      "height": 20,
       "alpha": 100,
     "screenHAlign": "left",
     "screenVAlign": "bottom",
       "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
       "textFormat": {"font": "Arial", "size": 16, "color": "0xFFD800" },
-      "format": "{{.hull.{{vehiclename}}}}"
+      "format": "Hull:{{.hull.{{vehiclename}}}}"
      },
      
-"hullText": {
-      "enabled":true,
+     
+  "turret": {
+      "enabled": true,
+      "hotKeyCode": 56,
+	    "onHold": "true",    
       "layer": "top",
-      "x": 5,
-      "y": -153,
-      "width": 400,
-      "height": 100,
+      "x": 65,
+      "y": -175,
+     "width": 130,
+      "height": 20,
       "alpha": 100,
     "screenHAlign": "left",
     "screenVAlign": "bottom",
       "shadow": { "distance": 2, "angle": 90,"alpha": 90, "blur": 1.5, "strength": 5 },
-      "textFormat": { "font": "Arial","size": 16, "color": "0xFFD800" },
-      "format": "<font size='16'color='#FFD800'>Hull :</font>"
+      "textFormat": {"font": "Arial", "size": 15, "color": "0xFFD800" },   //    4CFF00
+      "format": "{{.turret.{{vehiclename}}}}" 
+     
 
      }
       

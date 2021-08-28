@@ -12,7 +12,7 @@
       "width": 500,
       "height": 25,
       "textFormat": { "color": "0xF4EFE8", "size": 15 },
-      "format": "{{py:xvm.totalDamage=0?{{l10n:Hits}}: <font size='17'>#0</font>|{{l10n:Hits}}: <font size='13'>#{{py:xvm.numberHitsDealt}}</font> {{l10n:Total}}: <font size='20' color='{{py:xvm.totalDamageColor}}'><b>{{py:xvm.totalDamage}}</b></font> {{l10n:Last}}: <font color='{{py:xvm.dmgKindColor}}'><b>{{py:xvm.dmg}}</b></font>}}"
+      "format": "{{py:xvm.totalDamage=0?{{l10n:Hits}}: <font size='17'>#0</font>|{{l10n:Hits}}: <font size='13'>#{{py:xvm.numberHitsDealt}}</font> {{l10n:Total}}: <font size='20' color='{{py:efficiency.wn8Color}}'><b>{{py:xvm.totalDamage}}</b></font> {{l10n:Last}}: <font color='{{py:xvm.dmgKindColor}}'><b>{{py:xvm.dmg}}</b></font>}}"
     },
     
     "hitLogHeader2": {

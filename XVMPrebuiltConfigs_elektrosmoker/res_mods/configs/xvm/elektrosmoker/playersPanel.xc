@@ -175,7 +175,6 @@
     "iconAlpha": 100,
     "removeSelectedBackground": true,
     "removePanelsModeSwitcher": true,
-    // true - remove the number of hit points (HP) vehicle.
     "removeHealthPoints": false,
     "startMode": "large",
     "altMode": null,

@@ -6,7 +6,7 @@
      "playerMarkers": {
     "enabled": true,
       "onStart": true,
-      "keyCode": 56
+      "keyCode": 29
     },
  
     

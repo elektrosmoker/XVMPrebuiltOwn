@@ -1,8 +1,6 @@
 {
   "labels": {
     "formats": [
-      ${"battleLabelsGunPen.xc":"gunPen"},
-      ${"battleLabelsGunDmg.xc":"gunDmg"},
       ${"battleLabelsHitLog.xc":"hitLogHeader"},
       ${"battleLabelsHitLog.xc":"hitLogHeader2"},
       ${"battleLabelsHitLog.xc":"hitLogBody"},
@@ -18,11 +16,12 @@
       ${"battleLabelsHealthBar.xc":"hpBar"},
       ${"battleLabelsHealthBar.xc":"hpBar_Background"},
       ${"battleLabelsHealthBar.xc":"hpBar_text"},
-      ${"battleLabelsHullSpeed.xc":"hull"},
-      ${"battleLabelsHullSpeed.xc":"hullText"},
-      ${"battleLabelsHullSpeed.xc":"speed"},
-      ${"battleLabelsElevation.xc":"elevation"},
-      ${"battleLabelsElevation.xc":"elevationText"},
+      ${"battleLabelsHullTurretSpeed.xc":"hull"},
+      ${"battleLabelsHullTurretSpeed.xc":"speed"},
+      ${"battleLabelsHullTurretSpeed.xc":"turret"},
+      ${"battleLabelsGunPenDmgEle.xc":"gunPen"},
+      ${"battleLabelsGunPenDmgEle.xc":"gunDmg"},
+      ${"battleLabelsGunPenDmgEle.xc":"elevation"},
       ${"battleLabelsBattleEfficiency.xc":"battleEfficiency"},
       ${"battleLabelsDamageIndicator.xc":"damageIndicator"},
       ${"battleLabelsAvgDmg.xc":"avg_damage"},
@@ -96,8 +95,7 @@
       ${"battleLabelsBattleTimer.xc":"def.battleTimer"},
       ${"battleLabelsBattleTimer.xc":"def.prebattleTimer"},
       ${"battleLabelsSixthsenseTimer.xc":"sixthSenseTimer"},
-      ${"battleLabelsMaps.xc":"maps"},
-      ${"battleLabelsTurret.xc":"turret"}
+      ${"battleLabelsMaps.xc":"maps"}
     ]
   }
 }
